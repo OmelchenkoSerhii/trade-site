@@ -1,6 +1,8 @@
 .footer
     padding-top: 65px
     padding-bottom: 70px
+    +max-screen($breakpoint-sm)
+        text-align: center
     &__menu
         padding-left: 0
         &Item
@@ -13,3 +15,5 @@
             max-width: 185px
     &__row
         justify-content: space-between
+        +max-screen($breakpoint-sm)
+            justify-content: center
