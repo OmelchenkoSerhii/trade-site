@@ -1,0 +1,32 @@
+.button
+    font-weight: 200
+    font-size: 15px
+    line-height: 18px
+    display: flex
+    align-items: center
+    text-align: center
+    color: #FFFFFF
+    padding: 15px 38px
+    width: fit-content
+    min-width: 200px
+    justify-content: center
+    text-decoration: none
+.button-primary
+    background: $color-primary
+.button-secondary
+    background: transparent
+    border: 1px solid #fff
+.buttons--row
+    display: flex
+    align-items: center
+    justify-content: flex-start
+    +max-screen($breakpoint-md)
+        justify-content: center
+    .button
+        &:first-child
+            +max-screen($breakpoint-xl)
+                margin-bottom: 15px
+.button--wrapper
+    +max-screen($breakpoint-md)
+        display: flex
+        justify-content: center

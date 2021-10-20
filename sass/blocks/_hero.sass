@@ -1,0 +1,12 @@
+.hero
+    padding-top: 100px
+    height: 100vh
+    background-repeat: no-repeat
+    background-size: 100%
+    background-position: bottom
+    &__contentWrapper
+        +max-screen($breakpoint-md)
+            text-align: center
+.admin-bar
+    .hero
+        height: calc( 100vh - 32px )
