@@ -1,0 +1,61 @@
+.header
+    padding: 40px
+    &__menuItem
+        list-style: none
+        margin-right: 23px
+        padding-right: 20px
+        font-size: 12px
+        text-transform: uppercase
+    .logo__wrapper
+        display: flex
+        align-items: center
+.header__submenu
+    display: none
+    padding-top: 20px
+    padding-left: 15px
+    padding-right: 10px
+    z-index: 2
+.header__menuItem
+    position: relative
+    &:hover
+        #sub_first
+            display: block
+            position: absolute
+            background: #fff
+            width: 150px
+            top: 30px
+            transition: 3s
+.sub__item
+    font-size: 11px
+    color: #000
+    list-style: none
+    padding-bottom: 10px
+    &:hover
+        text-decoration: underline
+.sub__pdeuso
+    position: absolute
+    width: 150px
+    padding: 15px
+    font-size: 0
+    top: -11px
+    left: 0px
+    height: 10px
+.header__menuItem
+    &.sub
+        &:before
+            content: " "
+            position: absolute 
+            width: 6px 
+            height: 6px 
+            border-left: 2px solid #fff 
+            border-bottom: 2px solid #fff 
+            right: 0
+            top: 30%
+            transform: rotate(315deg)
+.header__menuItem
+    &.sub
+        &:hover         
+            &:before
+                transform: rotate(135deg)
+                transition: 0.3s
+                top: 41%
