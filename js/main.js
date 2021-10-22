@@ -14,5 +14,7 @@ $(document).ready(function() {
 	$('.menu-toggle-active').on("click",function(){
     var element = document.getElementById("header");
     element.classList.remove("menu-active");
+    var element = document.getElementById("body");
+    element.classList.remove("menu-active");
 	})
 });

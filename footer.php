@@ -1,3 +1,4 @@
+<?php wp_footer()?>
 <footer class="footer">
         <div class="container">
             <div class="row footer__row">

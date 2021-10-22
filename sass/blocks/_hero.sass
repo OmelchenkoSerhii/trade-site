@@ -1,62 +1,23 @@
-.hero
-    padding-top: 100px
-    height: 100%
-    background-repeat: no-repeat
-    background-size: 100%
-    background-position: bottom
-    min-height: 100vh
-    &__contentWrapper
-        +max-screen($breakpoint-md)
-            text-align: center
-        h2
-            +max-screen($breakpoint-md)
-                max-width: none
-
-
 .admin-bar
     .hero
         height: calc( 100vh - 32px )
 .hero
-    &.hero__about
-        padding-top: 0
-        height: 100vh
-        background-repeat: no-repeat
-        background-size: 100%
-        background-position: top
-        min-height: 100%
-        +max-screen($breakpoint-sm)
-            min-height: 850px
-        h2
-            max-width: 454px
-            +max-screen($breakpoint-md)
-                max-width: none
-        p
-            margin-top: 30px
-    &.hero__values
-        padding-top: 0
-        height: 100%
-        background-repeat: no-repeat
-        background-size: 100%
-        background-position: bottom
-        min-height: 100vh
-        h2
-            max-width: 454px
-            +max-screen($breakpoint-md)
-                max-width: none
-        p
-            margin-top: 30px
-    &.hero__services
-        padding-top: 0
-        height: 100%
-        background-repeat: no-repeat
-        background-size: 100%
-        background-position: top
-        min-height: 100vh
+    padding-top: 0
+    height: 100vh
+    background-repeat: no-repeat
+    background-size: 100% 100%
+    background-position: top
+    min-height: 100%
+    margin-top: -137px
+    padding-top: 200px
+    +max-screen($breakpoint-sm)
+        min-height: 850px
+    h2
+        max-width: 454px
         +max-screen($breakpoint-md)
-            background-position: bottom
-        h2
-            max-width: 454px
-            +max-screen($breakpoint-md)
-                max-width: none
-        p
-            margin-top: 30px
+            max-width: none
+    p
+        margin-top: 30px
+    &.bottom
+        background-position: bottom
+

@@ -1,5 +1,6 @@
 .header
     padding: 40px
+    position: relative
     &__menuItem
         list-style: none
         margin-right: 23px
@@ -9,8 +10,12 @@
     &__row
         align-items: center
     .logo__wrapper
-        display: flex
-        align-items: center
+        height: 15px
+        width: 100px
+        svg
+            z-index: 1000
+            width: 50px
+            height: 14px
 .header__submenu
     display: none
     padding-top: 20px
@@ -64,3 +69,57 @@
 .menu-toggle,.menu-toggle-active
     display: flex
     align-items: center
+.menu-toggle,.menu-toggle-active
+    display: none
+.menu-toggle
+    +max-screen($breakpoint-md)
+        display: block
+        position: absolute
+        top: 40px
+        right: 21px
+        z-index: 1000
+.menu-active
+    .header__row
+        .menu-toggle-active
+            display: block
+            z-index: 1001
+            position: absolute
+            top: 40px
+            right: 21px
+.menu-active
+    .header__row
+        .menu-toggle
+            transform: scale(0.1, 0)
+            z-index: 1000
+            transition: 1s
+.header
+    +max-screen($breakpoint-md)
+        .header__menuWrapper
+            position: absolute
+            top: 0
+            left: -100%
+            text-align: center
+            z-index: 999
+            background: #000
+            height: 100vh
+            padding-top: 50px
+            padding-left: 0
+            padding-right: 0
+            transition: 1s
+            .header__menuItem
+                width: fit-content
+                margin-bottom: 30px
+                margin-right: 0
+            .header__menu
+                flex-direction: column
+                align-items: center
+.header
+    +max-screen($breakpoint-md)
+        &.menu-active
+            .header__menuWrapper
+                left: 0
+                transition: 1s
+                display: flex
+                align-items: center
+                justify-content: center
+
