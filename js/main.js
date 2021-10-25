@@ -18,3 +18,10 @@ $(document).ready(function() {
     element.classList.remove("menu-active");
 	})
 });
+$('.slider__wrapper').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  prevArrow: '.prev',
+  nextArrow: '.next'
+  });

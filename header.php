@@ -17,74 +17,24 @@
                   </div>
                   <div class="col-lg-auto header__menuWrapper">
                       <div class="header__menuInner">
-                            <ul class="row header__menu">
-                                <li class="col-lg-auto header__menuItem sub">
-                                    About us
-                                    <ul class="header__submenu " id="sub_first">
-                                        <li class="sub__pdeuso"></li>
-                                        <li class="sub__item fw-600">
-                                            About company
-                                        </li>
-                                        <li class="sub__item fw-600">
-                                            Favorable trading conditions for traders
-                                        </li>
-                                        <li class="sub__item fw-600">
-                                            Company values
-                                        </li>
-                                        <li class="sub__item fw-600">
-                                            Our services
-                                        </li>
-                                        <li class="sub__item fw-600">
-                                            Investment and security
-                                        </li>
-                                        <li class="sub__item fw-600">
-                                            Efficiency
-                                        </li>
-                                        <li class="sub__item fw-600">
-                                            Contacts
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="col-lg-auto header__menuItem sub" >
-                                    Forex Trading
-                                    <ul class="header__submenu " id="sub_first">
-                                        <li class="sub__pdeuso"></li>
-                                        <li class="sub__item fw-600">Market forecast from specialists
-                                        </li>
-                                        <li class="sub__item fw-600">
-                                            Legal regulation and transparency
-                                        </li>
-                                        <li class="sub__item fw-600">
-                                            CompanyName account types
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="col-lg-auto header__menuItem sub">
-                                    Platforms
-                                    <ul class="header__submenu " id="sub_first">
-                                        <li class="sub__pdeuso"></li>
-                                        <li class="sub__item fw-600">Web trader
-                                        </li>
-                                        <li class="sub__item fw-600">
-                                            Status Web trader
-                                        </li>
-                                        <li class="sub__item fw-600">
-                                            Apple Metatrader
-                                        </li>
-                                        <li class="sub__item fw-600">
-                                            Android Metatrader
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="col-lg-auto header__menuItem"> 
-                                    Licenses and sertificates
-                                </li>
-                                <li class="col-lg-auto header__menuItem">
-                                    Withdrawal
-                                </li>
-                                <li class="col-lg-auto header__menuItem">
-                                    Deposit
-                                </li>
+                               <?php wp_nav_menu( [
+                                    'theme_location'  => 'Main Menu',
+                                    'menu'            => 'Header-main',
+                                    'container'       => '',
+                                    'container_class' => 'row',
+                                    'container_id'    => '',
+                                    'menu_class'      => 'menu',
+                                    'menu_id'         => '',
+                                    'echo'            => true,
+                                    'fallback_cb'     => 'wp_page_menu',
+                                    'before'          => '',
+                                    'after'           => '',
+                                    'link_before'     => '',
+                                    'link_after'      => '',
+                                    'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                                    'depth'           => 0,
+                                    'walker'          => '',
+                                ] );?>
                             </ul>
                       </div>
                   </div>

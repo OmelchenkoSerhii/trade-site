@@ -16,7 +16,10 @@
             z-index: 1000
             width: 50px
             height: 14px
-.header__submenu
+#menu-header-main
+    display: flex
+    flex-direction: row
+.sub-menu
     display: none
     padding-top: 20px
     padding-left: 15px
@@ -25,7 +28,7 @@
 .header__menuItem
     position: relative
     &:hover
-        #sub_first
+        .sub-menu
             display: block
             position: absolute
             background: #fff
@@ -122,4 +125,15 @@
                 display: flex
                 align-items: center
                 justify-content: center
-
+.header__menuItem
+    a
+        color: #fff
+        text-decoration: none
+.sub__item
+    a
+        font-size: 11px
+        color: #000
+        list-style: none
+        padding-bottom: 10px
+        &:hover
+            text-decoration: underline

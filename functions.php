@@ -13,10 +13,10 @@ function starter_setup(){
 	//main menu
 	register_nav_menus(
 		array( 
-			'main-menu' => __( 'Main Menu', 'starter' ),
-      'footer-menu-1' => __( 'Footer Menu 1', 'starter'),
-      'footer-menu-2' => __( 'Footer Menu 2', 'starter'),
-      'footer-bottom-menu' => __( 'Footer Bottom Menu', 'starter')
+			'main-menu' => __( 'Main Menu', 'tarde' ),
+      'footer-menu-1' => __( 'Footer Menu 1', 'trade'),
+      'footer-menu-2' => __( 'Footer Menu 2', 'trade'),
+      'footer-bottom-menu' => __( 'Footer Bottom Menu', 'trade')
 		)
 	);
 }
@@ -31,6 +31,7 @@ function starter_load_scripts(){
     wp_enqueue_script( 'lazy', get_template_directory_uri() . '/js/libs/jquery.lazy.min.js', false , false , true);
     wp_enqueue_script( 'imagesloaded', get_template_directory_uri() . '/js/libs/imagesloaded.pkgd.min.js', array('jquery') , false , true);
     wp_enqueue_script( 'waypoints', get_template_directory_uri() . '/js/libs/waypoints/jquery.waypoints.min.js',false , false , true);
+    wp_enqueue_script( 'slick', get_template_directory_uri() . '/js/libs/slick/slick.min.js',false , false , true);
 
 	/*theme scripts*/
 	wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js', false , false , true);
