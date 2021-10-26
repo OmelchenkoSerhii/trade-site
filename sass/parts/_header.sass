@@ -31,11 +31,11 @@
     &:hover
         .sub-menu
             display: block
-            position: absolute
             background: #fff
             width: 150px
             top: 30px
             transition: 3s
+            position: absolute
 .sub__item
     font-size: 11px
     color: #000
@@ -104,7 +104,7 @@
             left: -100%
             text-align: center
             z-index: 999
-            background: #000
+            background: #fff
             height: 100vh
             padding-top: 50px
             padding-left: 0
@@ -138,3 +138,37 @@
         padding-bottom: 10px
         &:hover
             text-decoration: underline
+#menu-header-main
+    +max-screen($breakpoint-md)
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        padding: 0
+.menu-active
+    +max-screen($breakpoint-md)
+        #menu-header-main
+            .header__menuItem
+                a
+                    color: #000
+.header__menuItem
+    +max-screen($breakpoint-md)
+        &.sub
+            &:before
+                border-left: 2px solid #000 
+                border-bottom: 2px solid #000 
+.menu-active
+    .header__menuItem
+        &:hover
+            &::before
+                top: 10px
+.menu-active
+    .header__menuItem
+        position: relative
+        &:hover
+            .sub-menu
+                display: block
+                background: #fff
+                width: 150px
+                top: 30px
+                transition: 3s
+                position: unset
