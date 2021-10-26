@@ -103,7 +103,7 @@
             </div>
         </div>
     </section>
-     <section class="advantages advantages__reverse">
+    <section class="advantages advantages__reverse">
         <div class="row flex-row-reverse advantages__row ">
             <div class="advantages__contentWrapper col-lg-7">
                 <div class="advantages__contentInner container">
@@ -201,10 +201,10 @@
     <section class="cta cta__reverse">
         <div class="container">
             <div class="row cta__row flex-row-reverse">
-                <div class="col-lg-7 cta__imageWrapper">
+                <div class="col-lg-7 col-md-5 cta__imageWrapper">
                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/telephone.png" alt="" class="cta__image">
                 </div>
-                <div class="col-lg-5 cta__contentWrapper">
+                <div class="col-lg-5 col-md-7 cta__contentWrapper">
                     <h3>
                         Start trading the markets cryptocurrencies and Forex
                         with us right now!
@@ -232,42 +232,42 @@
                     <h3>10+</h3>
                     <p>payment systems</p>
                 </div>
-                <div class="col-md-9">
+                <div class="col-md-9 partners__logos">
                     <div class="row">
-                        <div class="col-xl-auto  partners__itemWrapper">
+                        <div class="col-xl-auto col-md-2  partners__itemWrapper">
                             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/vusa.png" alt="" class="partners__item">
                         </div>
-                        <div class="col-xl-auto   partners__itemWrapper">
+                        <div class="col-xl-auto col-md-2   partners__itemWrapper">
                             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/master.png" alt="" class="partners__item">
                         </div>
-                        <div class="col-xl-auto  partners__itemWrapper">
+                        <div class="col-xl-auto col-md-2  partners__itemWrapper">
                             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/bit.png" alt="" class="partners__item">
                         </div>
-                        <div class="col-xl-auto    partners__itemWrapper">
+                        <div class="col-xl-auto col-md-2    partners__itemWrapper">
                             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/bitcash.png" alt="" class="partners__item">
                         </div>
-                        <div class="col-xl-auto  partners__itemWrapper">
+                        <div class="col-xl-auto col-md-2  partners__itemWrapper">
                             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/bitgold.png" alt="" class="partners__item">
                         </div>
-                        <div class="col-xl-auto  partners__itemWrapper">
+                        <div class="col-xl-auto col-md-2  partners__itemWrapper">
                             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/litr.png" alt="" class="partners__item">
                         </div>
-                            <div class="col-xl-auto   partners__itemWrapper">
+                            <div class="col-xl-auto col-md-2   partners__itemWrapper">
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/skrill.png" alt="" class="partners__item">
                             </div>
-                            <div class="col-xl-auto   partners__itemWrapper">
+                            <div class="col-xl-auto col-md-2   partners__itemWrapper">
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/dash.png" alt="" class="partners__item">
                             </div>
-                            <div class="col-xl-auto   partners__itemWrapper">
+                            <div class="col-xl-auto col-md-2   partners__itemWrapper">
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/nettler.png" alt="" class="partners__item">
                             </div>
-                            <div class="col-xl-auto   partners__itemWrapper">
+                            <div class="col-xl-auto col-md-2   partners__itemWrapper">
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/monero.png" alt="" class="partners__item">
                             </div>
-                            <div class="col-xl-auto  partners__itemWrapper">
+                            <div class="col-xl-auto col-md-2  partners__itemWrapper">
                                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ripple.png" alt="" class="partners__item">
                             </div>
-                            <div class="col-xl-auto   partners__itemWrapper">
+                            <div class="col-xl-auto col-md-2   partners__itemWrapper">
                                 <p>
                                     Bank transfers<br>
                                     Local transfers
@@ -279,7 +279,7 @@
             </div>
         </div>
     </section>
-     <section class="advantages application">
+    <section class="advantages application">
         <div class="row advantages__row flex-row-reverse">
             <div class="advantages__contentWrapper col-lg-7">
                 <div class="advantages__contentInner container">
