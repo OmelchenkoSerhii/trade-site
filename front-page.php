@@ -131,7 +131,7 @@
                 <div class="advantages__contentInner container">
                     <h3 class="mb-40">Trading on the Forex market with us is:</h3>
                     <div class="row advantages__itemRow">
-                        <div class="col-lg-4 col-sm-4 col-6 advantages__item">
+                        <div class="col-lg-4 col-sm-4 col-4 advantages__item">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <rect width="50" height="50" fill="url(#pattern0)" />
@@ -147,7 +147,7 @@
                                 Innovative<br>trading tools
                             </p>
                         </div>
-                        <div class="col-lg-4 col-sm-4 col-6 advantages__item">
+                        <div class="col-lg-4 col-sm-4 col-4 advantages__item">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <rect width="50" height="50" fill="url(#pattern0)" />
@@ -163,7 +163,7 @@
                                 Maximum protection<br>and safety risks
                             </p>
                         </div>
-                        <div class="col-lg-4  col-sm-4 col-6 advantages__item">
+                        <div class="col-lg-4  col-sm-4 col-4 advantages__item">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <rect width="50" height="50" fill="url(#pattern0)" />
@@ -179,7 +179,7 @@
                                 Tight spreads<br>from 0 pips
                             </p>
                         </div>
-                        <div class="col-lg-4 col-sm-4 col-6 advantages__item">
+                        <div class="col-lg-4 col-sm-4 col-4 advantages__item">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <rect width="50" height="50" fill="url(#pattern0)" />
@@ -195,7 +195,7 @@
                                 Up to 1: 1000<br>leverage
                             </p>
                         </div>
-                        <div class="col-lg-4 col-sm-4  col-6 advantages__item">
+                        <div class="col-lg-4 col-sm-4  col-4 advantages__item">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <rect width="50" height="50" fill="url(#pattern0)" />
