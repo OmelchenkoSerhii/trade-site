@@ -40,6 +40,7 @@
                                 own activities and consider this approach unprofessional, and this is contrary to the
                                 values of our company.
                             </p>
+                            <a class="button button-secondary" href="">Open</a>
                         </div>
                     </div>
                     <div class="about__card__item">
@@ -54,6 +55,7 @@
                                 data theft and unauthorized access by third parties. And the user authentication and
                                 server authentication policy ensures that data is sent to the correct client server.
                             </p>
+                            <a class=" button button-secondary" href="">Open</a>
                         </div>
                     </div>
                 </div>
@@ -72,6 +74,7 @@
                                     well as Futures on commodity contracts. It has the right to accept both residents
                                     and non-residents of the United Kingdom.
                                 </p>
+                                <a class="button button-secondary" href="">Open</a>
                             </div>
                     </div>
                 </div>
