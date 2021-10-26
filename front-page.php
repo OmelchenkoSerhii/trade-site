@@ -36,7 +36,7 @@
         <div class="container">
             <h3 class="mb-40">Start your trading journey now</h3>
             <div class="row features__itemRow">
-                <div class="col-lg-3 col-sm-4 col-6 features__item">
+                <div class="col-md-3 col-sm-4 col-6 features__item">
                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect width="50" height="50" fill="url(#pattern0)" />
@@ -52,7 +52,7 @@
                         Clear, accessible tutorials and many articles
                     </p>
                 </div>
-                <div class="col-lg-3 col-sm-4 col-6 features__item">
+                <div class="col-md-3 col-sm-4 col-6 features__item">
                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect width="50" height="50" fill="url(#pattern0)" />
@@ -68,7 +68,7 @@
                         Individual support in 16 languages
                     </p>
                 </div>
-                <div class="col-lg-3 col-sm-4 col-6 features__item">
+                <div class="col-md-3 col-sm-4 col-6 features__item">
                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect width="50" height="50" fill="url(#pattern0)" />
@@ -84,7 +84,7 @@
                         Your personal manager who will help you with training and trading
                     </p>
                 </div>
-                <div class="col-lg-3  col-sm-4 col-6 features__item">
+                <div class="col-md-3  col-sm-4 col-6 features__item">
                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect width="50" height="50" fill="url(#pattern0)" />
