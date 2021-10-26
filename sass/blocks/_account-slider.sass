@@ -18,12 +18,18 @@
     position: absolute
     right: -55px
     top: 50%
-    svg
+    +max-screen($breakpoint-sm)
+        right: 5px
+        svg
+            max-width: 28px
 .next
     position: absolute
     left: -55px
     top: 50%
-    svg
+    +max-screen($breakpoint-sm)
+        left: 5px
+        svg
+            max-width: 28px
 .account--slider
     padding-top: 100px
     padding-bottom: 100px

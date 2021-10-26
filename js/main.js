@@ -23,5 +23,16 @@ $('.slider__wrapper').slick({
   centerPadding: '60px',
   slidesToShow: 3,
   prevArrow: '.prev',
-  nextArrow: '.next'
+  nextArrow: '.next',
+  responsive: [
+    {
+      breakpoint: 576,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
   });
