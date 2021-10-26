@@ -34,6 +34,7 @@
             width: 150px
             top: 30px
             transition: 3s
+            position: absolute
 .sub__item
     font-size: 11px
     color: #000
@@ -159,3 +160,14 @@
         &:hover
             &::before
                 top: 10px
+.menu-active
+    .header__menuItem
+        position: relative
+        &:hover
+            .sub-menu
+                display: block
+                background: #fff
+                width: 150px
+                top: 30px
+                transition: 3s
+                position: unset
