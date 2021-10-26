@@ -1,6 +1,3 @@
-.admin-bar
-    .hero
-        height: calc( 100vh - 32px )
 .hero
     padding-top: 0
     height: 100vh
@@ -12,6 +9,17 @@
     padding-top: 200px
     +max-screen($breakpoint-sm)
         min-height: 850px
+    +max-screen($breakpoint-lg)
+        padding-top: 94px 
+        height: auto 
+        padding-bottom: 155px 
+        margin-top: -91px
+        background-size: 89%
+        background-position-x: right
+        background-position-y: bottom
+    h1 
+        +max-screen($breakpoint-lg)
+            margin-bottom: 7px
     h2
         max-width: 454px
         +max-screen($breakpoint-md)
@@ -20,8 +28,17 @@
         line-height: 1.65 
         margin-bottom: 33px
         margin-top: 30px
+        +max-screen($breakpoint-lg)
+            margin-top: 0
     &.bottom
         background-position: bottom
     &__contentWrapper 
         padding-left: 0
-        
+        +max-screen($breakpoint-lg)
+            width: 100% 
+            max-width: 100%
+.admin-bar
+    .hero
+        height: calc( 100vh - 32px )
+        +max-screen($breakpoint-lg)
+            height: auto

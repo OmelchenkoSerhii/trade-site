@@ -6,7 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
 	<?php wp_head(); ?>
 </head>
-<body style="background: #000; " id="body">
+<body style="background: #000;" id="body" <?php echo body_class(); ?>>
 <header class="header" id="header">
         <div class="container">
               <div class=" header__row row">

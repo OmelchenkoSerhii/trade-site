@@ -2,6 +2,11 @@
     padding: 40px
     padding-top: 34px
     position: relative
+    +max-screen($breakpoint-lg)
+        padding-left: 20px 
+        padding-right: 20px 
+        padding-top: 20px
+        padding-bottom: 50px
     &__menuItem
         list-style: none
         margin-right: 23px
@@ -11,8 +16,8 @@
     &__row
         align-items: center
     .logo__wrapper
-        height: 15px
         width: 100px
+        padding-left: 0
         svg
             z-index: 1000
             width: 50px
@@ -79,7 +84,7 @@
     +max-screen($breakpoint-lg)
         display: block
         position: absolute
-        top: 40px
+        top: 20px
         right: 21px
         z-index: 1000
 .menu-active

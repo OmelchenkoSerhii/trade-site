@@ -13,11 +13,18 @@
     min-width: 200px
     justify-content: center
     text-decoration: none
+    +max-screen($breakpoint-lg)
+        font-size: 14px 
+        min-width: 160px 
+        padding: 11px 36px 
 .button-primary
     background: $color-primary
 .button-secondary
     background: transparent
     border: 1px solid #fff
+    padding: 14px 37px 
+    +max-screen($breakpoint-lg)
+        padding: 10px 35px 
 .buttons--row
     display: flex
     align-items: center
