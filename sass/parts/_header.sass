@@ -1,5 +1,6 @@
 .header
     padding: 40px
+    padding-top: 34px
     position: relative
     &__menuItem
         list-style: none
@@ -75,7 +76,7 @@
 .menu-toggle,.menu-toggle-active
     display: none
 .menu-toggle
-    +max-screen($breakpoint-md)
+    +max-screen($breakpoint-lg)
         display: block
         position: absolute
         top: 40px
@@ -96,7 +97,7 @@
             z-index: 1000
             transition: 1s
 .header
-    +max-screen($breakpoint-md)
+    +max-screen($breakpoint-lg)
         .header__menuWrapper
             position: absolute
             top: 0
@@ -117,7 +118,7 @@
                 flex-direction: column
                 align-items: center
 .header
-    +max-screen($breakpoint-md)
+    +max-screen($breakpoint-lg)
         &.menu-active
             .header__menuWrapper
                 left: 0

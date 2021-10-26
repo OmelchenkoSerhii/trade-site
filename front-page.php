@@ -5,32 +5,31 @@
 ?>
 
 <?php get_header(); ?>
-<body style="background: #000; ">
-    <section class="hero" style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero--back--index.png);">
-        <div class="container">
-            <div class="col-md-6 hero__contentWrapper">
-                <h1>
-                    We can do everything
-                </h1>
-                <p class="fw-600 mb-30">
-                    Trade Forex, Cryptocurrency, Shares, Futures, Raw Materials
-                </p>
-                <div class="buttons--row row">
-                    <div class="col-sm-auto button--wrapper">
-                        <a href="#" class="button button-primary ">
-                            Sign Up
-                        </a>
-                    </div>
-                    <div class="col-sm-auto button--wrapper">
-                        <a href="#" class="button button-secondary ">
-                            Go to personal account
-                        </a>
-                    </div>
+<section class="hero" style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero--back--index.png);">
+    <div class="container">
+        <div class="col-md-6 hero__contentWrapper">
+            <h1>
+                We can do everything
+            </h1>
+            <p class="fw-600 mb-30">
+                Trade Forex, Cryptocurrency, Shares, Futures, Raw Materials
+            </p>
+            <div class="buttons--row row">
+                <div class="col-sm-auto button--wrapper">
+                    <a href="#" class="button button-primary ">
+                        Sign Up
+                    </a>
+                </div>
+                <div class="col-sm-auto button--wrapper">
+                    <a href="#" class="button button-secondary ">
+                        Go to personal account
+                    </a>
                 </div>
             </div>
         </div>
-    </section>
-     <section class="advantages">
+    </div>
+</section>
+<section class="advantages">
         <div class="row advantages__row">
             <div class="advantages__contentWrapper col-lg-7">
                 <div class="advantages__contentInner container">
