@@ -12,6 +12,20 @@
         max-width: 100%
         &Wrapper
             padding: 0
+    +max-screen($breakpoint-lg)
+        &__row
+            min-height: 300px 
+        &__image 
+            object-fit: cover 
+            min-height: 100%
+            &Wrapper
+                min-height: 100%
+        &__contentWrapper
+            padding: 0
+            h3
+                margin-right: 20px
+            .buttons--row 
+                margin-left: -100px
 .cta__reverse
     background: #000
     .cta__contentWrapper

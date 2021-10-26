@@ -30,35 +30,13 @@
     </div>
 </section>
 <?php echo get_template_part('template-parts/blocks/advantages') ?>
-    <section class="cta">
-        <div class="row cta__row">
-            <div class="col-lg-7 cta__imageWrapper">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/cta--back.png" alt="" class="cta__image">
-            </div>
-            <div class="col-lg-5 cta__contentWrapper">
-                <h3>
-                    Join the global Forex broker
-                </h3>
-                <div class="buttons--row row">
-                    <div class="col-sm-auto button--wrapper">
-                        <a href="#" class="button button-primary ">
-                            Sign Up
-                        </a>
-                    </div>
-                    <div class="col-sm-auto button--wrapper">
-                        <a href="#" class="button button-secondary ">
-                            Go to personal account
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<?php echo get_template_part('template-parts/blocks/cta') ?>
+
     <section class="features">
         <div class="container">
             <h3 class="mb-40">Start your trading journey now</h3>
             <div class="row features__itemRow">
-                <div class="col-lg-3 col-sm-4 col-6 features__item">
+                <div class="col-md-3 col-sm-4 col-6 features__item">
                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect width="50" height="50" fill="url(#pattern0)" />
@@ -74,7 +52,7 @@
                         Clear, accessible tutorials and many articles
                     </p>
                 </div>
-                <div class="col-lg-3 col-sm-4 col-6 features__item">
+                <div class="col-md-3 col-sm-4 col-6 features__item">
                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect width="50" height="50" fill="url(#pattern0)" />
@@ -90,7 +68,7 @@
                         Individual support in 16 languages
                     </p>
                 </div>
-                <div class="col-lg-3 col-sm-4 col-6 features__item">
+                <div class="col-md-3 col-sm-4 col-6 features__item">
                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect width="50" height="50" fill="url(#pattern0)" />
@@ -106,7 +84,7 @@
                         Your personal manager who will help you with training and trading
                     </p>
                 </div>
-                <div class="col-lg-3  col-sm-4 col-6 features__item">
+                <div class="col-md-3  col-sm-4 col-6 features__item">
                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect width="50" height="50" fill="url(#pattern0)" />
