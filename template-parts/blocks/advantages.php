@@ -4,7 +4,7 @@
                 <div class="advantages__contentInner container">
                     <h3 class="mb-40">Why do professional traders trust us?</h3>
                     <div class="row advantages__itemRow">
-                        <div class="col-lg-4 col-sm-4 col-6 advantages__item">
+                        <div class="col-lg-4 col-sm-4 col-4 advantages__item">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <rect width="50" height="50" fill="url(#pattern0)" />
@@ -20,7 +20,7 @@
                                 Fast withdrawal<br>of funds
                             </p>
                         </div>
-                        <div class="col-lg-4 col-sm-4 col-6 advantages__item">
+                        <div class="col-lg-4 col-sm-4 col-4 advantages__item">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <rect width="50" height="50" fill="url(#pattern0)" />
@@ -36,7 +36,7 @@
                                 Safe storage<br> of funds
                             </p>
                         </div>
-                        <div class="col-lg-4  col-sm-4 col-6 advantages__item">
+                        <div class="col-lg-4  col-sm-4 col-4 advantages__item">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <rect width="50" height="50" fill="url(#pattern0)" />
@@ -52,7 +52,7 @@
                                 More than 300<br>trading instruments
                             </p>
                         </div>
-                        <div class="col-lg-4 col-sm-4 col-6 advantages__item">
+                        <div class="col-lg-4 col-sm-4 col-4 advantages__item">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <rect width="50" height="50" fill="url(#pattern0)" />
@@ -68,7 +68,7 @@
                                 Regulated and<br>licensed system
                             </p>
                         </div>
-                        <div class="col-lg-4 col-sm-4  col-6 advantages__item">
+                        <div class="col-lg-4 col-sm-4  col-4 advantages__item">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <rect width="50" height="50" fill="url(#pattern0)" />
@@ -84,7 +84,7 @@
                                 Help from market <br>analysts
                             </p>
                         </div>
-                        <div class="col-lg-4  col-sm-4 col-6 advantages__item">
+                        <div class="col-lg-4  col-sm-4 col-4 advantages__item">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <rect width="50" height="50" fill="url(#pattern0)" />
