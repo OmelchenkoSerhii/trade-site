@@ -18,11 +18,14 @@
             max-width: 185px
     &__row
         justify-content: space-between
-        +max-screen($breakpoint-sm)
-            justify-content: center
+        +max-screen($breakpoint-sm) 
+            text-align: left
 #menu-footer-1
     padding: 0
 #menu-footer-2
     padding: 0
 #menu-footer-3
     padding: 0
+.footer__logoWrapper
+    +max-screen($breakpoint-sm) 
+        margin-bottom: 36px

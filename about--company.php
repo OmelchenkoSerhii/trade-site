@@ -156,7 +156,7 @@
         <div class="container">
             <h3 class="mb-40">Start your trading journey now</h3>
             <div class="row features__itemRow">
-                <div class="col-lg-4 col-sm-4 col-6 features__item">
+                <div class="col-lg-4 col-sm-4 features__item">
                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect width="50" height="50" fill="url(#pattern0)" />
@@ -173,7 +173,7 @@
 
                     </p>
                 </div>
-                <div class="col-lg-4 col-sm-4 col-6 features__item">
+                <div class="col-lg-4 col-sm-4  features__item">
                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect width="50" height="50" fill="url(#pattern0)" />
@@ -190,7 +190,7 @@
 
                     </p>
                 </div>
-                <div class="col-lg-4 col-sm-4 col-6 features__item">
+                <div class="col-lg-4 col-sm-4  features__item">
                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect width="50" height="50" fill="url(#pattern0)" />
@@ -207,7 +207,7 @@
 
                     </p>
                 </div>
-                <div class="col-lg-4  col-sm-4 col-6 features__item">
+                <div class="col-lg-4  col-sm-4  features__item">
                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect width="50" height="50" fill="url(#pattern0)" />
@@ -224,7 +224,7 @@
 
                     </p>
                 </div>
-                <div class="col-lg-8  col-sm-4 col-6 features__item">
+                <div class="col-lg-8  col-sm-4  features__item">
                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect width="50" height="50" fill="url(#pattern0)" />
@@ -249,7 +249,7 @@
                 <div class="advantages__contentInner container">
                     <h3 class="mb-40">Trading on the Forex market with us is:</h3>
                     <div class="row advantages__itemRow">
-                        <div class="col-lg-4 col-sm-4 col-6 advantages__item about__advantages__item">
+                        <div class="col-lg-4 col-sm-12  advantages__item about__advantages__item">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <rect width="50" height="50" fill="url(#pattern0)" />
@@ -266,7 +266,7 @@
                                 We care about our employees and do everything to ensure that they grow and develop together with our company..
                             </p>
                         </div>
-                        <div class="col-lg-4 col-sm-4 col-6 advantages__item about__advantages__item">
+                        <div class="col-lg-4 col-sm-12  advantages__item about__advantages__item">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <rect width="50" height="50" fill="url(#pattern0)" />
@@ -283,7 +283,7 @@
                                 Our management team has over 30 years of experience in trading, which repeatedly confirms its reliability, competence and leadership.
                             </p>
                         </div>
-                        <div class="col-lg-4  col-sm-4 col-6 advantages__item about__advantages__item">
+                        <div class="col-lg-4  col-sm-12 advantages__item about__advantages__item">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <rect width="50" height="50" fill="url(#pattern0)" />

@@ -27,7 +27,7 @@
             <div class="advantages__contentWrapper col-lg-7">
                 <div class="advantages__contentInner container">
                     <h3 class="mb-40">Why do professional traders trust us?</h3>
-                    <p style="padding-right: 140px;">
+                    <p>
                         Our mission is to effectively evaluate the time of our traders in the fast growing, flexible<br>
                         financial markets and use this time with the help of knowledge to the maximum benefit. Invest<br>
                         wisely. Our passion is to get the most out of our investment and improve our results every time.<br>
@@ -48,7 +48,7 @@
         <div class="container">
             <h3 class="mb-40">Start your trading journey now</h3>
             <div class="row features__itemRow">
-                <div class="col-lg-3 col-sm-4 col-6 features__item">
+                <div class="col-lg-3 col-sm-4  features__item">
                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect width="50" height="50" fill="url(#pattern0)" />
@@ -65,7 +65,7 @@
                         We value trust and we know that the best traders trust us. To do this, we do our best to maintain this level of trust and constantly improve with them.
                     </p>
                 </div>
-                <div class="col-lg-3 col-sm-4 col-6 features__item">
+                <div class="col-lg-3 col-sm-4  features__item">
                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect width="50" height="50" fill="url(#pattern0)" />
@@ -84,7 +84,7 @@
                     We are loyal and committed to our employees and customers. It is important for us to maintain human relations and monitor the quality of the company's work, constantly maintaining an environment for growth.
                     </p>
                 </div>
-                <div class="col-lg-3  col-sm-4 col-6 features__item">
+                <div class="col-lg-3  col-sm-4  features__item">
                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect width="50" height="50" fill="url(#pattern0)" />
@@ -103,7 +103,7 @@
                         We respect our clients and employees, because they chose us and started the right way. Respect manifests itself both at the interpersonal level and at the organizational level.
                     </p>
                 </div>
-                <div class="col-lg-3  col-sm-4 col-6 features__item">
+                <div class="col-lg-3  col-sm-4  features__item">
                     <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                         xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                         <rect width="50" height="50" fill="url(#pattern0)" />

@@ -72,6 +72,8 @@
             margin-right: 20px
 .about__advantages__item
     max-width: 180px
+    +max-screen($breakpoint-sm)
+        max-width: none
 .advantages__imageWrapper
     +max-screen($breakpoint-sm)
         max-width: none
@@ -83,4 +85,9 @@
 .advantages__reverse .advantages__contentWrapper
     +max-screen($breakpoint-sm)
         padding-left: 10px
-
+.application .advantages__contentInner svg
+    max-width: 100%
+.advantages__contentInner
+    +max-screen($breakpoint-sm)
+        p
+            padding-left: 0
