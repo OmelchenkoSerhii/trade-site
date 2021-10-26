@@ -9,64 +9,70 @@
                 </div>
                 <div class="col-lg-3 offset-lg-1 footer__menuWrapper">
                     <h6 class="footer__menuTitle"> About company</h6>
-                    <ul class="footer__menu">
-                        <li class="footer__menuItem fw-200">
-                            About CompanyName
-                        </li>
-                        <li class="footer__menuItem fw-200">
-                            Favorable trading conditions for traders
-                        </li>
-                        <li class="footer__menuItem fw-200">
-                            CompanyName values
-                        </li>
-                        <li class="footer__menuItem fw-200">
-                            Our services
-                        </li>
-                        <li class="footer__menuItem fw-200">
-                            Investment and security
-                        </li>
-                        <li class="footer__menuItem fw-200">
-                            Efficiency
-                        </li>
-                        <li class="footer__menuItem fw-200">
-                            Contacts 
-                        </li>
-                    </ul>
+                    <?php wp_nav_menu( [
+                                    'theme_location'  => 'Footer Menu 1',
+                                    'menu'            => 'footer-1',
+                                    'container'       => '',
+                                    'container_class' => 'row',
+                                    'container_id'    => '',
+                                    'menu_class'      => 'menu',
+                                    'menu_id'         => '',
+                                    'echo'            => true,
+                                    'fallback_cb'     => 'wp_page_menu',
+                                    'before'          => '',
+                                    'after'           => '',
+                                    'link_before'     => '',
+                                    'link_after'      => '',
+                                    'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                                    'depth'           => 0,
+                                    'walker'          => '',
+                                ] );?>
                 </div>
                 <div class="col-lg-3 footer__menuWrapper">
                     <h6 class="footer__menuTitle">
                         Forex trading
                     </h6>
-                    <ul class="footer__menu">
-                        <li class="footer__menuItem fw-200">
-                            Market forecast from specialists
-                        </li>
-                        <li class="footer__menuItem fw-200">
-                            Legal regulation and transparency
-                        </li>
-                        <li class="footer__menuItem fw-200">
-                            CompanyName account types
-                        </li>
-                    </ul>
+                    <?php wp_nav_menu( [
+                                    'theme_location'  => 'Footer Menu 2',
+                                    'menu'            => 'footer-2',
+                                    'container'       => '',
+                                    'container_class' => 'row',
+                                    'container_id'    => '',
+                                    'menu_class'      => 'menu',
+                                    'menu_id'         => '',
+                                    'echo'            => true,
+                                    'fallback_cb'     => 'wp_page_menu',
+                                    'before'          => '',
+                                    'after'           => '',
+                                    'link_before'     => '',
+                                    'link_after'      => '',
+                                    'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                                    'depth'           => 0,
+                                    'walker'          => '',
+                                ] );?>
                 </div>
                 <div class="col-lg-3 footer__menuWrapper">
                     <h6 class="footer__menuTitle">
                         Platforms
                     </h6>
-                    <ul class="footer__menu">
-                        <li class="footer__menuItem fw-200">
-                            Web trader
-                        </li>
-                        <li class="footer__menuItem fw-200">
-                            Status Web trader
-                        </li>
-                        <li class="footer__menuItem fw-200">
-                            Apple Metatrader
-                        </li>
-                        <li class="footer__menuItem fw-200">
-                            Android Metatrader
-                        </li>
-                    </ul>
+                    <?php wp_nav_menu( [
+                                    'theme_location'  => 'Footer Bottom Menu',
+                                    'menu'            => 'footer-3',
+                                    'container'       => '',
+                                    'container_class' => 'row',
+                                    'container_id'    => '',
+                                    'menu_class'      => 'menu',
+                                    'menu_id'         => '',
+                                    'echo'            => true,
+                                    'fallback_cb'     => 'wp_page_menu',
+                                    'before'          => '',
+                                    'after'           => '',
+                                    'link_before'     => '',
+                                    'link_after'      => '',
+                                    'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                                    'depth'           => 0,
+                                    'walker'          => '',
+                                ] );?>
                 </div>
             </div>
         </div>
