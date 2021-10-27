@@ -6,16 +6,15 @@
 <div class="container">
             <div class="col-md-6 hero__contentWrapper">
                 <h2>
-                    Forex authority in the cryptocurrency market
+                Our services
                 </h2>
                 <p class="fw-600 mb-30">
-                    CompanyName was first launched in 2010 and was created to provide the best trading conditions and
-                    trading tools for forex and cryptocurrency traders.
+                We do our best to meet the needs of our clients. We are interested in successful cooperation and do our best to recognize the individual needs of each client and work with them in the best way. We strive to do everything so that there are no problems on your way. And if suddenly they appeared, so that the elimination would occur as quickly and efficiently as possible. We work for results.
                 </p>
                 <div class="buttons--row row">
                     <div class="col-sm-auto button--wrapper">
                         <a href="#" class="button button-primary ">
-                            Sign Up
+                        Start trading
                         </a>
                     </div>
                 </div>

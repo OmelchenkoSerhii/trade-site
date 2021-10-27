@@ -6,16 +6,16 @@
 <div class="container">
             <div class="col-md-6 hero__contentWrapper">
                 <h2>
-                    Forex authority in the cryptocurrency market
+                Investment and security
                 </h2>
                 <p class="fw-600 mb-30">
-                    CompanyName was first launched in 2010 and was created to provide the best trading conditions and
-                    trading tools for forex and cryptocurrency traders.
+                We constantly consider the needs of our customers.
+25,000 clients, 23 countries. These are not just numbers, they are the guarantor of the quality and reliability of our work. We follow all the rules and care about the safety of our customers. Protection of investments and deposits is our main task. We create a secure trading environment and monitor the reliability of our words and actions. Caring and protecting are our goals.
                 </p>
                 <div class="buttons--row row">
                     <div class="col-sm-auto button--wrapper">
                         <a href="#" class="button button-primary ">
-                            Sign Up
+                        Start trading
                         </a>
                     </div>
                 </div>

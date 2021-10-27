@@ -6,16 +6,12 @@
 <div class="container">
             <div class="col-md-6 hero__contentWrapper">
                 <h2>
-                    Forex authority in the cryptocurrency market
+                Favorable trading conditions for traders
                 </h2>
-                <p class="fw-600 mb-30">
-                    CompanyName was first launched in 2010 and was created to provide the best trading conditions and
-                    trading tools for forex and cryptocurrency traders.
-                </p>
                 <div class="buttons--row row">
                     <div class="col-sm-auto button--wrapper">
                         <a href="#" class="button button-primary ">
-                            Sign Up
+                        Start trading
                         </a>
                     </div>
                 </div>

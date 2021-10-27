@@ -6,11 +6,11 @@
         <div class="container">
             <div class="col-md-6 hero__contentWrapper">
                 <h2>
-                    Forex authority in the cryptocurrency market
+                Legal regulation and transparency
                 </h2>
                 <p class="fw-600 mb-30">
-                    CompanyName was first launched in 2010 and was created to provide the best trading conditions and
-                    trading tools for forex and cryptocurrency traders.
+                HONESTY, RELIABILITY, MODERNITY, DEVELOPMENT
+In this section you can find information about our privacy policy, a list of our agreements on the conclusion of client accounts, a risk notice in PDF format.
                 </p>
                 <div class="buttons--row row">
                     <div class="col-sm-auto button--wrapper">

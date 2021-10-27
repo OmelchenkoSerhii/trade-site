@@ -7,11 +7,10 @@
 
             <div class="col-md-6 hero__contentWrapper">
                 <h2>
-                    Forex authority in the cryptocurrency market
+                Efficiency
                 </h2>
                 <p class="fw-600 mb-30">
-                    CompanyName was first launched in 2010 and was created to provide the best trading conditions and
-                    trading tools for forex and cryptocurrency traders.
+                It is important for us to maintain our authority in the Forex and cryptocurrency markets, which is why we regularly share our performance results in numbers and statistics. Our goal is not only to maintain high standards, but also to increase the level and experience in trading for our clients and employees, as well as to ensure complete transparency and reliability. The statistics below reveal the kind of unprecedented trading conditions and an example of interaction with clients.
                 </p>
                 <div class="buttons--row row">
                     <div class="col-sm-auto button--wrapper">
