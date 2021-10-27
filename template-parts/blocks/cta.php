@@ -5,17 +5,17 @@
             </div>
             <div class="col-5 cta__contentWrapper">
                 <h3>
-                    Start trading the markets cryptocurrencies and Forex with us right now!
+                    <?php printf( _e('Start trading the markets cryptocurrencies and Forex with us right now!', 'trade'))?>
                 </h3>
                 <div class="buttons--row row">
                     <div class="col-sm-auto button--wrapper">
                         <a href="#" class="button button-primary ">
-                            Sign Up
+                            <?php printf( _e('Sign Up', 'trade'))?>
                         </a>
                     </div>
                     <div class="col-sm-auto button--wrapper">
                         <a href="#" class="button button-secondary ">
-                            Go to personal account
+                            <?php printf( _e('Go to personal account', 'trade'))?>
                         </a>
                     </div>
                 </div>
