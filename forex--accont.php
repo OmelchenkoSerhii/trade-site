@@ -6,11 +6,10 @@
         <div class="container">
             <div class="col-md-6 hero__contentWrapper">
                 <h2>
-                    Forex authority in the cryptocurrency market
+                CompanyName account types
                 </h2>
                 <p class="fw-600 mb-30">
-                    CompanyName was first launched in 2010 and was created to provide the best trading conditions and
-                    trading tools for forex and cryptocurrency traders.
+                Each CompanyName account has its own purpose, which comes from the needs of the client, each is suitable for a different type of trading, and each opens up many opportunities in the Forex and cryptocurrency markets. It does not matter whether you are an experienced trader or not, a large or small investor, everyone can open an account, because the list of real accounts that we offer is the road to the world of financial independence.
                 </p>
                 <div class="buttons--row row">
                     <div class="col-sm-auto button--wrapper">
@@ -68,24 +67,24 @@
                 <div class="slider__itemInner">
                     <div class="slider__itemContent"></div>
                      <h3>
-                             Standard
+                     Premium
                      </h3>
                      <h5>
-                         Deposit amount:
-                         from $1,000 to $10,000		
+                        Deposit amount:
+                        from $10,000 to $25,000	
                      </h5>
                      <p>
-                         Bonus: 30%<br>
-                         Wireless trading: 1<br>
-                         Designated Senior Broker: ✓<br>
-                         Daily Market Reviews: ✓<br>
-                         Alerts– Emails & Text message: x<br>
-                         Web tour & Introduction to website: <br>
-                         E-book education & Training: ✓<br>
-                         Additional strategies: x<br>
-                         Management of risks: x<br>
-                         Withdrawals: Standard<br>
-                         Personal unification system*: x<br>
+                        Bonus: 35%<br>
+                        Wireless trading: 5<br>
+                        Designated Senior Broker: ✓<br>
+                        Daily Market Reviews: ✓<br>
+                        Alerts– Emails & Text message: x<br>
+                        Web tour & Introduction to website: ✓<br>
+                        E-book education & Training: ✓<br>
+                        Additional strategies: x<br>
+                        Management of risks: x<br>
+                        Withdrawals: Accelerated<br>
+                        Personal unification system*: x<br>
                      </p>
                     </div>
                     <a class="button button-primary button-slider" href="">Get started today</a>
@@ -94,24 +93,24 @@
                 <div class="slider__itemInner">
                     <div class="slider__itemContent"></div>
                      <h3>
-                             Standard
+                     Ultra
                      </h3>
                      <h5>
-                         Deposit amount:
-                         from $1,000 to $10,000		
+                     Deposit amount:
+                    from $25,000 to $100,000	
                      </h5>
                      <p>
-                         Bonus: 30%<br>
-                         Wireless trading: 1<br>
-                         Designated Senior Broker: ✓<br>
-                         Daily Market Reviews: ✓<br>
-                         Alerts– Emails & Text message: x<br>
-                         Web tour & Introduction to website: <br>
-                         E-book education & Training: ✓<br>
-                         Additional strategies: x<br>
-                         Management of risks: x<br>
-                         Withdrawals: Standard<br>
-                         Personal unification system*: x<br>
+                        Bonus: 70%<br>
+                        Wireless trading: 7<br>
+                        Designated Senior Broker: ✓<br>
+                        Daily Market Reviews: ✓<br>
+                        Alerts– Emails & Text message: ✓<br>
+                        Web tour & Introduction to website: ✓<br>
+                        E-book education & Training: ✓<br>
+                        Additional strategies: ✓<br>
+                        Management of risks: x<br>
+                        Withdrawals: Accelerated<br>
+                        Personal unification system*: x<br>
                      </p>
                     </div>
                     <a class="button-primary button button-slider" href="">Get started today</a>
@@ -120,24 +119,24 @@
                 <div class="slider__itemInner">
                     <div class="slider__itemContent"></div>
                      <h3>
-                             Standard
+                     Trial
                      </h3>
                      <h5>
-                         Deposit amount:
-                         from $1,000 to $10,000		
+                     Deposit amount:
+                    from $150 to $1,000		
                      </h5>
                      <p>
-                         Bonus: 30%<br>
-                         Wireless trading: 1<br>
-                         Designated Senior Broker: ✓<br>
-                         Daily Market Reviews: ✓<br>
-                         Alerts– Emails & Text message: x<br>
-                         Web tour & Introduction to website: <br>
-                         E-book education & Training: ✓<br>
-                         Additional strategies: x<br>
-                         Management of risks: x<br>
-                         Withdrawals: Standard<br>
-                         Personal unification system*: x<br>
+                     Bonus: 10%<br>
+                    Wireless trading: –<br>
+                    Designated Senior Broker: x<br>
+                    Daily Market Reviews: x<br>
+                    Alerts– Emails & Text message: x<br>
+                    Web tour & Introduction to website: x<br>
+                    E-book education & Training: ✓<br>
+                    Additional strategies: x<br>
+                    Management of risks: x<br>
+                    Withdrawals: Standard<br>
+                    Personal unification system*: x<br>
                      </p>
                     </div>
                     <a class="button button-primary button-slider" href="">Get started today</a>
@@ -146,28 +145,54 @@
                     <div class="slider__itemInner">
                         <div class="slider__itemContent"></div>
                          <h3>
-                                 Standard
+                         Platinum	
                          </h3>
                          <h5>
-                             Deposit amount:
-                             from $1,000 to $10,000		
+                         Deposit amount:
+from $100,000 to $250,000			
                          </h5>
                          <p>
-                             Bonus: 30%<br>
-                             Wireless trading: 1<br>
-                             Designated Senior Broker: ✓<br>
-                             Daily Market Reviews: ✓<br>
-                             Alerts– Emails & Text message: x<br>
-                             Web tour & Introduction to website: <br>
-                             E-book education & Training: ✓<br>
-                             Additional strategies: x<br>
-                             Management of risks: x<br>
-                             Withdrawals: Standard<br>
-                             Personal unification system*: x<br>
+                         Bonus: 85%<br>
+                        Wireless trading: 10<br>
+                        Designated Senior Broker: ✓<br>
+                        Daily Market Reviews: ✓<br>
+                        Alerts– Emails & Text message: ✓<br>
+                        Web tour & Introduction to website: ✓<br>
+                        E-book education & Training: ✓<br>
+                        Additional strategies: ✓<br>
+                        Management of risks: ✓<br>
+                        Withdrawals: Accelerated<br>
+                        Personal unification system*: x<br>
                          </p>
                         </div>
                         <a class="button button-primary button-slider" href="">Get started today</a>
                     </div>
+                    <div class="slider__itemWrapper">
+                <div class="slider__itemInner">
+                    <div class="slider__itemContent"></div>
+                     <h3>
+                     VIP
+                     </h3>
+                     <h5>
+                     Deposit amount:
+                        more than $250,000		
+                     </h5>
+                     <p>
+                     Bonus: 100%<br>
+                        Wireless trading: 20<br>
+                        Designated Senior Broker: ✓<br>
+                        Daily Market Reviews: ✓<br>
+                        Alerts– Emails & Text message: ✓<br>
+                        Web tour & Introduction to website: ✓<br>
+                        E-book education & Training: ✓<br>
+                        Additional strategies: ✓<br>
+                        Management of risks: ✓<br>
+                        Withdrawals: On the same day<br>
+                        Personal unification system*: ✓<br>
+                     </p>
+                    </div>
+                    <a class="button button-primary button-slider" href="">Get started today</a>
+                </div>
                 </div>
            </div>
         </div>
@@ -177,28 +202,5 @@
     </script>
 <?php echo get_template_part('template-parts/blocks/cta') ?>
 
-    <section class="text-block">
-        <div class="container">
-            <p class="fw-200 fz-12">
-                CompanyName does not issue or sell cryptocurrencies and is not a digital currency exchange service
-                provider. CompanyName is not an issuer of OTC derivatives such as CFDs on various underlying instruments
-                or other assets, including cryptocurrencies.<br>
-                Risk warning. Trading in derivatives carries a high level of risk. When choosing an instrument for
-                trading, take into account the possible volatility, spread, as well as your margin cushion.<br>
-                <br>
-                CompanyName is an investment company regulated and authorized by the UK SIC 66110 (Administration of
-                financial markets) under the certificate number 12743728 (Companies House), located at 30 St. Mary Ax,
-                <br>London, Great Britain, United Kingdom, Postcode Ec3a 8fr.<br>
-                <br>
-                CompanyName UK Branch, whose UK office is at 50 Bank Street, Canary Wharf, London E14 5NT is a branch of
-                Northern Trust Global Services SE. Authorised and regulated by the European Central Bank and
-                <br>Luxembourg Commission de Surveillance du Secteur Financier. Authorised by the Prudential Regulation
-                Authority and with deemed variation of permission. Subject to regulation by the Financial Conduct
-                Authority and<br> limited regulation by the Prudential Regulation Authority. The nature and extent of
-                consumer protections may differ from those for firms based in the UK. Details of the Temporary
-                Permissions Regime, which allows EEA-based<br> firms to operate in the UK for a limited period while
-                seeking full authorisation, are available on the Financial Conduct Authority's website.<br>
-            </p>
-        </div>
-    </section>
+    
     <?php get_footer();?>

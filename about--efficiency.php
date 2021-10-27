@@ -7,11 +7,10 @@
 
             <div class="col-md-6 hero__contentWrapper">
                 <h2>
-                    Forex authority in the cryptocurrency market
+                Efficiency
                 </h2>
                 <p class="fw-600 mb-30">
-                    CompanyName was first launched in 2010 and was created to provide the best trading conditions and
-                    trading tools for forex and cryptocurrency traders.
+                It is important for us to maintain our authority in the Forex and cryptocurrency markets, which is why we regularly share our performance results in numbers and statistics. Our goal is not only to maintain high standards, but also to increase the level and experience in trading for our clients and employees, as well as to ensure complete transparency and reliability. The statistics below reveal the kind of unprecedented trading conditions and an example of interaction with clients.
                 </p>
                 <div class="buttons--row row">
                     <div class="col-sm-auto button--wrapper">
@@ -88,28 +87,5 @@
     </section>
     <?php echo get_template_part('template-parts/blocks/cta') ?>
 
-    <section class="text-block">
-        <div class="container">
-            <p class="fw-200 fz-12">
-                CompanyName does not issue or sell cryptocurrencies and is not a digital currency exchange service
-                provider. CompanyName is not an issuer of OTC derivatives such as CFDs on various underlying instruments
-                or other assets, including cryptocurrencies.<br>
-                Risk warning. Trading in derivatives carries a high level of risk. When choosing an instrument for
-                trading, take into account the possible volatility, spread, as well as your margin cushion.<br>
-                <br>
-                CompanyName is an investment company regulated and authorized by the UK SIC 66110 (Administration of
-                financial markets) under the certificate number 12743728 (Companies House), located at 30 St. Mary Ax,
-                <br>London, Great Britain, United Kingdom, Postcode Ec3a 8fr.<br>
-                <br>
-                CompanyName UK Branch, whose UK office is at 50 Bank Street, Canary Wharf, London E14 5NT is a branch of
-                Northern Trust Global Services SE. Authorised and regulated by the European Central Bank and
-                <br>Luxembourg Commission de Surveillance du Secteur Financier. Authorised by the Prudential Regulation
-                Authority and with deemed variation of permission. Subject to regulation by the Financial Conduct
-                Authority and<br> limited regulation by the Prudential Regulation Authority. The nature and extent of
-                consumer protections may differ from those for firms based in the UK. Details of the Temporary
-                Permissions Regime, which allows EEA-based<br> firms to operate in the UK for a limited period while
-                seeking full authorisation, are available on the Financial Conduct Authority's website.<br>
-            </p>
-        </div>
-    </section>
+
 <?php get_footer(); ?>
