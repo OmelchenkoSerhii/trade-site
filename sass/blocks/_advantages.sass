@@ -57,6 +57,12 @@
         width: 100%
     &__row
         justify-content: space-between
+    +max-screen($breakpoint-lg)
+        & + .features
+            padding-top: 68px
+        &__contentInner
+            p 
+                font-size: 14px
 
 .advantages__reverse
     .advantages

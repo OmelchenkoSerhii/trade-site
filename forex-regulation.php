@@ -2,7 +2,7 @@
     /* Template Name:  Forex Regulation */ 
 ?>
 <?php get_header();?>
-    <section class="hero hero__header--cover" style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ hero-7.png);">
+    <section class="hero hero__header--cover" style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ hero-7.png');">
         <div class="container">
             <div class="col-md-6 hero__contentWrapper">
                 <h2>
@@ -28,7 +28,7 @@
                 Important facts and figures about CompanyName
             </h3>
             <div class="row">
-                <div class="col-lg-6 about__card__itemWrapper">
+                <div class="col-md-6 about__card__itemWrapper">
                     <div class="about__card__item  ">
                         <div class="about__card__itemContent">
                             <h4>
@@ -40,7 +40,7 @@
                                 own activities and consider this approach unprofessional, and this is contrary to the
                                 values of our company.
                             </p>
-                            <a class="button button-secondary" href="">Open</a>
+                            <div class="button_wrapper"><a class="button button-secondary" href="">Open</a></div>
                         </div>
                     </div>
                     <div class="about__card__item">
@@ -55,11 +55,11 @@
                                 data theft and unauthorized access by third parties. And the user authentication and
                                 server authentication policy ensures that data is sent to the correct client server.
                             </p>
-                            <a class=" button button-secondary" href="">Open</a>
+                            <div class="button_wrapper"><a class=" button button-secondary" href="">Open</a></div>
                         </div>
                     </div>
                 </div>
-                    <div class="col-lg-6 about__card__itemWrapper regulation">
+                    <div class="col-md-6 about__card__itemWrapper regulation">
                         <div class="about__card__item">
                             <div class="about__card__itemContent">
                                 <h4>

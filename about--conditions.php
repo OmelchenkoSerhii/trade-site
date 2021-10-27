@@ -25,7 +25,7 @@
     <section class="card">
         <div class="container">
             <div class="row card__row">
-                <div class="col-lg-6 card__item">
+                <div class="col-md-6 card__item">
                     <div class="card__itemInner">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/trade-execution-1024x576 1.png" alt="" class="card__itemImage">
                         <div class="card__itemContent">
@@ -43,7 +43,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 card__item">
+                <div class="col-md-6 card__item">
                     <div class="card__itemInner">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/forex-signals 1.png" alt="" class="card__itemImage">
                         <div class="card__itemContent">
@@ -60,7 +60,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 card__item">
+                <div class="col-md-6 card__item">
                     <div class="card__itemInner">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Trading 1.png" alt="" class="card__itemImage">
                         <div class="card__itemContent">
@@ -77,7 +77,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 card__item">
+                <div class="col-md-6 card__item">
                     <div class="card__itemInner">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/6-11-2020-5-13-50-pm 1.png" alt="" class="card__itemImage">
                         <div class="card__itemContent">

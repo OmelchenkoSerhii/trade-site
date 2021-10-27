@@ -1,6 +1,9 @@
 .about
     padding-top: 110px
     padding-bottom: 110px
+    +max-screen($breakpoint-lg)
+        padding-top: 70px
+        padding-bottom: 50px 
     h3
         max-width: 460px
     &__card__item
@@ -17,7 +20,26 @@
     &__card__item
         +max-screen($breakpoint-sm)
             padding: 21px
-            
+    +max-screen($breakpoint-lg)
+        .row 
+            margin-left: -12.5px
+            margin-right: -12.5px
+        &__card__item 
+            padding: 27px 38px 0
+            margin-bottom: 18px 
+            p
+                margin-bottom: 0
+                padding-bottom: 40px
+            &Image 
+                margin-top: -40px
+            h4 
+                margin-bottom: 10px
+            &Wrapper 
+                padding-left: 12.5px 
+                padding-right: 12.5px
+            .button_wrapper
+                margin-top: -30px 
+                padding-bottom: 25px 
 .big
     .about__card__item
         &:nth-child(1)

@@ -26,18 +26,18 @@
     <section class="efficiency">
         <div class="container">
             <div class="row">
-                <div class="col-lg-4">
+                <div class="col-md-4 efficiency__title">
                     <p class="fw-600 fz-30">Quality of work with clients</p>
                 </div>
-                <div class="col-lg-8">
+                <div class="col-md-8 efficiency__text">
                    <p>In line with CompanyNames' commitment to transparency, these statistics have been verified against 3000 international standards.</p> 
                 </div>
-                <div class="col-lg-6">
+                <div class="col-md-6 efficiency__numbers">
                     <div class="numbers"><h2>86%</h2><h4>Processed orders</h4></div>
 
                     <p>More than 86% of orders processed within 5 minutes</p>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-md-6 efficiency__numbers">
                     <div class="numbers"><h2>90%</h2><h4>Positive reviews</h4></div>
                     <p>More than 90% positive feedback from our clients</p>
                 </div>
@@ -50,7 +50,7 @@
                 Important facts and figures about CompanyName
             </h3>
             <div class="row">
-                <div class="col-lg-6 about__card__itemWrapper">
+                <div class="col-md-6 about__card__itemWrapper">
                     <div class="about__card__item  ">
                         <div class="about__card__itemContent">
                             <h4>
@@ -65,7 +65,7 @@
                         </div>
                     </div>
                 </div>
-                    <div class="col-lg-6 about__card__itemWrapper">
+                    <div class="col-md-6 about__card__itemWrapper">
                         <div class="about__card__item">
                             <div class="about__card__itemContent">
                                 <h4>

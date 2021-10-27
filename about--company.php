@@ -25,7 +25,7 @@
     <section class="card">
         <div class="container">
             <div class="row card__row">
-                <div class="col-lg-6 card__item">
+                <div class="col-md-6 card__item">
                     <div class="card__itemInner">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/card.png" alt="" class="card__itemImage">
                         <div class="card__itemContent">
@@ -43,7 +43,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 card__item">
+                <div class="col-md-6 card__item">
                     <div class="card__itemInner">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/card.png" alt="" class="card__itemImage">
                         <div class="card__itemContent">
@@ -70,7 +70,7 @@
                 Important facts and figures about CompanyName
             </h3>
             <div class="row">
-            <div class="col-lg-6">
+            <div class="col-md-6 about__card__itemWrapper">
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
@@ -102,7 +102,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-md-6 about__card__itemWrapper">
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
@@ -226,7 +226,7 @@
                 <div class="advantages__contentInner container">
                     <h3 class="mb-40">Trading on the Forex market with us is:</h3>
                     <div class="row advantages__itemRow">
-                        <div class="col-lg-4 col-sm-12  advantages__item about__advantages__item">
+                        <div class="col-md-4 col-sm-12  advantages__item about__advantages__item">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <rect width="50" height="50" fill="url(#pattern0)" />
@@ -243,7 +243,7 @@
                                 We care about our employees and do everything to ensure that they grow and develop together with our company..
                             </p>
                         </div>
-                        <div class="col-lg-4 col-sm-12  advantages__item about__advantages__item">
+                        <div class="col-md-4 col-sm-12  advantages__item about__advantages__item">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <rect width="50" height="50" fill="url(#pattern0)" />
@@ -260,7 +260,7 @@
                                 Our management team has over 30 years of experience in trading, which repeatedly confirms its reliability, competence and leadership.
                             </p>
                         </div>
-                        <div class="col-lg-4  col-sm-12 advantages__item about__advantages__item">
+                        <div class="col-md-4  col-sm-12 advantages__item about__advantages__item">
                             <svg width="50" height="50" viewBox="0 0 50 50" fill="none"
                                 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                 <rect width="50" height="50" fill="url(#pattern0)" />

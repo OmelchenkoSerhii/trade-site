@@ -28,7 +28,7 @@
                 Important facts and figures about CompanyName
             </h3>
             <div class="row">
-                <div class="col-lg-6 about__card__itemWrapper">
+                <div class="col-md-6 about__card__itemWrapper">
                     <div class="about__card__item  ">
                         <div class="about__card__itemContent">
                             <h4>
@@ -57,7 +57,7 @@
                         </div>
                     </div>
                 </div>
-                    <div class="col-lg-6 about__card__itemWrapper">
+                    <div class="col-md-6 about__card__itemWrapper">
                         <div class="about__card__item">
                             <div class="about__card__itemContent">
                                 <h4>
