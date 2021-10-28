@@ -22,7 +22,7 @@
             z-index: 1000
             width: 50px
             height: 14px
-#menu-header-main
+#menu-header-main,#menu-header-ar,#menu-header-main-german,#menu-header-main-polish,#menu-header-main-portuguese-portugal,#menu-header-main-spanish
     display: flex
     flex-direction: row
 .sub-menu
@@ -143,7 +143,7 @@
         padding-bottom: 10px
         &:hover
             text-decoration: underline
-#menu-header-main
+#menu-header-main,#menu-header-ar,#menu-header-main-german,#menu-header-main-polish,#menu-header-main-portuguese-portugal,#menu-header-main-spanish
     +max-screen($breakpoint-lg)
         flex-direction: column
         align-items: center
@@ -151,7 +151,7 @@
         padding: 0
 .menu-active
     +max-screen($breakpoint-lg)
-        #menu-header-main
+        #menu-header-main,#menu-header-ar,#menu-header-main-german,#menu-header-main-polish,#menu-header-main-portuguese-portugal,#menu-header-main-spanish
             .header__menuItem
                 a
                     color: #000
@@ -232,4 +232,40 @@
         display: flex
 .menu
     padding-left: 0
-
+.menu-active
+    .wpml-ls-slot-2
+        &.wpml-ls-current-language
+            visibility: visible
+            color: #000
+            left: -6%
+            right: unset
+    .wpml-ls-slot-2
+        &.wpml-ls-current-language
+            a
+                color: #000
+                left: -6%
+                right: unset
+    .wpml-ls-current-language
+        &:before
+            border-left: 2px solid #000 
+            border-bottom: 2px solid #000 
+.wpml-ls-slot-2
+    &.wpml-ls-current-language
+        +max-screen($breakpoint-md)
+            visibility: hidden
+.menu-active
+    .wpml-ls-current-language
+        position: relative
+        &:hover
+            .sub-menu
+                display: block
+                background: #fff
+                width: 150px
+                top: 30px
+                transition: 3s
+                position: unset
+.header 
+    .header__menuWrapper 
+        .header__menuItem
+            +max-screen($breakpoint-sm)
+                margin-bottom: 10px

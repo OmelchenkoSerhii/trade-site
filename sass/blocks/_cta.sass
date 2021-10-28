@@ -65,9 +65,21 @@
         h3
             font-size: 24px
             line-height: 29px
-            width: 215px
             margin-left: -70px
+            text-align: end
         .button--wrapper
-            justify-content: end
+            justify-content: flex-start
 .button--wrapper
     justify-content: end
+.cta__reverse .cta__contentWrapper
+    +max-screen($breakpoint-sm)
+        padding-right: 0
+.cta__imageWrapper__main
+    +max-screen($breakpoint-sm)
+        margin-left: -30px
+.cta__contentWrapper
+    +max-screen($breakpoint-sm)
+        margin-left: 30px
+        text-align: end
+.cta__contentWrapper .button--wrapper
+    justify-content: flex-end
