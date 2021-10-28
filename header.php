@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html <?php language_attributes(); ?> dir="ltr">
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="viewport" content="width=device-width" />
 	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
 	<?php wp_head(); ?>
 </head>
-<body style="background: #000;" id="body" <?php echo body_class(); ?>>
+<body dir="ltr" style="background: #000;" id="body" <?php echo body_class(); ?>>
 <header class="header" id="header">
         <div class="container">
               <div class=" header__row row">

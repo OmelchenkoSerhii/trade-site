@@ -180,3 +180,56 @@
 .menu-toggle-active
     path
         stroke: #000
+.wpml-ls-slot-2
+    .sub-menu
+        .menu-item
+            padding-bottom: 10px
+            a
+                color: #000
+                text-decoration: none
+.wpml-ls-slot-2
+    .sub-menu
+        .menu-item
+            list-style: none
+            &:hover
+                text-decoration: underline
+            &:first-child
+                &::before
+                    content: ""
+                    position:  absolute
+                    padding: 15px
+                    width: 100%
+                    top: -30px
+                    left: -15px
+.wpml-ls-slot-2
+    list-style: none
+    text-align: center
+    a
+        text-transform: uppercase
+        text-decoration: none
+        font-size: 12px
+.wpml-ls-current-language
+    position: absolute
+    right: -172px
+    &:before
+            content: " "
+            position: absolute 
+            width: 6px 
+            height: 6px 
+            border-left: 2px solid #fff 
+            border-bottom: 2px solid #fff 
+            right: -15px
+            top: 40%
+            transform: rotate(315deg)
+.wpml-ls-current-language
+    &:hover         
+        &:before
+            transform: rotate(135deg)
+            transition: 0.3s
+            top: 41%
+.header
+    .menu
+        display: flex
+.menu
+    padding-left: 0
+
