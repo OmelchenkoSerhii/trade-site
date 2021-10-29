@@ -35,7 +35,7 @@
             </div>
         </div>
         <div class="advantages__imageWrapper col-lg-5">
-            <img src="assets/images/swing-trading-blog-1 1.png" alt="" class="advantages__image">
+            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/swing-trading-blog-1 1.png" alt="" class="advantages__image">
         </div>
     </div>
 </section>

@@ -137,8 +137,9 @@
     img
         max-width: 50px
 .advantages__imageWrapper
-    img
-        max-height: 300px
+    +max-screen($breakpoint-sm)
+        img
+            max-height: 300px
 .text-block
     +max-screen($breakpoint-sm)
         padding-top: 40px
