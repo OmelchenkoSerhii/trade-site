@@ -24,6 +24,7 @@ $('.slider__wrapper').slick({
   slidesToShow: 3,
   prevArrow: '.prev',
   nextArrow: '.next',
+  dots: true,
   responsive: [
     {
       breakpoint: 576,
