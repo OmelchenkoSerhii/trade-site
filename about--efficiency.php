@@ -30,23 +30,23 @@
 <section class="efficiency">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-md-4 efficiency__title">
                 <p class="fw-600 fz-30"><?php printf( _e('Quality of work with clients', 'trade'))?></p>
             </div>
-            <div class="col-lg-8">
+            <div class="col-md-8 efficiency__text">
                 <p><?php printf( _e('In line with CompanyNames commitment to transparency, these statistics have been verified against
                     3000 international standards.', 'trade'))?></p>
             </div>
-            <div class="col-lg-6">
-                <div class="numbers">
+            <div class="col-md-6 efficiency__item">
+                <div class="efficiency__numbers">
                     <h2>86%</h2>
                     <h4><?php printf( _e('Processed orders', 'trade'))?></h4>
                 </div>
 
                 <p><?php printf( _e('More than 86% of orders processed within 5 minutes', 'trade'))?></p>
             </div>
-            <div class="col-lg-6">
-                <div class="numbers">
+            <div class="col-md-6 efficiency__item">
+                <div class="efficiency__numbers">
                     <h2>90%</h2>
                     <h4><?php printf( _e('Positive reviews', 'trade'))?></h4>
                 </div>
