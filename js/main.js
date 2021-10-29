@@ -22,14 +22,12 @@ $('.slider__wrapper').slick({
   centerMode: true,
   centerPadding: '60px',
   slidesToShow: 3,
-  prevArrow: '.prev',
-  nextArrow: '.next',
   dots: true,
   responsive: [
     {
       breakpoint: 576,
       settings: {
-        arrows: false,
+        arrows: true,
         centerMode: true,
         centerPadding: '40px',
         slidesToShow: 1

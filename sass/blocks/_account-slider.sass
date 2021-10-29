@@ -58,26 +58,18 @@
             max-width: calc( 100% - 60px )
             margin-left: 30px 
             margin-right: 30px
+    +max-screen($breakpoint-sm)
+        padding-top: 40px
+        padding-bottom: 40px
+        .slick-dots
+            margin-top: 30px 
 .slick-list
     padding: 0 !important
 .slick-center
-    margin-top: -30px
-.prev__mobile
-    position: absolute
-    right: 0px
-    top: 50%
-    transform: translateY(-50%)
-    transform: rotate(180deg)
-    +min-screen($breakpoint-sm)
-        display: none
-.next__mobile
-    position: absolute
-    left: 0px
-    top: 50%
-    transform: translateY(-50%)
-    transform: rotate(180deg)
-    +min-screen($breakpoint-sm)
-        display: none
+    transform: translateY(-30px)
+    transition: .2s
+    +max-screen($breakpoint-sm)
+        transform: translateY(0)
 .slick-dots
     padding-left: 0
     display: flex
@@ -100,14 +92,29 @@
     .slick-active
         button
             background: #fff
-+max-screen($breakpoint-sm)
-    .next__mobile, 
-    .prev__mobile
-        top: calc( 50% - 30px )
-        transform: translateY(-50%)
-    .next__mobile
+.slick-arrow 
+    width: 50px  
+    height: 50px  
+    background-size: contain
+    background-position: center
+    top: 50%
+    transform: translateY(-50%)
+    background-color: transparent 
+    font-size: 0 
+    border: 0
+    position: absolute
+    &.slick-next 
+        background-image: url('../assets/images/next_desktop.svg')
         right: 20px
-        left: auto 
-    .prev__mobile 
-        left: 20px 
-        right: auto
+    &.slick-prev 
+        background-image: url('../assets/images/prev_desktop.svg')
+        left: 20px
+    +max-screen($breakpoint-sm)
+        width: 28px 
+        height: 28px 
+        .slick-next 
+            background-image: url('../assets/images/next.svg')
+            right: 20px
+        .slick-prev 
+            background-image: url('../assets/images/prev.svg')
+            left: 20px 
