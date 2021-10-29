@@ -53,6 +53,11 @@
         .slider__item
             &Inner
                 padding: 30px 13px 9px 
+    .slick-list 
+        +max-screen($breakpoint-sm)
+            max-width: calc( 100% - 60px )
+            margin-left: 30px 
+            margin-right: 30px
 .slick-list
     padding: 0 !important
 .slick-center
@@ -95,3 +100,14 @@
     .slick-active
         button
             background: #fff
++max-screen($breakpoint-sm)
+    .next__mobile, 
+    .prev__mobile
+        top: calc( 50% - 30px )
+        transform: translateY(-50%)
+    .next__mobile
+        right: 20px
+        left: auto 
+    .prev__mobile 
+        left: 20px 
+        right: auto
