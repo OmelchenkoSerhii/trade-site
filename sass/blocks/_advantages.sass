@@ -147,3 +147,26 @@
     +max-screen($breakpoint-sm)
         max-height: 300px
         min-height: 300px
+.advantages__item img
+    +max-screen($breakpoint-sm)
+        max-height: 40px
+        max-width: 40px
+.page-template-about--company
+    +max-screen($breakpoint-sm)
+        .about__advantages__item
+            &:nth-child(3)
+                img
+                    max-height: 24px
+                    max-width: 24px
+            &:first-child
+                img
+                    max-width: 26px
+            img
+                margin-right: 15px
+        .advantages__itemInner
+            h6
+                margin-bottom: 0
+            p
+                margin-top: 0
+        .about__advantages__item
+            display: flex

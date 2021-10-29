@@ -184,25 +184,30 @@
                     <div class="col-lg-4 col-sm-12  advantages__item about__advantages__item">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ADVANTAGES3/1.png"
                             alt="">
+                            <div class="advantages__itemInner">
                         <h6> <?php printf( _e('Growth', 'trade'))?></h6>
                         <p><?php printf( _e('We care about our employees and do everything to ensure that they grow and develop together
                             with our company..', 'trade'))?>
                         </p>
+                        </div>
                     </div>
                     <div class="col-lg-4 col-sm-12  advantages__item about__advantages__item">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ADVANTAGES3/2.png"
                             alt="">
+                            <div class="advantages__itemInner">
                         <h6><?php printf( _e('Championship', 'trade'))?></h6>
                         <p><?php printf( _e('Our management team has over 30 years of experience in trading, which repeatedly confirms
                             its reliability, competence and leadership.', 'trade'))?>
                         </p>
+                        </div>
                     </div>
                     <div class="col-lg-4  col-sm-12 advantages__item about__advantages__item">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ADVANTAGES3/3.png"
                             alt="">
-                        <h6><?php printf( _e('Company values and vision', 'trade'))?></h6>
-                        <p><?php printf( _e('We care about our clients and help maximize your income.', 'trade'))?>
-                            
+                            <div class="advantages__itemInner">
+                                <h6><?php printf( _e('Company values and vision', 'trade'))?></h6>
+                                <p><?php printf( _e('We care about our clients and help maximize your income.', 'trade'))?>
+                        </div>
                         </p>
                     </div>
                 </div>
