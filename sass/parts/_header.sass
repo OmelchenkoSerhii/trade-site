@@ -22,6 +22,34 @@
             z-index: 1000
             width: 50px
             height: 14px
+    +max-screen($breakpoint-lg)
+        &__menuWrapper 
+            li 
+                a 
+                    color: #000 
+        &__menuInner
+            display: flex 
+            align-content: center
+            justify-content: center
+            height: 100%
+        .menu-item-has-children 
+            position: relative
+            .sub-menu 
+                li:last-child 
+                    padding-bottom: 18px 
+        .sub-menu
+            position: static  
+            li
+                padding-right: 0
+                padding-left: 0
+        .menu-item 
+            padding-right: 20px 
+            padding-left: 20px     
+            line-height: 1 
+            a 
+                padding-bottom: 0
+                display: block
+                line-height: 1.25         
 #menu-header-main,#menu-header-ar,#menu-header-main-german,#menu-header-main-polish,#menu-header-main-portuguese-portugal,#menu-header-main-spanish
     display: flex
     flex-direction: row
@@ -32,15 +60,16 @@
     padding-right: 10px
     z-index: 2
 .header__menuItem,.wpml-ls-item
-    position: relative
-    &:hover
-        .sub-menu
-            display: block
-            background: #fff
-            width: 150px
-            top: 30px
-            transition: 3s
-            position: absolute
+    +min-screen(993px)
+        position: relative
+        &:hover
+            .sub-menu
+                display: block
+                background: #fff
+                width: 150px
+                top: 30px
+                transition: 3s
+                position: absolute
 .sub__item
     font-size: 11px
     color: #000
@@ -58,23 +87,26 @@
     height: 10px
 .header__menuItem
     &.sub
-        &:before
+        & > a 
+            position: relative
+        & > a:before
             content: " "
             position: absolute 
             width: 6px 
             height: 6px 
             border-left: 2px solid #fff 
             border-bottom: 2px solid #fff 
-            right: 0
-            top: 30%
+            right: -20px
+            top: 5px
             transform: rotate(315deg)
 .header__menuItem
-    &.sub
-        &:hover         
-            &:before
-                transform: rotate(135deg)
-                transition: 0.3s
-                top: 41%
+    +min-screen(993px)
+        &.sub
+            &:hover         
+                & > a:before
+                    transform: rotate(135deg)
+                    transition: 0.3s
+                    top: 41%
 .menu-toggle,.menu-toggle-active
     display: flex
     align-items: center
@@ -92,7 +124,7 @@
         .menu-toggle-active
             display: block
             z-index: 1001
-            position: absolute
+            position: fixed
             top: 40px
             right: 21px
 .menu-active
@@ -104,7 +136,7 @@
 .header
     +max-screen($breakpoint-lg)
         .header__menuWrapper
-            position: absolute
+            position: fixed
             top: 0
             left: -100%
             text-align: center
@@ -114,7 +146,6 @@
             padding-top: 50px
             padding-left: 0
             padding-right: 0
-            transition: 1s
             .header__menuItem
                 width: fit-content
                 margin-bottom: 30px
@@ -122,15 +153,6 @@
             .header__menu
                 flex-direction: column
                 align-items: center
-.header
-    +max-screen($breakpoint-lg)
-        &.menu-active
-            .header__menuWrapper
-                left: 0
-                transition: 1s
-                display: flex
-                align-items: center
-                justify-content: center
 .header__menuItem
     a
         color: #fff
@@ -149,34 +171,13 @@
         align-items: center
         justify-content: center
         padding: 0
-.menu-active
-    +max-screen($breakpoint-lg)
-        #menu-header-main,#menu-header-ar,#menu-header-main-german,#menu-header-main-polish,#menu-header-main-portuguese-portugal,#menu-header-main-spanish
-            .header__menuItem
-                a
-                    color: #000
 .header__menuItem
     +max-screen($breakpoint-lg)
         &.sub
-            &:before
+            & > a:before
                 border-left: 2px solid #000 
                 border-bottom: 2px solid #000 
-.menu-active
-    .header__menuItem
-        &:hover
-            &::before
-                top: 10px
-.menu-active
-    .header__menuItem
-        position: relative
-        &:hover
-            .sub-menu
-                display: block
-                background: #fff
-                width: 150px
-                top: 30px
-                transition: 3s
-                position: unset
+
                 
 .menu-toggle-active
     path
@@ -267,6 +268,8 @@
                 position: unset
 .header 
     .header__menuWrapper 
+        +max-screen($breakpoint-lg)
+            padding-top: 0
         .header__menuItem
             +max-screen($breakpoint-sm)
                 margin-bottom: 10px
@@ -293,6 +296,22 @@
         a
             font-size: 12px
             font-weight: 600
-body
-    &.menu-active
-        overflow: hidden
++max-screen($breakpoint-lg)
+    .mobile_menu_close
+        background-image: url('../assets/images/close_menu.svg')
+        top: 20px
+        right: 21px
+        width: 14px 
+        height: 14px 
+        background-size: contain
+        position: fixed
+        display: none
+        .opened-menu &
+            display: block
+    .mobile_menu_open 
+        background-image: url('../assets/images/open_menu.svg')
+        top: 26px 
+        right: 21px
+        position: absolute
+        width: 18px 
+        height: 14px 

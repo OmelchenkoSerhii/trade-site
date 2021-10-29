@@ -9,7 +9,7 @@
 <body dir="ltr" style="background: #000;" id="body" <?php echo body_class(); ?>>
 <header class="header" id="header">
         <div class="container">
-              <div class=" header__row row">
+              <div class="header__row row">
                   <div class="col-2 logo__wrapper">
                       <a href="<?php echo get_home_url(); ?>">
                             <svg width="50" height="14" viewBox="0 0 50 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -39,16 +39,9 @@
                                 ] );?>
                             </ul>
                       </div>
+                      <div class="mobile_menu_close"></div>
                   </div>
-              <svg class="menu-toggle col-auto" width="18" height="15" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M13.4444 7.3999H1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M17 1H1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M17 13.8H1" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-            <svg class="menu-toggle-active col-auto" width="16" height="16" viewBox="0 0 16 16" fill="#000" xmlns="http://www.w3.org/2000/svg">
-                <path d="M15 1L1 15" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M1 1L15 15" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+                <div class="mobile_menu_open"></div>
         </div>
     </div>
     </header>
