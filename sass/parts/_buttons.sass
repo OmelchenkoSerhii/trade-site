@@ -19,12 +19,21 @@
         padding: 11px 36px 
 .button-primary
     background: $color-primary
+    border: 1px solid $color-primary
+    &:hover
+        background: transparent
+        border: 1px solid #fff
+        transition: 0.3s
 .button-secondary
     background: transparent
     border: 1px solid #fff
     padding: 14px 37px 
     +max-screen($breakpoint-lg)
-        padding: 10px 35px 
+        padding: 10px 35px
+    &:hover
+        background: $color-primary
+        border: 1px solid $color-primary
+        transition: 0.3s
 .buttons--row
     display: flex
     align-items: center
