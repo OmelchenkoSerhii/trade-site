@@ -120,12 +120,8 @@
 </section>
 <section class="cta cta__reverse">
     <div class="container">
-        <div class="row cta__row flex-row-reverse">
-            <div class="col-lg-7 col-md-5 cta__imageWrapper">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/telephone.png" alt=""
-                    class="cta__image">
-            </div>
-            <div class="col-lg-5 col-md-7 cta__contentWrapper">
+        <div class="row cta__row ">
+        <div class="col-lg-5 col-md-7 cta__contentWrapper">
                 <h3>
                     <?php printf( _e('Start trading the markets cryptocurrencies and Forex
                         with us right now!', 'trade'))?>
@@ -143,6 +139,13 @@
                     </div>
                 </div>
             </div>
+
+            <div class="col-lg-7 col-md-5 cta__imageWrapper">
+                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/telephone.png" alt=""  class="cta__image">
+            </div>
+
+
+
         </div>
     </div>
 </section>
