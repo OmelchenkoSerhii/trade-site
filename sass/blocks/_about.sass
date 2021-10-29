@@ -37,6 +37,9 @@
             &Wrapper 
                 padding-left: 12.5px 
                 padding-right: 12.5px
+                +max-screen($breakpoint-sm)
+                    padding-left: 7.5px
+                    padding-right: 7.5px
             .button_wrapper
                 margin-top: -30px 
                 padding-bottom: 25px 
@@ -60,4 +63,13 @@
 
 +max-screen($breakpoint-sm)
     .about__card__item:nth-child(3)
-        margin-bottom: 30px
+        margin-bottom: 11px
+.about__card__item
+    +max-screen($breakpoint-sm)
+        margin-bottom: 11px
+        padding: 21px
+        p
+            padding-bottom: 20px
+            font-size: 14px
+        h4
+            font-size: 20px
