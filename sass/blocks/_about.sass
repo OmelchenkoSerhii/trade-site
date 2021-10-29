@@ -4,6 +4,9 @@
     +max-screen($breakpoint-lg)
         padding-top: 70px
         padding-bottom: 50px 
+    +max-screen($breakpoint-sm)
+        padding-top: 40px
+        padding-bottom: 10px  
     h3
         max-width: 460px
     &__card__item
@@ -20,6 +23,9 @@
     &__card__item
         +max-screen($breakpoint-sm)
             padding: 21px
+            &Wrapper 
+                &:last-child
+                    margin-bottom: 0
     +max-screen($breakpoint-lg)
         .row 
             margin-left: -12.5px
