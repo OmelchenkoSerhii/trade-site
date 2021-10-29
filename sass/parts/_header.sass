@@ -34,9 +34,16 @@
             height: 100%
         .menu-item-has-children 
             position: relative
+            display: flex 
+            flex-direction: column
+            align-items: center
             .sub-menu 
                 li:last-child 
                     padding-bottom: 18px 
+            &.active 
+                a
+                    &::before
+                        transform: rotate(135deg)
         .sub-menu
             position: static  
             li

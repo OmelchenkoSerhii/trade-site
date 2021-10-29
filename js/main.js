@@ -17,7 +17,9 @@ $(document).ready(function() {
   });
   $('.header .menu-item-has-children').click(function(){
     $('.header .sub-menu').not($(this).find('.sub-menu')).slideUp();
+    $('.header .menu-item-has-children').not(this).removeClass('active');
     $(this).find('.sub-menu').slideToggle();
+    $(this).toggleClass('active');
   });
 });
 $('.slider__wrapper').slick({
