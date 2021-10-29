@@ -28,7 +28,7 @@
         <div class="advantages__contentWrapper col-lg-7">
             <div class="advantages__contentInner container">
                 <h3 class="mb-40"><?php printf( _e('Why do professional traders trust us?', 'trade'))?></h3>
-                <p><?php printf( _e('                    Our mission is to effectively evaluate the time of our traders in the fast growing, flexible
+                <p class="advantages__content"><?php printf( _e('                    Our mission is to effectively evaluate the time of our traders in the fast growing, flexible
                     financial markets and use this time with the help of knowledge to the maximum benefit. Invest
                     wisely. Our passion is to get the most out of our investment and improve our results every time.', 'trade'))?>
 
