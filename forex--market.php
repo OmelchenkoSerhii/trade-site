@@ -26,7 +26,7 @@
     <div class="row advantages__row">
         <div class="advantages__contentWrapper col-lg-7">
             <div class="advantages__contentInner container">
-                <h3 class="mb-40"><?php printf( _e('Why do professional traders trust us?', 'trade'))?></h3>
+                <h3 class="mb-40"><?php printf( _e('Smart investment management', 'trade'))?></h3>
                 <p class="advantages__content">
         <?php printf( _e('            In order to more deeply analyze the market, get the opportunity to work with professional
                     CompanyName traders and get the highest quality fundamental and technical analysis, as well as
