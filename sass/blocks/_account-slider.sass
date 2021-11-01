@@ -105,16 +105,19 @@
     position: absolute
     &.slick-next 
         background-image: url('../assets/images/next_desktop.svg')
-        right: 20px
+        right: -23px
     &.slick-prev 
         background-image: url('../assets/images/prev_desktop.svg')
-        left: 20px
+        left: -23px
     +max-screen($breakpoint-sm)
         width: 28px 
         height: 28px 
-        .slick-next 
+
+.slick-arrow 
+    +max-screen($breakpoint-sm)
+        &.slick-next 
             background-image: url('../assets/images/next.svg')
             right: 20px
-        .slick-prev 
+        &.slick-prev 
             background-image: url('../assets/images/prev.svg')
             left: 20px 

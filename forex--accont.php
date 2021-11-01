@@ -7,19 +7,19 @@
     <div class="container">
         <div class="col-md-6 hero__contentWrapper">
             <h2>
-                CompanyName account types<?php printf( _e('', 'trade'))?>
+                <?php printf( _e('CompanyName account types', 'trade'))?>
             </h2>
-            <p class="fw-600 mb-30"><?php printf( _e('', 'trade'))?>
-                Each CompanyName account has its own purpose, which comes from the needs of the client, each is suitable
+            <p class="fw-600 mb-30"><?php printf( _e(' Each CompanyName account has its own purpose, which comes from the needs of the client, each is suitable
                 for a different type of trading, and each opens up many opportunities in the Forex and cryptocurrency
                 markets. It does not matter whether you are an experienced trader or not, a large or small investor,
                 everyone can open an account, because the list of real accounts that we offer is the road to the world
-                of financial independence.
+                of financial independence.', 'trade'))?>
+               
             </p>
             <div class="buttons--row row">
                 <div class="col-sm-auto button--wrapper">
                     <a href="#" class="button button-primary ">
-                        Sign Up<?php printf( _e('', 'trade'))?>
+                        <?php printf( _e('Sign Up', 'trade'))?>
                     </a>
                 </div>
             </div>
@@ -40,17 +40,17 @@
                         from $1,000 to $10,000', 'trade'))?>
                     </h5>
                     <p>
-                        Bonus: 30%<br><?php printf( _e('', 'trade'))?>
-                        Wireless trading: 1<br><?php printf( _e('', 'trade'))?>
-                        Designated Senior Broker: ✓<br><?php printf( _e('', 'trade'))?>
-                        Daily Market Reviews: ✓<br><?php printf( _e('', 'trade'))?>
-                        Alerts– Emails & Text message: x<br><?php printf( _e('', 'trade'))?>
-                        Web tour & Introduction to website: ✓<br><?php printf( _e('', 'trade'))?>
-                        E-book education & Training: <br><?php printf( _e('', 'trade'))?>
-                        Additional strategies: x<br><?php printf( _e('', 'trade'))?>
-                        Management of risks: x<br><?php printf( _e('', 'trade'))?>
-                        Withdrawals: Standard<br><?php printf( _e('', 'trade'))?>
-                        Personal unification system*: x<br><?php printf( _e('', 'trade'))?>
+                        <?php printf( _e('Bonus: 30%<br>', 'trade'))?>
+                        <?php printf( _e('Wireless trading: 1<br>', 'trade'))?>
+                        <?php printf( _e('Designated Senior Broker: ✓<br>', 'trade'))?>
+                        <?php printf( _e('Daily Market Reviews: ✓<br>', 'trade'))?>
+                        <?php printf( _e('Alerts– Emails & Text message: x<br>', 'trade'))?>
+                        <?php printf( _e('Web tour & Introduction to website: ✓<br>', 'trade'))?>
+                        <?php printf( _e('E-book education & Training: <br>', 'trade'))?>
+                        <?php printf( _e('Additional strategies: x<br>', 'trade'))?>
+                        <?php printf( _e('Management of risks: x<br>', 'trade'))?>
+                        <?php printf( _e('Withdrawals: Standard<br>', 'trade'))?>
+                        <?php printf( _e('Personal unification system*: x<br>', 'trade'))?>
                     </p>
                 </div>
                 <a class=" button button-primary button-slider" href=""><?php printf( _e('Get started today', 'trade'))?></a>
@@ -66,17 +66,17 @@
                         from $10,000 to $25,000', 'trade'))?>
                     </h5>
                     <p>
-                        Bonus: 35%<br><?php printf( _e('', 'trade'))?>
-                        Wireless trading: 5<br><?php printf( _e('', 'trade'))?>
-                        Designated Senior Broker: ✓<br><?php printf( _e('', 'trade'))?>
-                        Daily Market Reviews: ✓<br><?php printf( _e('', 'trade'))?>
-                        Alerts– Emails & Text message: x<br><?php printf( _e('', 'trade'))?>
-                        Web tour & Introduction to website: ✓<br><?php printf( _e('', 'trade'))?>
-                        E-book education & Training: ✓<br><?php printf( _e('', 'trade'))?>
-                        Additional strategies: x<br><?php printf( _e('', 'trade'))?>
-                        Management of risks: x<br><?php printf( _e('', 'trade'))?>
-                        Withdrawals: Accelerated<br><?php printf( _e('', 'trade'))?>
-                        Personal unification system*: x<br><?php printf( _e('', 'trade'))?>
+                        <?php printf( _e('Bonus: 35%<br>', 'trade'))?>
+                        <?php printf( _e('Wireless trading: 5<br>', 'trade'))?>
+                        <?php printf( _e('Designated Senior Broker: ✓<br>', 'trade'))?>
+                        <?php printf( _e('Daily Market Reviews: ✓<br>', 'trade'))?>
+                        <?php printf( _e('Alerts– Emails & Text message: x<br>', 'trade'))?>
+                        <?php printf( _e('Web tour & Introduction to website: ✓<br>', 'trade'))?>
+                        <?php printf( _e('E-book education & Training: ✓<br>', 'trade'))?>
+                        <?php printf( _e('Additional strategies: x<br>', 'trade'))?>
+                        <?php printf( _e('Management of risks: x<br>', 'trade'))?>
+                        <?php printf( _e('Withdrawals: Accelerated<br>', 'trade'))?>
+                        <?php printf( _e('Personal unification system*: x<br>', 'trade'))?>
                     </p>
                 </div>
                 <a class="button button-primary button-slider" href=""><?php printf( _e('Get started today', 'trade'))?></a>
@@ -92,17 +92,17 @@
                         from $25,000 to $100,000', 'trade'))?>
                     </h5>
                     <p>
-                        Bonus: 70%<br><?php printf( _e('', 'trade'))?>
-                        Wireless trading: 7<br><?php printf( _e('', 'trade'))?>
-                        Designated Senior Broker: ✓<br><?php printf( _e('', 'trade'))?>
-                        Daily Market Reviews: ✓<br><?php printf( _e('', 'trade'))?>
-                        Alerts– Emails & Text message: ✓<br><?php printf( _e('', 'trade'))?>
-                        Web tour & Introduction to website: ✓<br><?php printf( _e('', 'trade'))?>
-                        E-book education & Training: ✓<br><?php printf( _e('', 'trade'))?>
-                        Additional strategies: ✓<br><?php printf( _e('', 'trade'))?>
-                        Management of risks: x<br><?php printf( _e('', 'trade'))?>
-                        Withdrawals: Accelerated<br><?php printf( _e('', 'trade'))?>
-                        Personal unification system*: x<br><?php printf( _e('', 'trade'))?>
+                        <?php printf( _e('Bonus: 70%<br>', 'trade'))?>
+                        <?php printf( _e('Wireless trading: 7<br>', 'trade'))?>
+                        <?php printf( _e('Designated Senior Broker: ✓<br>', 'trade'))?>
+                        <?php printf( _e('Daily Market Reviews: ✓<br>', 'trade'))?>
+                        <?php printf( _e('Alerts– Emails & Text message: ✓<br>', 'trade'))?>
+                        <?php printf( _e('Web tour & Introduction to website: ✓<br>', 'trade'))?>
+                        <?php printf( _e('E-book education & Training: ✓<br>', 'trade'))?>
+                        <?php printf( _e('Additional strategies: ✓<br>', 'trade'))?>
+                        <?php printf( _e('Management of risks: x<br>', 'trade'))?>
+                        <?php printf( _e('Withdrawals: Accelerated<br>', 'trade'))?>
+                        <?php printf( _e('Personal unification system*: x<br>', 'trade'))?>
                     </p>
                 </div>
                 <a class="button-primary button button-slider" href=""><?php printf( _e('Get started today', 'trade'))?></a>
@@ -118,17 +118,17 @@
                         from $150 to $1,000', 'trade'))?>
                     </h5>
                     <p>
-                        Bonus: 10%<br><?php printf( _e('', 'trade'))?>
-                        Wireless trading: –<br><?php printf( _e('', 'trade'))?>
-                        Designated Senior Broker: x<br><?php printf( _e('', 'trade'))?>
-                        Daily Market Reviews: x<br><?php printf( _e('', 'trade'))?>
-                        Alerts– Emails & Text message: x<br><?php printf( _e('', 'trade'))?>
-                        Web tour & Introduction to website: x<br><?php printf( _e('', 'trade'))?>
-                        E-book education & Training: ✓<br><?php printf( _e('', 'trade'))?>
-                        Additional strategies: x<br><?php printf( _e('', 'trade'))?>
-                        Management of risks: x<br><?php printf( _e('', 'trade'))?>
-                        Withdrawals: Standard<br><?php printf( _e('', 'trade'))?>
-                        Personal unification system*: x<br><?php printf( _e('', 'trade'))?>
+                        <?php printf( _e('Bonus: 10%<br>', 'trade'))?>
+                        <?php printf( _e('Wireless trading: –<br>', 'trade'))?>
+                        <?php printf( _e('Designated Senior Broker: x<br>', 'trade'))?>
+                        <?php printf( _e('Daily Market Reviews: x<br>', 'trade'))?>
+                        <?php printf( _e('Alerts– Emails & Text message: x<br>', 'trade'))?>
+                        <?php printf( _e('Web tour & Introduction to website: x<br>', 'trade'))?>
+                        <?php printf( _e('E-book education & Training: ✓<br>', 'trade'))?>
+                        <?php printf( _e('Additional strategies: x<br>', 'trade'))?>
+                        <?php printf( _e('Management of risks: x<br>', 'trade'))?>
+                        <?php printf( _e('Withdrawals: Standard<br>', 'trade'))?>
+                        <?php printf( _e('Personal unification system*: x<br>', 'trade'))?>
                     </p>
                 </div>
                 <a class="button button-primary button-slider" href=""><?php printf( _e('Get started today', 'trade'))?></a>
@@ -144,17 +144,17 @@
                         from $100,000 to $250,000', 'trade'))?>
                     </h5>
                     <p>
-                        Bonus: 85%<br><?php printf( _e('', 'trade'))?>
-                        Wireless trading: 10<br><?php printf( _e('', 'trade'))?>
-                        Designated Senior Broker: ✓<br><?php printf( _e('', 'trade'))?>
-                        Daily Market Reviews: ✓<br><?php printf( _e('', 'trade'))?>
-                        Alerts– Emails & Text message: ✓<br><?php printf( _e('', 'trade'))?>
-                        Web tour & Introduction to website: ✓<br><?php printf( _e('', 'trade'))?>
-                        E-book education & Training: ✓<br><?php printf( _e('', 'trade'))?>
-                        Additional strategies: ✓<br><?php printf( _e('', 'trade'))?>
-                        Management of risks: ✓<br><?php printf( _e('', 'trade'))?>
-                        Withdrawals: Accelerated<br><?php printf( _e('', 'trade'))?>
-                        Personal unification system*: x<br><?php printf( _e('', 'trade'))?>
+                        <?php printf( _e('Bonus: 85%<br>', 'trade'))?>
+                        <?php printf( _e('Wireless trading: 10<br>', 'trade'))?>
+                        <?php printf( _e('Designated Senior Broker: ✓<br>', 'trade'))?>
+                        <?php printf( _e('Daily Market Reviews: ✓<br>', 'trade'))?>
+                        <?php printf( _e('Alerts– Emails & Text message: ✓<br>', 'trade'))?>
+                        <?php printf( _e('Web tour & Introduction to website: ✓<br>', 'trade'))?>
+                        <?php printf( _e('E-book education & Training: ✓<br>', 'trade'))?>
+                        <?php printf( _e('Additional strategies: ✓<br>', 'trade'))?>
+                        <?php printf( _e('Management of risks: ✓<br>', 'trade'))?>
+                        <?php printf( _e('Withdrawals: Accelerated<br>', 'trade'))?>
+                        <?php printf( _e('Personal unification system*: x<br>', 'trade'))?>
                     </p>
                 </div>
                 <a class="button button-primary button-slider" href=""><?php printf( _e('Get started today', 'trade'))?></a>
@@ -170,17 +170,17 @@
                         more than $250,000', 'trade'))?>
                     </h5>
                     <p>
-                        Bonus: 100%<br><?php printf( _e('', 'trade'))?>
-                        Wireless trading: 20<br><?php printf( _e('', 'trade'))?>
-                        Designated Senior Broker: ✓<br><?php printf( _e('', 'trade'))?>
-                        Daily Market Reviews: ✓<br><?php printf( _e('', 'trade'))?>
-                        Alerts– Emails & Text message: ✓<br><?php printf( _e('', 'trade'))?>
-                        Web tour & Introduction to website: ✓<br><?php printf( _e('', 'trade'))?>
-                        E-book education & Training: ✓<br><?php printf( _e('', 'trade'))?>
-                        Additional strategies: ✓<br><?php printf( _e('', 'trade'))?>
-                        Management of risks: ✓<br><?php printf( _e('', 'trade'))?>
-                        Withdrawals: On the same day<br><?php printf( _e('', 'trade'))?>
-                        Personal unification system*: ✓<br><?php printf( _e('', 'trade'))?>
+                        <?php printf( _e('Bonus: 100%<br>', 'trade'))?>
+                        <?php printf( _e('Wireless trading: 20<br>', 'trade'))?>
+                        <?php printf( _e('Designated Senior Broker: ✓<br>', 'trade'))?>
+                        <?php printf( _e('Daily Market Reviews: ✓<br>', 'trade'))?>
+                        <?php printf( _e('Alerts– Emails & Text message: ✓<br>', 'trade'))?>
+                        <?php printf( _e('Web tour & Introduction to website: ✓<br>', 'trade'))?>
+                        <?php printf( _e('E-book education & Training: ✓<br>', 'trade'))?>
+                        <?php printf( _e('Additional strategies: ✓<br>', 'trade'))?>
+                        <?php printf( _e('Management of risks: ✓<br>', 'trade'))?>
+                        <?php printf( _e('Withdrawals: On the same day<br>', 'trade'))?>
+                        <?php printf( _e('Personal unification system*: ✓<br>', 'trade'))?>
                     </p>
                 </div>
                 <a class="button button-primary button-slider" href=""><?php printf( _e('Get started today', 'trade'))?></a>
