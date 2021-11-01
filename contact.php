@@ -4,7 +4,7 @@
 <?php get_header(); ?>
 <section class=" contact">
             <div class="container">
-                <h3 class="mb-40"></h3><?php printf( _e('Start your trading journey now', 'trade'))?>
+                <h3 class="mb-40"><?php printf( _e('Start your trading journey now', 'trade'))?></h3>
                 <div class="row contact__itemRow">
                     <div class="col-lg-4 col-sm-4  contact__item">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/contact/1.png" alt="">
