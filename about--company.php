@@ -109,10 +109,10 @@
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
-                            <?php printf( _e('We make sure that your trading opportunities in the market are constantly expanding', 'trade'))?>
+                            <?php printf( _e('We devote a lot of time to the development of trading and invest in the learning culture by creating and distributing a huge amount of educational materials', 'trade'))?>
                         </h4>
                         <p>
-                            <?php printf( _e('Company offers Cryptocurrency CFDs that are traded against the US dollar with Bitcoin, Litecoin and Ethereum.', 'trade'))?>
+                            <?php printf( _e('Our training center continues its expansion with over 100 webinars, new e-books, short videos on the Forex and Bitcoin markets, and educational articles.', 'trade'))?>
                         </p>
                     </div>
                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/three__telephone.png"
@@ -121,10 +121,11 @@
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
-                            <?php printf( _e('We make sure that your trading opportunities in the market are constantly expanding', 'trade'))?>
+                            <?php printf( _e('We want to help traders develop and implement their skills and strategies through innovative solutions', 'trade'))?>
                         </h4>
                         <p>
-                            <?php printf( _e(' Company offers Cryptocurrency CFDs that are traded against the US dollar with Bitcoin, Litecoin and Ethereum.', 'trade'))?>
+                            <?php printf( _e('Unique trading tools developed by Mr. Thalassinos - Company Trading Signals and Company Pivot Points Strategy - integrate popular indicators into a user-friendly interface.
+', 'trade'))?>
                         </p>
                     </div>
                 </div>
