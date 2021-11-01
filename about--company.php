@@ -136,7 +136,7 @@
 <?php echo get_template_part('template-parts/blocks/cta') ?>
 <section class="features">
     <div class="container">
-        <h3 class="mb-40"><?php printf( _e('Start your trading journey now', 'trade'))?></h3>
+        <h3 class="mb-40"><?php printf( _e('Your benefits with CompanyName', 'trade'))?></h3>
         <div class="row features__itemRow">
             <div class="col-md-4 col-sm-4 features__item">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features2/1.png" alt="">
