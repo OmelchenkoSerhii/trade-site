@@ -136,7 +136,7 @@
 <?php echo get_template_part('template-parts/blocks/cta') ?>
 <section class="features">
     <div class="container">
-        <h3 class="mb-40"><?php printf( _e('Start your trading journey now', 'trade'))?></h3>
+        <h3 class="mb-40"><?php printf( _e('Your benefits with CompanyName', 'trade'))?></h3>
         <div class="row features__itemRow">
             <div class="col-md-4 col-sm-4 features__item">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features2/1.png" alt="">
@@ -180,7 +180,7 @@
     <div class="row flex-row-reverse advantages__row ">
         <div class="advantages__contentWrapper col-lg-7">
             <div class="advantages__contentInner container">
-                <h3 class="mb-40"><?php printf( _e('Trading on the Forex market with us is:', 'trade'))?></h3>
+                <h3 class="mb-40"><?php printf( _e('Why CompanyName is trusted by experienced traders?', 'trade'))?></h3>
                 <div class="row advantages__itemRow">
                     <div class="col-md-4 col-sm-12  advantages__item about__advantages__item">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ADVANTAGES3/1.png"
