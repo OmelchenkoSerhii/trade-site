@@ -73,35 +73,35 @@
             <div class="advantages__contentInner container">
                 <h3 class="mb-40"><?php printf( _e('Trading on the Forex market with us is:', 'trade'))?> </h3>
                 <div class="row advantages__itemRow">
-                    <div class="col-lg-4 col-sm-4 col-4 advantages__item">
+                    <div class="col-md-4 col-sm-4 col-4 advantages__item">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Advantages-2)/chart 2.png"
                             alt="">
                         <p>
                             <?php printf( _e('Innovative trading tools', 'trade'))?>
                         </p>
                     </div>
-                    <div class="col-lg-4 col-sm-4 col-4 advantages__item">
+                    <div class="col-md-4 col-sm-4 col-4 advantages__item">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Advantages-2)/shield 1.png"
                             alt="">
                         <p>
                             <?php printf( _e('Maximum protection and safety risks', 'trade'))?>
                         </p>
                     </div>
-                    <div class="col-lg-4  col-sm-4 col-4 advantages__item">
+                    <div class="col-md-4  col-sm-4 col-4 advantages__item">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Advantages-2)/spread 1.png"
                             alt="">
                         <p>
                             <?php printf( _e('Tight spreads from 0 pips', 'trade'))?>
                         </p>
                     </div>
-                    <div class="col-lg-4 col-sm-4 col-4 advantages__item">
+                    <div class="col-md-4 col-sm-4 col-4 advantages__item">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Advantages-2)/physics 1.png"
                             alt="">
                         <p>
                             <?php printf( _e('Up to 1: 100 leverage', 'trade'))?>
                         </p>
                     </div>
-                    <div class="col-lg-4 col-sm-4  col-4 advantages__item">
+                    <div class="col-md-4 col-sm-4  col-4 advantages__item">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Advantages-2)/execution 1.png"
                             alt="">
                         <p>

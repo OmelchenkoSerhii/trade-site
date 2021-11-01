@@ -22,7 +22,7 @@
         </div>
     </div>
 </section>
- <section class="advantages">
+<section class="advantages">
     <div class="row advantages__row">
         <div class="advantages__contentWrapper col-lg-7">
             <div class="advantages__contentInner container">

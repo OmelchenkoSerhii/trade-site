@@ -28,11 +28,8 @@
 </section>
 <section class="about security">
     <div class="container">
-        <h3>
-            <?php printf( _e('Important facts and figures about CompanyName', 'trade'))?>
-        </h3>
         <div class="row">
-            <div class="col-lg-6 about__card__itemWrapper">
+            <div class="col-md-6 about__card__itemWrapper">
                 <div class="about__card__item  ">
                     <div class="about__card__itemContent">
                         <h4>
@@ -46,22 +43,8 @@
                         </p>
                     </div>
                 </div>
-                <div class="about__card__item">
-                    <div class="about__card__itemContent">
-                        <h4>
-                            <?php printf( _e('Easy account opening process', 'trade'))?>
-                        </h4>
-                        <p>
-                            <?php printf( _e('This guarantees a completely secure connection during communication with our customers
-                            and employees, and also protects customers during deposit and withdrawal of funds and
-                            keeps confidential information. Data transmission is also secured and encrypted to avoid
-                            data theft and unauthorized access by third parties. And the user authentication and
-                            server authentication policy ensures that data is sent to the correct client server.', 'trade'))?>
-                        </p>
-                    </div>
-                </div>
             </div>
-            <div class="col-lg-6 about__card__itemWrapper">
+            <div class="col-md-6 about__card__itemWrapper">
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
@@ -78,6 +61,24 @@
                         </p>
                     </div>
                 </div>
+            </div>
+            <div class="col-md-6 about__card__itemWrapper">
+                <div class="about__card__item">
+                    <div class="about__card__itemContent">
+                        <h4>
+                            <?php printf( _e('Easy account opening process', 'trade'))?>
+                        </h4>
+                        <p>
+                            <?php printf( _e('This guarantees a completely secure connection during communication with our customers
+                            and employees, and also protects customers during deposit and withdrawal of funds and
+                            keeps confidential information. Data transmission is also secured and encrypted to avoid
+                            data theft and unauthorized access by third parties. And the user authentication and
+                            server authentication policy ensures that data is sent to the correct client server.', 'trade'))?>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 about__card__itemWrapper">
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>

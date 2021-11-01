@@ -5,29 +5,52 @@
     background-size: 100% 100%
     background-position: top
     min-height: 100%
-    margin-top: -137px
-    padding-top: 200px
+    margin-top: -165px
+    padding-top: 165px
     +max-screen($breakpoint-lg)
-        padding-top: 94px 
+        padding-top: 81px 
+        margin-top: -81px
+        min-height: 380px
+        padding-bottom: 10px
+        .home &
+            padding-top: 94px 
+            margin-top: -94px
+            min-height: 432px
         height: auto 
-        padding-bottom: 155px 
-        margin-top: -91px
         background-size: cover
-    +max-screen($breakpoint-sm)
-    padding-top: 134px
-    h1 
+    h1
+        line-height: 1.18
         +max-screen($breakpoint-lg)
             margin-bottom: 7px
     h2
-        max-width: 454px
+        max-width: 434px
+        margin-bottom: 33px
+        +max-screen($breakpoint-lg)
+            margin-bottom: 20px 
+            font-size: 24px
+            line-height: 1.25
         +max-screen($breakpoint-md)
             max-width: none
+    .page-template-about--security & 
+        h2 
+            max-width: 100%
     p
         line-height: 1.65 
         margin-bottom: 33px
         margin-top: 30px
         +max-screen($breakpoint-lg)
             margin-top: 0
+            margin-bottom: 20px 
+            max-width: 322px
+            font-size: 14px
+            line-height: 1.45
+    +max-screen($breakpoint-lg)
+        .page-template-about--conditions & 
+            padding-top: 121px 
+            +max-screen($breakpoint-sm)
+                padding-top: 81px
+            h2 
+                max-width: 250px 
     &.bottom
         background-position: bottom
     &__contentWrapper 
@@ -53,6 +76,7 @@
                 font-size: 14px
                 line-height: 1.3
         .buttons--row
+            margin-top: 30px
             .button--wrapper 
                 justify-content: flex-start
 .admin-bar

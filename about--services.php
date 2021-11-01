@@ -27,11 +27,8 @@
 </section>
 <section class="about ">
     <div class="container">
-        <h3>
-            <?php printf( _e('Important facts and figures about CompanyName', 'trade'))?>
-        </h3>
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-md-6 about__card__itemWrapper">
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
@@ -79,7 +76,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 about__card__itemWrapper big">
+            <div class="col-md-6 about__card__itemWrapper big">
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4><?php printf( _e('Customer support in 16 languages', 'trade'))?>

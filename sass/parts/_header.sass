@@ -1,22 +1,49 @@
 .header
     padding: 40px
+    padding-left: 30px 
+    padding-right: 30px 
     padding-top: 34px
     position: relative
+    .container 
+        max-width: 1160px
     +max-screen($breakpoint-lg)
-        padding-left: 20px 
-        padding-right: 20px 
-        padding-top: 20px
-        padding-bottom: 50px
+        padding: 20px 20px 40px 
+        .home &
+            padding: 20px 20px 50px 
     &__menuItem
         list-style: none
-        margin-right: 23px
-        padding-right: 20px
+        margin-right: 43px
+        padding-right: 5px
         font-size: 12px
         text-transform: uppercase
+        a 
+            white-space: nowrap
+            position: relative
+            &::after
+                content: ""
+                position: absolute
+                bottom: -4px 
+                height: 1px 
+                background-color: #fff
+                left: 0
+                transition: .3s
+                width: 0
+            &:hover
+                text-decoration: none
+                &::after 
+                    width: 100%
+        .sub-menu 
+            a 
+                white-space: normal
+                text-transform: none
+        &.sub 
+            & > a 
+                &::after 
+                    content: none
     &__row
         align-items: center
     .logo__wrapper
-        width: 100px
+        max-width: 100px
         padding-left: 0
         svg
             z-index: 1000
@@ -43,6 +70,7 @@
             &.active 
                 a
                     &::before
+                        top: 7px
                         transform: rotate(135deg)
         .sub-menu
             position: static  
@@ -56,7 +84,14 @@
             a 
                 padding-bottom: 0
                 display: block
-                line-height: 1.25         
+                line-height: 1.25   
+    +min-screen(993px)
+        padding-bottom: 110px
+        .menu
+            margin-top: 0
+            margin-bottom: 0
+            li
+                line-height: 1      
 #menu-header-main,#menu-header-ar,#menu-header-main-german,#menu-header-main-polish,#menu-header-main-portuguese-portugal,#menu-header-main-spanish
     display: flex
     flex-direction: row
@@ -77,13 +112,44 @@
                 top: 30px
                 transition: 3s
                 position: absolute
-.sub__item
+.header__menuItem, .wpml-ls-menu-item.menu-item-has-children
+    +min-screen(993px)
+        &:hover
+            padding-bottom: 30px 
+            margin-bottom: -30px
+
+.sub__item,
+.sub-menu .wpml-ls-item
     font-size: 11px
     color: #000
     list-style: none
     padding-bottom: 10px
+    position: relative
+    &::after
+        content: ""
+        position: absolute
+        bottom: 6px 
+        left: 0
+        height: 1px 
+        width: 0
+        transition: .3s
+        background: #000
     &:hover
-        text-decoration: underline
+        &,
+        a,
+        a:hover
+            text-decoration: none
+        &::after 
+            width: calc( 100% - 5px )
+.wpml-ls-item .sub-menu 
+    padding-bottom: 10px 
+    padding-left: 10px 
+.sub-menu .wpml-ls-item a
+    font-size: 11px
+    color: #000
+    list-style: none
+    padding-bottom: 10px
+    position: relative
 .sub__pdeuso
     position: absolute
     width: 150px
@@ -103,17 +169,9 @@
             height: 6px 
             border-left: 2px solid #fff 
             border-bottom: 2px solid #fff 
-            right: -20px
-            top: 5px
+            right: -12px
+            top: 4px
             transform: rotate(315deg)
-.header__menuItem
-    +min-screen(993px)
-        &.sub
-            &:hover         
-                & > a:before
-                    transform: rotate(135deg)
-                    transition: 0.3s
-                    top: 41%
 .menu-toggle,.menu-toggle-active
     display: flex
     align-items: center
@@ -200,8 +258,6 @@
     .sub-menu
         .menu-item
             list-style: none
-            &:hover
-                text-decoration: underline
             &:first-child
                 &::before
                     content: ""
@@ -218,24 +274,21 @@
         text-decoration: none
         font-size: 12px
 .wpml-ls-current-language
-    position: absolute
-    right: -172px
+    margin-left: auto 
+    display: flex 
     &:before
-            content: " "
-            position: absolute 
-            width: 6px 
-            height: 6px 
-            border-left: 2px solid #fff 
-            border-bottom: 2px solid #fff 
-            right: 0px
-            top: 40%
-            transform: rotate(315deg)
-.wpml-ls-current-language
-    &:hover         
-        &:before
-            transform: rotate(135deg)
-            transition: 0.3s
-            top: 41%
+        content: ""
+        position: absolute 
+        width: 6px 
+        height: 6px 
+        border-left: 2px solid #fff 
+        border-bottom: 2px solid #fff 
+        right: 0px
+        top: 4px
+        transform: rotate(315deg)
+    &:hover .sub-menu
+        width: 80px 
+        margin-left: -25px
 .header
     .menu
         display: flex
@@ -275,17 +328,18 @@
                 position: unset
 .header 
     .header__menuWrapper 
+        width: calc( 100% - 100px )
+        padding-left: 77.5px 
+        +max-screen(1100px)
+            padding-left: 27.5px
         +max-screen($breakpoint-lg)
             padding-top: 0
+            width: 100%
         .header__menuItem
             +max-screen($breakpoint-sm)
                 margin-bottom: 10px
 .wpml-ls-current-language
     padding-right: 15px
-.menu-item
-    a
-        &:hover
-            text-decoration: underline
 .header 
     +max-screen($breakpoint-sm)
         padding: 20px 20px 69px 

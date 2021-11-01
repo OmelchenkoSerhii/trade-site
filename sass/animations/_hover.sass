@@ -1,0 +1,25 @@
+/*.button--wrapper
+    position: relative
+    display: block
+    a 
+        transition: .3s 
+        position: relative
+        &:hover
+            background: transparent 
+            border: 1px solid #fff
+    &::before 
+        content: ""
+        position: absolute
+        top: 0
+        left: 7.5px
+        background: #fff
+        height: 100%
+        transition: .3s
+        transform: scaleX(0)
+        transform-origin: left
+    &:hover 
+        a 
+            color: #0D2238 
+        &::before 
+            right: 7.5px
+            transform: scaleX(1)

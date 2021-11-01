@@ -31,7 +31,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 efficiency__title">
-                <p class="fw-600 fz-30"><?php printf( _e('Quality of work with clients', 'trade'))?></p>
+                <p class="fw-600"><?php printf( _e('Quality of work with clients', 'trade'))?></p>
             </div>
             <div class="col-md-8 efficiency__text">
                 <p><?php printf( _e('In line with CompanyNames commitment to transparency, these statistics have been verified against
@@ -57,11 +57,8 @@
 </section>
 <section class="about efficiency">
     <div class="container">
-        <h3>
-            <?php printf( _e('Important facts and figures about CompanyName', 'trade'))?>
-        </h3>
         <div class="row">
-            <div class="col-lg-6 about__card__itemWrapper">
+            <div class="col-md-6 about__card__itemWrapper">
                 <div class="about__card__item  ">
                     <div class="about__card__itemContent">
                         <h4>
@@ -76,7 +73,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 about__card__itemWrapper">
+            <div class="col-md-6 about__card__itemWrapper">
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>

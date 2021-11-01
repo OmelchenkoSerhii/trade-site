@@ -12,6 +12,20 @@
             a
                 color: #fff
                 text-decoration: none
+                +min-screen(993px)
+                    position: relative
+                    &::after 
+                        content: ""
+                        width: 0
+                        position: absolute
+                        height: 1px 
+                        background: #fff 
+                        bottom: -4px 
+                        left: 0
+                        transition: .3s
+                    &:hover 
+                        &::after 
+                            width: 100% 
         &Title
             text-transform: uppercase
         &Wrapper
@@ -39,6 +53,8 @@
             li
                 line-height: 1
                 padding-bottom: 10px
+    +max-screen($breakpoint-sm)
+        padding-top: 15px 
 #menu-footer-1
     padding: 0
 #menu-footer-2

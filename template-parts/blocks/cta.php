@@ -1,11 +1,17 @@
 <section class="cta">
         <div class="row cta__row">
             <div class="col-7 cta__imageWrapper cta__imageWrapper__main">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/cta--back.png" alt="" class="cta__image">
+                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/cta--back.png" alt="" class="cta__image desktop">
+                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/mobile_cta_background.png" alt="" class="cta__image mobile">
             </div>
             <div class="col-5 cta__contentWrapper">
                 <h3>
-                    <?php printf( _e('Start trading the markets cryptocurrencies and Forex with us right now!', 'trade'))?>
+                    <?php if(is_front_page()){
+                        printf( _e('Join the global Forex broker', 'trade'));
+                    }
+                    else{
+                        printf( _e('Start trading the markets cryptocurrencies and Forex with us right now!', 'trade'));
+                    } ?>
                 </h3>
                 <div class="buttons--row row">
                     <div class="col-sm-auto button--wrapper">

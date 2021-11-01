@@ -26,7 +26,7 @@
 <section class="card">
     <div class="container">
         <div class="row card__row">
-            <div class="col-lg-6 card__item">
+            <div class="col-md-6 card__item">
                 <div class="card__itemInner">
                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/card.png" alt=""
                         class="card__itemImage">
@@ -45,7 +45,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 card__item">
+            <div class="col-md-6 card__item">
                 <div class="card__itemInner">
                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/wall-street-photo-tagger-yancey-iv-nyc-and-company-02-2__large 1.png"
                         alt="" class="card__itemImage">
@@ -73,7 +73,7 @@
             <?php printf( _e('Important facts and figures about CompanyName', 'trade'))?>
         </h3>
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-md-6 about__card__itemWrapper">
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
@@ -137,20 +137,20 @@
     <div class="container">
         <h3 class="mb-40"><?php printf( _e('Start your trading journey now', 'trade'))?></h3>
         <div class="row features__itemRow">
-            <div class="col-lg-4 col-sm-4 features__item">
+            <div class="col-md-4 col-sm-4 features__item">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features2/1.png" alt="">
                 <p>
                     <?php printf( _e('We have a customized solution for both retail and corporate clients', 'trade'))?>
 
                 </p>
             </div>
-            <div class="col-lg-4 col-sm-4  features__item">
+            <div class="col-md-4 col-sm-4  features__item">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features2/2.png" alt="">
                 <p>
                     <?php printf( _e('We use the most innovative technologies, everything for your convenience. Also, no matter what type of trading you work with, you get an ideal trading account that is completely convenient and meets all your needs', 'trade'))?>
                 </p>
             </div>
-            <div class="col-lg-4 col-sm-4  features__item">
+            <div class="col-md-4 col-sm-4  features__item">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features2/3.png" alt="">
                 <p>
                 <?php printf( _e(' Thanks to the wide range of Company trading tools, you can choose and trade the market you want - we
@@ -158,13 +158,13 @@
                    
                 </p>
             </div>
-            <div class="col-lg-4  col-sm-4  features__item">
+            <div class="col-md-4  col-sm-4  features__item">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features2/4.png" alt="">
                 <p><?php printf( _e('With our training center, you can constantly develop yourself as a trader and get the full store of
                     knowledge that is required for trading', 'trade'))?>
                 </p>
             </div>
-            <div class="col-lg-8  col-sm-4  features__item">
+            <div class="col-md-8  col-sm-4  features__item">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features2/5.png" alt="">
                 <p><?php printf( _e('We have different investment programs such as Invest and PAMM that are suitable for traders with
                     different levels of immersion and experience in the trading process, and the Company Partners
@@ -181,17 +181,16 @@
             <div class="advantages__contentInner container">
                 <h3 class="mb-40"><?php printf( _e('Trading on the Forex market with us is:', 'trade'))?></h3>
                 <div class="row advantages__itemRow">
-                    <div class="col-lg-4 col-sm-12  advantages__item about__advantages__item">
+                    <div class="col-md-4 col-sm-12  advantages__item about__advantages__item">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ADVANTAGES3/1.png"
                             alt="">
                             <div class="advantages__itemInner">
-                        <h6> <?php printf( _e('Growth', 'trade'))?></h6>
-                        <p><?php printf( _e('We care about our employees and do everything to ensure that they grow and develop together
-                            with our company..', 'trade'))?>
+                            <h6><?php printf( _e('Company values and vision', 'trade'))?></h6>
+                                <p><?php printf( _e('We care about our clients and help maximize your income.', 'trade'))?>
                         </p>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-sm-12  advantages__item about__advantages__item">
+                    <div class="col-md-4 col-sm-12  advantages__item about__advantages__item">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ADVANTAGES3/2.png"
                             alt="">
                             <div class="advantages__itemInner">
@@ -201,14 +200,15 @@
                         </p>
                         </div>
                     </div>
-                    <div class="col-lg-4  col-sm-12 advantages__item about__advantages__item">
+                    <div class="col-md-4  col-sm-12 advantages__item about__advantages__item">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ADVANTAGES3/3.png"
                             alt="">
+                           
                             <div class="advantages__itemInner">
-                                <h6><?php printf( _e('Company values and vision', 'trade'))?></h6>
-                                <p><?php printf( _e('We care about our clients and help maximize your income.', 'trade'))?>
+                                <h6> <?php printf( _e('Growth', 'trade'))?></h6>
+                        <p><?php printf( _e('We care about our employees and do everything to ensure that they grow and develop together
+                            with our company..', 'trade'))?></p>
                         </div>
-                        </p>
                     </div>
                 </div>
             </div>

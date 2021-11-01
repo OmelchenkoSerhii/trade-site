@@ -189,6 +189,28 @@
     </div>
     </div>
 </section>
+<section class="text-block">
+    <div class="container">
+        <p>
+        CompanyName allows investors to link strategies for a fee. We want to provide a little more information about CompanyName.
+        </p>
+        <p>
+        For ECN PAMM account account specifications, see our PAMM accounts page.
+        </p>
+        <p>
+        Please note:<br>
+        1. Scanning is not allowed on instant servers.<br>
+        2. Commission is taken only when opening a position, when doubling the levels listed in the table above (accounting for both opening and closing a position). Since the client's total trading volume is calculated monthly, commissions will be charged at the highest level at the beginning of each month, and if trading volumes increase during the month, it will automatically decrease to reflect the trading volumes.<br>
+        3. If positions are opened, closed or changed on the Trading Platform. The trading session ends on Friday, the leverage will be switched to a maximum of 1: 100 for all Forex and spot metals pairs. Before the next trading session starts, the leverage will be reset based on the total open positions in the account.<br>
+        4. Leverage / margin requirements may change as a result of applicable regulations in your country of residence. For residents of Poland, the maximum leverage is 1: 100.<br>
+        5. In ECN Pro, an hour before the close of the trading session on Friday, the Stop Out and Margin Call levels change from 50% to 100% and from 80% to 130%, respectively.<br>
+        6. The accounts have a fixed leverage without any restrictions. The default leverage is 1: 500 and you can change it in your TRS Markets.<br>
+        7. The spread may increase depending on market conditions.<br>
+        8. Exotic pairs are not available for non-swap accounts.<br>
+        9. For futures, the maximum trading volume is 10 lots.<br>
+        </p>
+    </div>
+</section>
 <script>
 
 </script>

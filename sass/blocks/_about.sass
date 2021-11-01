@@ -1,6 +1,9 @@
 .about
     padding-top: 110px
-    padding-bottom: 110px
+    padding-bottom: 80px
+    .row 
+        margin-left: -20px 
+        margin-right: -20px
     +max-screen($breakpoint-lg)
         padding-top: 70px
         padding-bottom: 50px 
@@ -11,8 +14,10 @@
         max-width: 460px
     &__card__item
         background: #0B151F
-        padding: 50px 60px
+        padding: 40px 60px
         margin-bottom: 30px
+        +max-screen($breakpoint-lg)
+            padding: 33px 38px 15px 
         &:nth-child(3)
             margin-bottom: 0
         p
@@ -20,6 +25,34 @@
             margin-bottom: 40px
         &Image
             max-width: 100%
+        &Wrapper 
+            padding-left: 20px 
+            padding-right: 20px
+            &.big 
+                .about__card__item
+                    padding: 52px 49px  
+                    &:nth-child(1)
+                        height: 50%
+                    &:nth-child(2)
+                        margin-bottom: 0
+                        height: 47.5%
+        &Content 
+            h4
+                line-height: 1.45
+                margin-bottom: 16px 
+                +max-screen($breakpoint-lg)
+                    font-size: 14px
+            p
+                line-height: 1.35 
+                margin-bottom: 21px
+                +max-screen($breakpoint-lg)
+                    font-size: 14px
+                    line-height: 1.4
+                    padding-bottom: 17px 
+                    &:last-child
+                        padding-bottom: 0
+                &:last-child
+                    margin-bottom: 0
     &__card__item
         +max-screen($breakpoint-sm)
             padding: 21px
@@ -31,11 +64,9 @@
             margin-left: -12.5px
             margin-right: -12.5px
         &__card__item 
-            padding: 27px 38px 0
             margin-bottom: 18px 
             p
                 margin-bottom: 0
-                padding-bottom: 40px
             &Image 
                 margin-top: -40px
             h4 
@@ -43,22 +74,94 @@
             &Wrapper 
                 padding-left: 12.5px 
                 padding-right: 12.5px
+                &.big 
+                    .about__card__item
+                        &:last-child
+                            height: 100%
+                &:first-child
+                    .about__card__item:last-child
+                        p 
+                            font-size: 12px 
+                            line-height: 1.3
+                &.big 
+                    .about__card__item 
+                        padding: 32px 48px 17px 31px 
                 +max-screen($breakpoint-sm)
                     padding-left: 7.5px
                     padding-right: 7.5px
             .button_wrapper
                 margin-top: -30px 
                 padding-bottom: 25px 
-.big
-    .about__card__item
-        &:nth-child(1)
-            height: 50%
-        &:nth-child(2)
-            margin-bottom: 0
-            height: 47.5%
+    +max-screen($breakpoint-sm)
+        &__card__item
+            &Content 
+                h4 
+                    margin-bottom: 0
+                p
+                    &:last-child
+                        padding-bottom: 0
+            img
+                margin-top: 0
+                margin-bottom: -21px
+    .page-template-forex-regulation & 
+        +max-screen($breakpoint-lg)
+            .row 
+                margin-left: -5px 
+                margin-right: -5px
+        &__card__item
+            margin-bottom: 20px 
+            &Content 
+                p 
+                    margin-bottom: 15px 
+            +max-screen($breakpoint-lg)
+                margin-bottom: 16px 
+                padding-bottom: 28px
+                &Wrapper 
+                    padding-left: 5px 
+                    padding-right: 5px 
+                &Content 
+                    p 
+                        margin-bottom: 10px
+                        padding-bottom: 0 
+                    a.button 
+                        min-width: 102px
+                &Wrapper:first-child .about__card__item:last-child p
+                    font-size: 14px
+            +max-screen($breakpoint-sm)
+                padding-bottom: 26px
+                padding-right: 16px 
+                &Content 
+                    h4 
+                        margin-bottom: 10px 
+                    p 
+                        line-height: 1.6
+
 .security
+    & + .cta 
+        margin-top: 0
+    padding-bottom: 89px
+    +max-screen($breakpoint-lg)
+        padding-bottom: 60px
+        padding-top: 80px
+    +max-screen($breakpoint-sm)
+        padding-top: 40px 
+        padding-bottom: 30px 
     .about__card__item
         height: 50%
+        min-height: 350px
+        margin-bottom: 21px
+        +max-screen($breakpoint-lg)
+            padding: 33px 38px 10px 
+            min-height: 288px
+            margin-bottom: 20px
+        +max-screen($breakpoint-sm)
+            height: auto
+            padding: 21px 23px 14px
+            min-height: auto
+            h4 
+                margin-bottom: 10px
+            &Wrapper
+                margin-bottom: 10px
 .regulation
      .about__card__item
         height: 100%
@@ -84,3 +187,27 @@
         h4
             font-size: 14px
 
+.page-template-about--company 
+    .about 
+        &__card__item 
+            padding: 52px 60px 
+            img 
+                margin-bottom: -52px
+                margin-top: -10px
+            +max-screen($breakpoint-lg)
+                padding: 33px 38px 12px
+                img 
+                    margin-top: 0
+                    margin-bottom: -12px 
+            +max-screen($breakpoint-sm)
+                padding: 21px
+                img 
+                    margin-bottom: -21px
++min-screen(769px)
+    .about 
+        &__card__item 
+            &Wrapper
+                display: flex 
+                flex-direction: column
+            &:last-child
+                height: 100%

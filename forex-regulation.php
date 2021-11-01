@@ -3,7 +3,7 @@
 ?>
 <?php get_header();?>
 <section class="hero hero__header--cover"
-    style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ hero-7.png);">
+    style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ hero-7.png');">
     <div class="container">
         <div class="col-md-6 hero__contentWrapper">
             <h2>
@@ -30,7 +30,7 @@
             <?php printf( _e('Important facts and figures about CompanyName', 'trade'))?>
         </h3>
         <div class="row">
-            <div class="col-lg-6 about__card__itemWrapper">
+            <div class="col-md-6 about__card__itemWrapper">
                 <div class="about__card__item  ">
                     <div class="about__card__itemContent">
                         <h4>
@@ -61,7 +61,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 about__card__itemWrapper regulation">
+            <div class="col-md-6 about__card__itemWrapper regulation">
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
