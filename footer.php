@@ -35,7 +35,7 @@
                     </svg> 
                 </div>
                 <div class="col-lg-3 col-md-3 col-6 offset-lg-1 footer__menuWrapper">
-                    <h6 class="footer__menuTitle"> About company</h6>
+                    <h6 class="footer__menuTitle"> <?php printf( _e('About company', 'trade'))?></h6>
                     <?php wp_nav_menu( [
                                     'theme_location'  => 'Footer Menu 1',
                                     'menu'            => 'footer-1',
@@ -57,7 +57,7 @@
                 </div>
                 <div class="col-lg-3 col-md-3 col-6 footer__menuWrapper">
                     <h6 class="footer__menuTitle">
-                        Forex trading
+                        <?php printf( _e('Forex trading', 'trade'))?>
                     </h6>
                     <?php wp_nav_menu( [
                                     'theme_location'  => 'Footer Menu 2',
@@ -80,7 +80,7 @@
                 </div>
                 <div class="col-lg-3 col-md-3 col-6 footer__menuWrapper">
                     <h6 class="footer__menuTitle">
-                        Platforms
+                        <?php printf( _e('Platforms', 'trade'))?>
                     </h6>
                     <?php wp_nav_menu( [
                                     'theme_location'  => 'Footer Bottom Menu',
