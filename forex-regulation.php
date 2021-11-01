@@ -26,21 +26,15 @@
 </section>
 <section class="about">
     <div class="container">
-        <h3>
-            <?php printf( _e('Important facts and figures about CompanyName', 'trade'))?>
-        </h3>
         <div class="row">
             <div class="col-md-6 about__card__itemWrapper">
                 <div class="about__card__item  ">
                     <div class="about__card__itemContent">
                         <h4>
-                            <?php printf( _e('Withdrawing funds and depositing with a convenient method', 'trade'))?>
+                            <?php printf( _e('Privacy policy', 'trade'))?>
                         </h4>
                         <p>
-                            <?php printf( _e('Clients deposits are completely isolated from operating funds in the company, and are
-                            located in top-tier banks of the European Union. We do not use clients funds for our
-                            own activities and consider this approach unprofessional, and this is contrary to the
-                            values of our company.', 'trade'))?>
+                            <?php printf( _e('This policy statement details our privacy and information policy. It contains information about how visitors to our website can use the information from our website and explains how we protect the personal information of our users.', 'trade'))?>
                         </p>
                         <a class="button button-secondary" href=""><?php printf( _e('Open', 'trade'))?></a>
                     </div>
@@ -48,14 +42,10 @@
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
-                          <?php printf( _e('Easy account opening process', 'trade'))?>
+                          <?php printf( _e('Client account opening agreements', 'trade'))?>
                         </h4>
                         <p>
-<?php printf( _e('                            This guarantees a completely secure connection during communication with our customers
-                            and employees, and also protects customers during deposit and withdrawal of funds and
-                            keeps confidential information. Data transmission is also secured and encrypted to avoid
-                            data theft and unauthorized access by third parties. And the user authentication and
-                            server authentication policy ensures that data is sent to the correct client server.', 'trade'))?>
+<?php printf( _e('On this page you can find and download a complete list of agreements for opening client accounts in PDF format.', 'trade'))?>
                         </p>
                         <a class=" button button-secondary" href=""><?php printf( _e('Open', 'trade'))?></a>
                     </div>
@@ -65,16 +55,10 @@
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
-                            <?php printf( _e('Customer support in 16 languages', 'trade'))?>
+                            <?php printf( _e('Risk warning', 'trade'))?>
                         </h4>
                         <p>
-                            <?php printf( _e('Continuous control and audit of the brokers activities allows us to guarantee the
-                            stability of the withdrawal of all funds for traders. The international broker TRS
-                            Markets falls under the jurisdiction of the United Kingdom, in the activity section
-                            OT UK SIC CODE 66110, namely Financial Markets Management, Securities Exchange
-                            Management, Administration of Exchange or Commodity Options, Exchange Activity, as
-                            well as Futures on commodity contracts. It has the right to accept both residents
-                            and non-residents of the United Kingdom.', 'trade'))?>
+                            <?php printf( _e('Before starting to invest, it is important to foresee all the risks. The broker provides a written guarantee regarding the possible return on investment and trading in Crypto-Currency and Forex. Profitability depends on many factors, such as market conditions and industry risks, which is almost impossible to predict 100% in advance.', 'trade'))?>
                         </p>
                         <a class="button button-secondary" href=""><?php printf( _e('Open', 'trade'))?></a>
                     </div>
