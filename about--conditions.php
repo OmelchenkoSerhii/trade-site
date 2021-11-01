@@ -41,10 +41,11 @@
                             <h3>
                             <?php printf( _e('Tight spreads', 'trade'))?>
                             </h3>
-                            <p><?php printf( _e('Tight spreads are a key prerequisite when choosing a Forex broker. The initial trading cost depends on how low or high the spreads are offered, so the fact that we provide you with tight spreads and even spreads starting from 0.1 pips gives you an edge from the start.
-
-* Depending on the type of account and market conditions', 'trade'))?>
-                               
+                            <p>
+                                <?php printf( _e('Tight spreads are a key prerequisite when choosing a Forex broker. The initial trading cost depends on how low or high the spreads are offered, so the fact that we provide you with tight spreads and even spreads starting from 0.1 pips gives you an edge from the start.', 'trade'))?>
+                            </p>
+                            <p>
+                                <?php printf( _e('* Depending on the type of account and market conditions', 'trade'))?>
                             </p>
                         </div>
                     </div>
@@ -69,10 +70,11 @@
                             <h3><?php printf( _e('No dealing desk (NDD)', 'trade'))?>
                                 
                             </h3>
-                            <p><?php printf( _e('NDD technology allows us to work with multiple liquidity providers to provide you with the best prices. With this technology, we offer deep interbank liquidity and give you direct access to rates that can be executed instantly*.
-
-* Depending on the type of account and market conditions.', 'trade'))?>
-
+                            <p>
+                                <?php printf( _e('NDD technology allows us to work with multiple liquidity providers to provide you with the best prices. With this technology, we offer deep interbank liquidity and give you direct access to rates that can be executed instantly*.', 'trade'))?>
+                            </p>
+                            <p>
+                                <?php printf( _e('* Depending on the type of account and market conditions.', 'trade'))?>
                             </p>
                         </div>
                     </div>
