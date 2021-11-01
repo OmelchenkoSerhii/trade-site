@@ -36,6 +36,8 @@
             a 
                 white-space: normal
                 text-transform: none
+                &::after 
+                    content: none
         &.sub 
             & > a 
                 &::after 
@@ -335,6 +337,7 @@
         +max-screen($breakpoint-lg)
             padding-top: 0
             width: 100%
+            padding-left: 0
         .header__menuItem
             +max-screen($breakpoint-sm)
                 margin-bottom: 10px
