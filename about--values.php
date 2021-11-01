@@ -46,7 +46,7 @@
 </section>
 <section class="features">
     <div class="container">
-        <h3 class="mb-40"><?php printf( _e('Start your trading journey now', 'trade'))?></h3>
+        <h3 class="mb-40"><?php printf( _e('Company’s personal values', 'trade'))?></h3>
         <div class="row features__itemRow">
             <div class="col-md-3 col-sm-4 features__item">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features-3/1.png" alt="">
