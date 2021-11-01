@@ -33,13 +33,10 @@
                 <div class="about__card__item  ">
                     <div class="about__card__itemContent">
                         <h4>
-                            <?php printf( _e('Withdrawing funds and depositing with a convenient method', 'trade'))?>
+                            <?php printf( _e('Funds protection', 'trade'))?>
                         </h4>
                         <p>
-                          <?php printf( _e('  Clients deposits are completely isolated from operating funds in the company, and are
-                            located in top-tier banks of the European Union. We do not use clients funds for our
-                            own activities and consider this approach unprofessional, and this is contrary to the
-                            values of our company.', 'trade'))?>
+                          <?php printf( _e("Clients' deposits are completely isolated from operating funds in the company, and are located in top-tier banks of the European Union. We do not use clients' funds for our own activities and consider this approach unprofessional, and this is contrary to the values of our company.", 'trade'))?>
                         </p>
                     </div>
                 </div>
@@ -48,16 +45,10 @@
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
-                            <?php printf( _e('Customer support in 16 languages', 'trade'))?>
+                            <?php printf( _e('Safety and reliability', 'trade'))?>
                         </h4>
                         <p>
-                            <?php printf( _e('Continuous control and audit of the brokers activities allows us to guarantee the
-                            stability of the withdrawal of all funds for traders. The international broker TRS
-                            Markets falls under the jurisdiction of the United Kingdom, in the activity section
-                            OT UK SIC CODE 66110, namely Financial Markets Management, Securities Exchange
-                            Management, Administration of Exchange or Commodity Options, Exchange Activity, as
-                            well as Futures on commodity contracts. It has the right to accept both residents
-                            and non-residents of the United Kingdom.', 'trade'))?>
+                            <?php printf( _e("Continuous control and audit of the broker's activities allows us to guarantee the stability of the withdrawal of all funds for traders. The international broker TRS Markets falls under the jurisdiction of the United Kingdom, in the activity section OT UK SIC CODE 66110, namely Financial Markets Management, Securities Exchange Management, Administration of Exchange or Commodity Options, Exchange Activity, as well as Futures on commodity contracts. It has the right to accept both residents and non-residents of the United Kingdom.", 'trade'))?>
                         </p>
                     </div>
                 </div>
@@ -66,14 +57,10 @@
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
-                            <?php printf( _e('Easy account opening process', 'trade'))?>
+                            <?php printf( _e('Encryption technique', 'trade'))?>
                         </h4>
                         <p>
-                            <?php printf( _e('This guarantees a completely secure connection during communication with our customers
-                            and employees, and also protects customers during deposit and withdrawal of funds and
-                            keeps confidential information. Data transmission is also secured and encrypted to avoid
-                            data theft and unauthorized access by third parties. And the user authentication and
-                            server authentication policy ensures that data is sent to the correct client server.', 'trade'))?>
+                            <?php printf( _e("This guarantees a completely secure connection during communication with our customers and employees, and also protects customers during deposit and withdrawal of funds and keeps confidential information. Data transmission is also secured and encrypted to avoid data theft and unauthorized access by third parties. And the user authentication and server authentication policy ensures that data is sent to the correct client server.", 'trade'))?>
                         </p>
                     </div>
                 </div>
@@ -82,14 +69,11 @@
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
-                            <?php printf( _e('Trade and technical assistance', 'trade'))?>
+                            <?php printf( _e('Deposit protection', 'trade'))?>
                         </h4>
                         <p>
-                            <?php printf( _e('Currently, the UK has a unified deposit and deposit insurance system for both
-                            residents and non-residents of the country, covering commercial, investment banks
-                            and financial institutions. Amounts of up to £ 2,000 are insured for 100% of the
-                            deposit amount, for 90% up to £ 33,000, for 75% up to £ 100,000 (or the equivalent
-                            of converting to the currency in which you have deposit).', 'trade'))?>
+                            <?php printf( _e("Currently, the UK has a unified deposit and deposit insurance system for both residents and non-residents of the country, covering commercial, investment banks and financial institutions. Amounts of up to £ 2,000 are insured for 100% of the deposit amount, for 90% up to £ 33,000, for 75% up to £ 100,000 (or the equivalent of converting to the currency in which you have deposit).
+", 'trade'))?>
 
                         </p>
                     </div>

@@ -62,13 +62,10 @@
                 <div class="about__card__item  ">
                     <div class="about__card__itemContent">
                         <h4>
-                           <?php printf( _e(' Withdrawing funds and depositing with a convenient method', 'trade'))?>
+                           <?php printf( _e('Order execution speed', 'trade'))?>
                         </h4>
                         <p>
-                            <?php printf( _e('Clients deposits are completely isolated from operating funds in the company, and are
-                            located in top-tier banks of the European Union. We do not use clients funds for our
-                            own activities and consider this approach unprofessional, and this is contrary to the
-                            values of our company.', 'trade'))?>
+                            <?php printf( _e('We have been awarded several times for the speed of order execution, because this is one of the indicators that guarantees the comfort of your trading. We know that speed is often critical to maximize your profits. Therefore, we execute trades at the speed of light and never slower.', 'trade'))?>
                         </p>
                     </div>
                 </div>
@@ -77,16 +74,11 @@
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
-                            <?php printf( _e('Customer support in 16 languages', 'trade'))?>
+                            <?php printf( _e('Quotas', 'trade'))?>
                         </h4>
                         <p>
-                            <?php printf( _e('Continuous control and audit of the brokers activities allows us to guarantee the
-                            stability of the withdrawal of all funds for traders. The international broker TRS
-                            Markets falls under the jurisdiction of the United Kingdom, in the activity section
-                            OT UK SIC CODE 66110, namely Financial Markets Management, Securities Exchange
-                            Management, Administration of Exchange or Commodity Options, Exchange Activity, as
-                            well as Futures on commodity contracts. It has the right to accept both residents
-                            and non-residents of the United Kingdom.', 'trade'))?>
+                            <?php printf( _e("Companys' rich pool of liquidity, which is available through top tier banks and financial institutions, allows you to fill your orders even when the markets are highly volatile.
+", 'trade'))?>
                         </p>
                     </div>
                 </div>
