@@ -6,15 +6,15 @@
     style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ hero-7.png');">
     <div class="container">
         <div class="col-md-6 hero__contentWrapper">
-            <h2>
+            <h2 class="fade-up appear ">
                <?php printf( _e(' Legal regulation and transparency', 'trade'))?>
             </h2>
-            <p class="fw-600 mb-30">
+            <p class="fw-600 mb-30 fade-up appear delay-1 ">
 <?php printf( _e('                HONESTY, RELIABILITY, MODERNITY, DEVELOPMENT
                 In this section you can find information about our privacy policy, a list of our agreements on the
                 conclusion of client accounts, a risk notice in PDF format.', 'trade'))?>
             </p>
-            <div class="buttons--row row">
+            <div class="buttons--row row fade-up appear delay-2 ">
                 <div class="col-sm-auto button--wrapper">
                     <a href="#" class="button button-primary ">
                         <?php printf( _e('Start Trading', 'trade'))?>
@@ -29,7 +29,7 @@
         <div class="row">
             <div class="col-md-6 about__card__itemWrapper">
                 <div class="about__card__item  ">
-                    <div class="about__card__itemContent">
+                    <div class="about__card__itemContent fade-right appear">
                         <h4>
                             <?php printf( _e('Privacy policy', 'trade'))?>
                         </h4>
@@ -39,7 +39,7 @@
                         <a class="button button-secondary" href=""><?php printf( _e('Open', 'trade'))?></a>
                     </div>
                 </div>
-                <div class="about__card__item">
+                <div class="about__card__item fade-right appear delay-2">
                     <div class="about__card__itemContent">
                         <h4>
                           <?php printf( _e('Client account opening agreements', 'trade'))?>
@@ -52,7 +52,7 @@
                 </div>
             </div>
             <div class="col-md-6 about__card__itemWrapper regulation">
-                <div class="about__card__item">
+                <div class="about__card__item fade-left appear delay-1">
                     <div class="about__card__itemContent">
                         <h4>
                             <?php printf( _e('Risk warning', 'trade'))?>

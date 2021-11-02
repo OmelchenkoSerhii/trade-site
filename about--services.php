@@ -6,16 +6,16 @@
     style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero2.png);">
     <div class="container">
         <div class="col-md-6 hero__contentWrapper">
-            <h2>
+            <h2 class="fade-up appear">
                 <?php printf( _e('Our services', 'trade'))?>
             </h2>
-            <p class="fw-600 mb-30"><?php printf( _e('We do our best to meet the needs of our clients. We are interested in successful cooperation and do our
+            <p class="fw-600 mb-30 fade-up appear delay-1"><?php printf( _e('We do our best to meet the needs of our clients. We are interested in successful cooperation and do our
                 best to recognize the individual needs of each client and work with them in the best way. We strive to
                 do everything so that there are no problems on your way. And if suddenly they appeared, so that the
                 elimination would occur as quickly and efficiently as possible. We work for results.', 'trade'))?>
 
             </p>
-            <div class="buttons--row row">
+            <div class="buttons--row row fade-up appear delay-2">
                 <div class="col-sm-auto button--wrapper">
                     <a href="#" class="button button-primary ">
                         <?php printf( _e('Start trading', 'trade'))?>
@@ -28,7 +28,7 @@
 <section class="about ">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 about__card__itemWrapper">
+            <div class="col-md-6 about__card__itemWrapper fade-right appear">
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
@@ -76,7 +76,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 about__card__itemWrapper big">
+            <div class="col-md-6 about__card__itemWrapper big fade-left appear">
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4><?php printf( _e('Customer support in 16 languages', 'trade'))?>

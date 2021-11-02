@@ -5,10 +5,10 @@
 <section class="hero hero__header--cover" style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero5.png);">
 <div class="container">
             <div class="col-md-6 hero__contentWrapper">
-                <h2>
+                <h2 class="fade-up appear">
 <?php printf( _e('Favorable trading conditions for traders', 'trade'))?>
                 </h2>
-                <div class="buttons--row row">
+                <div class="buttons--row row fade-up appear delay-1">
                     <div class="col-sm-auto button--wrapper">
                         <a href="#" class="button button-primary ">
                             <?php printf( _e('Sign Up', 'trade'))?>
@@ -21,7 +21,7 @@
     <section class="card">
         <div class="container">
             <div class="row card__row">
-                <div class="col-md-6 card__item">
+                <div class="col-md-6 card__item fade-right appear">
                     <div class="card__itemInner">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/trade-execution-1024x576 1.png" alt="" class="card__itemImage">
                         <div class="card__itemContent">
@@ -34,7 +34,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 card__item">
+                <div class="col-md-6 card__item fade-left appear delay-1">
                     <div class="card__itemInner">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/forex-signals 1.png" alt="" class="card__itemImage">
                         <div class="card__itemContent">
@@ -50,7 +50,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 card__item">
+                <div class="col-md-6 card__item fade-right appear delay-2">
                     <div class="card__itemInner">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Trading 1.png" alt="" class="card__itemImage">
                         <div class="card__itemContent">
@@ -63,7 +63,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 card__item">
+                <div class="col-md-6 card__item fade-left appear delay-3">
                     <div class="card__itemInner">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/6-11-2020-5-13-50-pm 1.png" alt="" class="card__itemImage">
                         <div class="card__itemContent">
@@ -79,7 +79,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-12 card__item">
+                <div class="col-lg-12 card__item fade-up appear">
                     <div class="card__itemInner">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/8a4c64ef2b_50164634_cours-trading 1.png" alt="" class="card__itemImage">
                         <div class="card__itemContent">

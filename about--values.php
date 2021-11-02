@@ -6,14 +6,14 @@
     style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Без\ имени-1\ 1.png);">
     <div class="container">
         <div class="col-md-6 hero__contentWrapper">
-            <h2>
+            <h2 class="fade-up appear">
                 <?php printf( _e('Company values', 'trade'))?>
             </h2>
-            <p class="fw-600 mb-30">
+            <p class="fw-600 mb-30 fade-up appear delay-1">
 <?php printf( _e('                CompanyName was first launched in 2010 and was created to provide the best trading conditions and
                 trading tools for forex and cryptocurrency traders.', 'trade'))?>
             </p>
-            <div class="buttons--row row">
+            <div class="buttons--row row fade-up appear delay-2">
                 <div class="col-sm-auto button--wrapper">
                     <a href="#" class="button button-primary ">
                         <?php printf( _e('Start trading', 'trade'))?>
@@ -27,8 +27,8 @@
     <div class="row advantages__row">
         <div class="advantages__contentWrapper col-lg-7">
             <div class="advantages__contentInner container">
-                <h3 class="mb-40"><?php printf( _e('Organization mission', 'trade'))?></h3>
-                <div class="advantages__content"><p><?php printf( _e('                    Our mission is to effectively evaluate the time of our traders in the fast growing, flexible
+                <h3 class="mb-40 fade-left appear"><?php printf( _e('Organization mission', 'trade'))?></h3>
+                <div class="advantages__content fade-left appear delay-1"><p class=""><?php printf( _e('                    Our mission is to effectively evaluate the time of our traders in the fast growing, flexible
                     financial markets and use this time with the help of knowledge to the maximum benefit. Invest
                     wisely. Our passion is to get the most out of our investment and improve our results every time.', 'trade'))?>
 
@@ -40,15 +40,15 @@
         </div>
         <div class="advantages__imageWrapper col-lg-5">
             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Business_with_ESA_pillars 1.png"
-                alt="" class="advantages__image">
+                alt="" class="advantages__image fade-in appear">
         </div>
     </div>
 </section>
 <section class="features">
     <div class="container">
-        <h3 class="mb-40"><?php printf( _e('Company’s personal values', 'trade'))?></h3>
+        <h3 class="mb-40 fade-down appear"><?php printf( _e('Company’s personal values', 'trade'))?></h3>
         <div class="row features__itemRow">
-            <div class="col-md-3 col-sm-4 features__item">
+            <div class="col-md-3 col-sm-4 features__item fade-up appear delay-1">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features-3/1.png" alt="">
                 <h6> <?php printf( _e('Reliability', 'trade'))?></h6>
                 <p><?php printf( _e('                 We value trust and we know that the best traders trust us. To do this, we do our best to maintain
@@ -56,7 +56,7 @@
    
                 </p>
             </div>
-            <div class="col-md-3 col-sm-4  features__item">
+            <div class="col-md-3 col-sm-4  features__item fade-up appear delay-2">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features-3/2.png" alt="">
                 <h6><?php printf( _e('Fidelity', 'trade'))?>
                     
@@ -67,7 +67,7 @@
 
                 </p>
             </div>
-            <div class="col-md-3  col-sm-4  features__item">
+            <div class="col-md-3  col-sm-4  features__item fade-up appear delay-3">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features-3/3.png" alt="">
                 <h6><?php printf( _e('Respect', 'trade'))?>
                     
@@ -77,7 +77,7 @@
 
                 </p>
             </div>
-            <div class="col-md-3  col-sm-4  features__item">
+            <div class="col-md-3  col-sm-4  features__item fade-up appear delay-4">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features-3/4.png" alt="">
                 <h6><?php printf( _e('Development', 'trade'))?>
                     

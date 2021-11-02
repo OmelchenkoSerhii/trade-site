@@ -1,6 +1,6 @@
 
 <section class="text-block ">
-    <div class="container fade-in appear">
+    <div class="container fade-up appear">
         <p class="fw-200 fz-12">
             <?php printf( _e('CompanyName does not issue or sell cryptocurrencies and is not a digital currency exchange service provider.
             CompanyName is not an issuer of OTC derivatives such as CFDs on various underlying instruments or other

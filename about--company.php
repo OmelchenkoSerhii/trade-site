@@ -6,14 +6,14 @@
     style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero1.png);">
     <div class="container">
         <div class="col-md-6 hero__contentWrapper">
-            <h2>
+            <h2 class="fade-up appear">
                 <?php printf( _e('Forex authority in the cryptocurrency market', 'trade'))?>
             </h2>
-            <p class="fw-600 mb-30">
+            <p class="fw-600 mb-30 fade-up appear delay-1">
                 <?php printf( _e('CompanyName was first launched in 2010 and was created to provide the best trading conditions and
                     trading tools for forex and cryptocurrency traders.', 'trade'))?>
             </p>
-            <div class="buttons--row row">
+            <div class="buttons--row row fade-up appear delay-2">
                 <div class="col-sm-auto button--wrapper">
                     <a href="#" class="button button-primary ">
                         <?php printf( _e('Sign Up', 'trade'))?>
@@ -26,7 +26,7 @@
 <section class="card">
     <div class="container">
         <div class="row card__row">
-            <div class="col-md-6 card__item">
+            <div class="col-md-6 card__item fade-right appear">
                 <div class="card__itemInner">
                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/card.png" alt=""
                         class="card__itemImage">
@@ -45,7 +45,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 card__item">
+            <div class="col-md-6 card__item fade-left appear">
                 <div class="card__itemInner">
                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/wall-street-photo-tagger-yancey-iv-nyc-and-company-02-2__large 1.png"
                         alt="" class="card__itemImage">
@@ -73,7 +73,7 @@
             <?php printf( _e('Important facts and figures about CompanyName', 'trade'))?>
         </h3>
         <div class="row">
-            <div class="col-md-6 about__card__itemWrapper">
+            <div class="col-md-6 about__card__itemWrapper fade-right appear">
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
@@ -105,7 +105,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 about__card__itemWrapper">
+            <div class="col-md-6 about__card__itemWrapper fade-left appear">
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
@@ -136,22 +136,22 @@
 <?php echo get_template_part('template-parts/blocks/cta') ?>
 <section class="features">
     <div class="container">
-        <h3 class="mb-40"><?php printf( _e('Your benefits with CompanyName', 'trade'))?></h3>
+        <h3 class="mb-40 fade-down appear"><?php printf( _e('Your benefits with CompanyName', 'trade'))?></h3>
         <div class="row features__itemRow">
-            <div class="col-md-4 col-sm-4 features__item">
+            <div class="col-md-4 col-sm-4 features__item fade-up appear delay-1 ">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features2/1.png" alt="">
                 <p>
                     <?php printf( _e('We have a customized solution for both retail and corporate clients', 'trade'))?>
 
                 </p>
             </div>
-            <div class="col-md-4 col-sm-4  features__item">
+            <div class="col-md-4 col-sm-4  features__item fade-up appear delay-1">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features2/2.png" alt="">
                 <p>
                     <?php printf( _e('We use the most innovative technologies, everything for your convenience. Also, no matter what type of trading you work with, you get an ideal trading account that is completely convenient and meets all your needs', 'trade'))?>
                 </p>
             </div>
-            <div class="col-md-4 col-sm-4  features__item">
+            <div class="col-md-4 col-sm-4  features__item fade-up appear delay-1" >
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features2/3.png" alt="">
                 <p>
                 <?php printf( _e(' Thanks to the wide range of Company trading tools, you can choose and trade the market you want - we
@@ -159,13 +159,13 @@
                    
                 </p>
             </div>
-            <div class="col-md-4  col-sm-4  features__item">
+            <div class="col-md-4  col-sm-4  features__item fade-up appear delay-2 ">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features2/4.png" alt="">
                 <p><?php printf( _e('With our training center, you can constantly develop yourself as a trader and get the full store of
                     knowledge that is required for trading', 'trade'))?>
                 </p>
             </div>
-            <div class="col-md-8  col-sm-4  features__item">
+            <div class="col-md-8  col-sm-4  features__item fade-up appear delay-2">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features2/5.png" alt="">
                 <p><?php printf( _e('We have different investment programs such as Invest and PAMM that are suitable for traders with
                     different levels of immersion and experience in the trading process, and the Company Partners
@@ -180,9 +180,9 @@
     <div class="row flex-row-reverse advantages__row ">
         <div class="advantages__contentWrapper col-lg-7">
             <div class="advantages__contentInner container">
-                <h3 class="mb-40"><?php printf( _e('Why CompanyName is trusted by experienced traders?', 'trade'))?></h3>
+                <h3 class="mb-40 fade-left appear "><?php printf( _e('Why CompanyName is trusted by experienced traders?', 'trade'))?></h3>
                 <div class="row advantages__itemRow">
-                    <div class="col-md-4 col-sm-12  advantages__item about__advantages__item">
+                    <div class="col-md-4 col-sm-12  advantages__item about__advantages__item fade-left appear delay-1 ">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ADVANTAGES3/1.png"
                             alt="">
                             <div class="advantages__itemInner">
@@ -191,7 +191,7 @@
                         </p>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12  advantages__item about__advantages__item">
+                    <div class="col-md-4 col-sm-12  advantages__item about__advantages__item fade-left appear delay-2">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ADVANTAGES3/2.png"
                             alt="">
                             <div class="advantages__itemInner">
@@ -201,7 +201,7 @@
                         </p>
                         </div>
                     </div>
-                    <div class="col-md-4  col-sm-12 advantages__item about__advantages__item">
+                    <div class="col-md-4  col-sm-12 advantages__item about__advantages__item fade-left appear delay-3">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ADVANTAGES3/3.png"
                             alt="">
                            
@@ -216,7 +216,7 @@
         </div>
         <div class="advantages__imageWrapper col-lg-5">
             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about-adv.png" alt=""
-                class="advantages__image">
+                class="advantages__image fade-in appear">
         </div>
     </div>
 </section>

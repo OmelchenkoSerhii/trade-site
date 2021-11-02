@@ -6,17 +6,17 @@
     style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Без\ имени-1\ 2.png);">
     <div class="container">
         <div class="col-md-6 hero__contentWrapper">
-            <h2>
+            <h2 class="fade-up appear">
                 <?php printf( _e('Investment and security', 'trade'))?>
             </h2>
-            <p class="fw-600 mb-30">
+            <p class="fw-600 mb-30 fade-up appear delay-1">
 <?php printf( _e('                We constantly consider the needs of our customers.
                 25,000 clients, 23 countries. These are not just numbers, they are the guarantor of the quality and
                 reliability of our work. We follow all the rules and care about the safety of our customers. Protection
                 of investments and deposits is our main task. We create a secure trading environment and monitor the
                 reliability of our words and actions. Caring and protecting are our goals.', 'trade'))?>
             </p>
-            <div class="buttons--row row">
+            <div class="buttons--row row fade-up appear delay-2">
                 <div class="col-sm-auto button--wrapper">
                     <a href="#" class="button button-primary ">
                         <?php printf( _e('Start trading', 'trade'))?>
@@ -29,7 +29,7 @@
 <section class="about security">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 about__card__itemWrapper">
+            <div class="col-md-6 about__card__itemWrapper fade-right appear ">
                 <div class="about__card__item  ">
                     <div class="about__card__itemContent">
                         <h4>
@@ -41,7 +41,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 about__card__itemWrapper">
+            <div class="col-md-6 about__card__itemWrapper fade-left appear delay-1 ">
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
@@ -53,7 +53,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 about__card__itemWrapper">
+            <div class="col-md-6 about__card__itemWrapper fade-right appear delay-2">
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
@@ -65,7 +65,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 about__card__itemWrapper">
+            <div class="col-md-6 about__card__itemWrapper fade-left appear delay-3">
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>

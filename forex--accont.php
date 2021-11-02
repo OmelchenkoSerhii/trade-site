@@ -6,17 +6,17 @@
     style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Без\ имени-1\ 2.png);">
     <div class="container">
         <div class="col-md-6 hero__contentWrapper">
-            <h2>
+            <h2 class="fade-up appear">
                 <?php printf( _e('CompanyName account types', 'trade'))?>
             </h2>
-            <p class="fw-600 mb-30"><?php printf( _e(' Each CompanyName account has its own purpose, which comes from the needs of the client, each is suitable
+            <p class="fw-600 mb-30 fade-up appear delay-1"><?php printf( _e(' Each CompanyName account has its own purpose, which comes from the needs of the client, each is suitable
                 for a different type of trading, and each opens up many opportunities in the Forex and cryptocurrency
                 markets. It does not matter whether you are an experienced trader or not, a large or small investor,
                 everyone can open an account, because the list of real accounts that we offer is the road to the world
                 of financial independence.', 'trade'))?>
                
             </p>
-            <div class="buttons--row row">
+            <div class="buttons--row row fade-up appear delay-2">
                 <div class="col-sm-auto button--wrapper">
                     <a href="#" class="button button-primary ">
                         <?php printf( _e('Sign Up', 'trade'))?>
@@ -26,7 +26,7 @@
         </div>
     </div>
 </section>
-<section class="account--slider">
+<section class="account--slider fade-up appear">
     <div class="container slider">
         <div class="slider__wrapper">
             <div class="slider__itemWrapper">
@@ -190,7 +190,7 @@
     </div>
 </section>
 <section class="text-block">
-    <div class="container">
+    <div class="container fade-up appear">
     <?php printf( _e('
     <p>
     CompanyName allows investors to link strategies for a fee. We want to provide a little more information about CompanyName.
