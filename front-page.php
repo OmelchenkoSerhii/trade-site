@@ -35,29 +35,29 @@
 
 <section class="features">
     <div class="container">
-        <h3 class="mb-40"><?php printf( _e('Start your trading journey now', 'trade'))?> </h3>
+        <h3 class="mb-40 fade-up appear"><?php printf( _e('Start your trading journey now', 'trade'))?> </h3>
         <div class="row features__itemRow">
-            <div class="col-md-3 col-sm-4 col-6 features__item">
+            <div class="col-md-3 col-sm-4 col-6 features__item fade-up appear delay-1">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features/video-tutorial.png"
                     alt="">
                 <p>
                     <?php printf( _e(' Clear, accessible tutorials and many articles', 'trade'))?>
                 </p>
             </div>
-            <div class="col-md-3 col-sm-4 col-6 features__item">
+            <div class="col-md-3 col-sm-4 col-6 features__item fade-up appear  delay-2">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features/customer-service.png"
                     alt="">
                 <p>
                     <?php printf( _e('Individual support in 16 languages', 'trade'))?>
                 </p>
             </div>
-            <div class="col-md-3 col-sm-4 col-6 features__item">
+            <div class="col-md-3 col-sm-4 col-6 features__item fade-up appear delay-3">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features/tie.png" alt="">
                 <p>
                     <?php printf( _e(' Your personal manager who will help you with training and trading', 'trade'))?>
                 </p>
             </div>
-            <div class="col-md-3  col-sm-4 col-6 features__item">
+            <div class="col-md-3  col-sm-4 col-6 features__item fade-up appear delay-4">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features/coin.png"
                     alt="">
                 <p>
@@ -71,37 +71,37 @@
     <div class="row flex-row-reverse advantages__row ">
         <div class="advantages__contentWrapper col-lg-7">
             <div class="advantages__contentInner container">
-                <h3 class="mb-40"><?php printf( _e('Trading on the Forex market with us is:', 'trade'))?> </h3>
+                <h3 class="mb-40 fade-left appear"><?php printf( _e('Trading on the Forex market with us is:', 'trade'))?> </h3>
                 <div class="row advantages__itemRow">
-                    <div class="col-md-4 col-sm-4 col-4 advantages__item">
+                    <div class="col-md-4 col-sm-4 col-4 advantages__item fade-left appear delay-1">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Advantages-2)/chart 2.png"
                             alt="">
                         <p>
                             <?php printf( _e('Innovative trading tools', 'trade'))?>
                         </p>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-4 advantages__item">
+                    <div class="col-md-4 col-sm-4 col-4 advantages__item fade-left appear delay-1">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Advantages-2)/shield 1.png"
                             alt="">
                         <p>
                             <?php printf( _e('Maximum protection and safety risks', 'trade'))?>
                         </p>
                     </div>
-                    <div class="col-md-4  col-sm-4 col-4 advantages__item">
+                    <div class="col-md-4  col-sm-4 col-4 advantages__item fade-left appear delay-1">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Advantages-2)/spread 1.png"
                             alt="">
                         <p>
                             <?php printf( _e('Tight spreads from 0 pips', 'trade'))?>
                         </p>
                     </div>
-                    <div class="col-md-4 col-sm-4 col-4 advantages__item">
+                    <div class="col-md-4 col-sm-4 col-4 advantages__item fade-left appear delay-2">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Advantages-2)/physics 1.png"
                             alt="">
                         <p>
                             <?php printf( _e('Up to 1: 100 leverage', 'trade'))?>
                         </p>
                     </div>
-                    <div class="col-md-4 col-sm-4  col-4 advantages__item">
+                    <div class="col-md-4 col-sm-4  col-4 advantages__item fade-left appear delay-2">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Advantages-2)/execution 1.png"
                             alt="">
                         <p>
@@ -114,7 +114,7 @@
         </div>
         <div class="advantages__imageWrapper col-lg-5">
             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/advantages--reverse.png"
-                alt="" class="advantages__image">
+                alt="" class="advantages__image fade-in appear ">
         </div>
     </div>
 </section>
@@ -122,11 +122,11 @@
     <div class="container">
         <div class="row cta__row ">
         <div class="col-lg-5 col-md-7 cta__contentWrapper">
-                <h3>
+                <h3 class="fade-right appear ">
                     <?php printf( _e('Start trading the markets cryptocurrencies and Forex
                         with us right now!', 'trade'))?>
                 </h3>
-                <div class="buttons--row row">
+                <div class="buttons--row row fade-right appear delay-1">
                     <div class="col-sm-auto button--wrapper">
                         <a href="#" class="button button-primary ">
                             <?php printf( _e('Sign Up', 'trade'))?>
@@ -141,7 +141,7 @@
             </div>
 
             <div class="col-lg-7 col-md-5 cta__imageWrapper">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/telephone.png" alt=""  class="cta__image">
+                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/telephone.png" alt=""  class="cta__image fade-left appear">
             </div>
 
 
@@ -152,12 +152,12 @@
 <section class="partners">
     <div class="container">
         <div class="row">
-            <div class="col-md-3 partners__heading">
+            <div class="col-md-3 partners__heading fade-right appear">
                 <h3>10+</h3>
                 <p><?php printf( _e('payment systems', 'trade'))?> </p>
             </div>
             <div class="col-md-9 partners__logos">
-                <div class="row">
+                <div class="row fade-left appear delay-1">
                     <div class="col-xl-auto col-md-2  partners__itemWrapper">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/vusa.png" alt=""
                             class="partners__item">
@@ -182,6 +182,8 @@
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/litr.png" alt=""
                             class="partners__item">
                     </div>
+                </div>
+                <div class="row fade-left appear delay-2">
                     <div class="col-xl-auto col-md-2   partners__itemWrapper">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/skrill.png"
                             alt="" class="partners__item">
@@ -218,10 +220,9 @@
     <div class="row advantages__row flex-row-reverse">
         <div class="advantages__contentWrapper col-lg-7">
             <div class="advantages__contentInner container">
-                <h3 class="mb-40"><?php printf( _e('Download the application from AppStore or Google Play', 'trade'))?>
-                </h3>
+                <h3 class="mb-40 fade-left appear"><?php printf( _e('Download the application from AppStore or Google Play', 'trade'))?></h3>
                 <div class="row">
-                    <a class="col-6" href="#">
+                    <a class="col-6 fade-left appear delay-1 " href="#">
                         <svg width="262" height="80" viewBox="0 0 262 80" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -308,7 +309,7 @@
                             </defs>
                         </svg>
                     </a>
-                    <a class="col-6" href="#">
+                    <a class="col-6 fade-left appear delay-2" href="#">
                         <svg width="262" height="80" viewBox="0 0 262 80" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -391,7 +392,7 @@
         </div>
         <div class="advantages__imageWrapper col-lg-5">
             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/application.png" alt=""
-                class="advantages__image">
+                class="advantages__image  fade-in appear">
         </div>
     </div>
     </div>
