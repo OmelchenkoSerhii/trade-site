@@ -45,3 +45,14 @@ $('.slider__wrapper').slick({
     }
   ]
   });
+
+
+//appearence animation on scroll
+$('.appear').each(function() {
+  let el = $(this);
+  let inview = el.waypoint(function(direction) {
+      el.addClass('visible');
+  }, {
+      offset: '95%'
+  });
+});

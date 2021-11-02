@@ -9,13 +9,13 @@
     style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero--back--index.png);">
     <div class="container">
         <div class="col-md-6 hero__contentWrapper">
-            <h1>
+            <h1 class="fade-up appear">
                 <?php printf( _e('We can do everything', 'trade'))?>
             </h1>
-            <p class="fw-600 mb-30">
+            <p class="fw-600 mb-30 fade-up appear delay-1">
                 <?php printf( _e('Trade Forex, Cryptocurrency, Shares, Futures, Raw Materials', 'trade'))?>
             </p>
-            <div class="buttons--row row">
+            <div class="buttons--row row fade-up appear delay-2">
                 <div class="col-sm-auto button--wrapper">
                     <a href="#" class="button button-primary ">
                         <?php printf( _e(' Sign Up', 'trade'))?>
