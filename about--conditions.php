@@ -2,7 +2,7 @@
     /* Template Name: About Conditions */ 
 ?>
 <?php get_header(); ?>
-<section class="hero hero__header--cover" style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero5.png);">
+<section class="hero hero__header--cover short" style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero5.png);">
 <div class="container">
             <div class="col-md-6 hero__contentWrapper">
                 <h2 class="fade-up appear">
@@ -18,7 +18,7 @@
             </div>
         </div>
     </section>
-    <section class="card">
+    <section class="card short">
         <div class="container">
             <div class="row card__row">
                 <div class="col-md-6 card__item fade-right appear">

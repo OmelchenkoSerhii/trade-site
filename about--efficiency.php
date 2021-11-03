@@ -2,7 +2,7 @@
     /* Template Name: About Efficiency */ 
 ?>
 <?php get_header(); ?>
-<section class="hero hero__header--cover"
+<section class="hero hero__header--cover long"
     style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero5.png);">
     <div class="container">
 
@@ -27,7 +27,7 @@
         </div>
     </div>
 </section>
-<section class="efficiency">
+<section class="efficiency short ">
     <div class="container">
         <div class="row">
             <div class="col-md-4 efficiency__title fade-right appear">
@@ -55,7 +55,7 @@
         </div>
     </div>
 </section>
-<section class="about efficiency">
+<section class="about efficiency short ">
     <div class="container">
         <div class="row">
             <div class="col-md-6 about__card__itemWrapper fade-up appear delay-2">

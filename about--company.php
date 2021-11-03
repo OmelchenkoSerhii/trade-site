@@ -23,7 +23,7 @@
         </div>
     </div>
 </section>
-<section class="card long">
+<section class="card short">
     <div class="container">
         <div class="row card__row">
             <div class="col-md-6 card__item fade-right appear">
@@ -67,7 +67,7 @@
     </div>
 </section>
 <?php echo get_template_part('template-parts/blocks/advantages') ?>
-<section class="about long">
+<section class="about short">
     <div class="container">
         <h3>
             <?php printf( _e('Important facts and figures about CompanyName', 'trade'))?>
@@ -134,7 +134,7 @@
     </div>
 </section>
 <?php echo get_template_part('template-parts/blocks/cta') ?>
-<section class="features">
+<section class="features short">
     <div class="container">
         <h3 class="mb-40 fade-down appear"><?php printf( _e('Your benefits with CompanyName', 'trade'))?></h3>
         <div class="row features__itemRow">
@@ -176,7 +176,7 @@
         </div>
     </div>
 </section>
-<section class="advantages advantages__reverse">
+<section class="advantages advantages__reverse long">
     <div class="row flex-row-reverse advantages__row ">
         <div class="advantages__contentWrapper col-lg-7">
             <div class="advantages__contentInner container">
