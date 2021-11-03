@@ -50,9 +50,18 @@ $('.slider__wrapper').slick({
 //appearence animation on scroll
 $('.appear').each(function() {
   let el = $(this).closest('section');
-  let inview = el.waypoint(function(direction) {
+  if($(el).hasClass('long')){
+    let inview = el.waypoint(function(direction) {
       el.find('.appear').addClass('visible');
-  }, {
-      offset: '95%'
-  });
+    }, {
+        offset: '130%'
+    });
+  }
+  if($(el).hasClass('short')){
+    let inview = el.waypoint(function(direction) {
+		el.find('.appear').addClass('visible');
+    }, {
+        offset: '75%'
+    });
+  }
 });
