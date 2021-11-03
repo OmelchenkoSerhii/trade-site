@@ -10,6 +10,8 @@
     +min-screen(993px)
         p 
             max-width: 454px
+    +min-screen(1441px)
+        height: 600px
     +max-screen($breakpoint-lg)
         padding-top: 81px 
         margin-top: -81px
@@ -87,6 +89,8 @@
         height: calc( 100vh - 32px )
         +max-screen($breakpoint-lg)
             height: auto
+        +min-screen(1141px)
+            height: 800px
 .home 
     .hero 
         +max-screen($breakpoint-lg)
