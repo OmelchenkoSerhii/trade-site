@@ -4,8 +4,6 @@
     padding-right: 30px 
     padding-top: 34px
     position: relative
-    .container 
-        max-width: 1160px
     +max-screen($breakpoint-lg)
         padding: 20px 20px 40px 
         .home &
@@ -281,9 +279,11 @@
         text-transform: uppercase
         text-decoration: none
         font-size: 12px
+        +min-screen(1440px)
+            font-size: 16px
 .wpml-ls-current-language
     margin-left: auto 
-    display: flex 
+    display: flex
     &:before
         content: ""
         position: absolute 
@@ -294,6 +294,9 @@
         right: 0px
         top: 4px
         transform: rotate(315deg)
+        +min-screen(1440px)
+            width: 8px 
+            height: 8px 
     &:hover .sub-menu
         width: 80px 
         margin-left: -25px
