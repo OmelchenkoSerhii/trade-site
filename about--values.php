@@ -2,7 +2,7 @@
     /* Template Name: About Values */ 
 ?>
 <?php get_header(); ?>
-<section class="hero hero__header--cover bottom"
+<section class="hero hero__header--cover bottom short"
     style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Без\ имени-1\ 1.png);">
     <div class="container">
         <div class="col-md-6 hero__contentWrapper">
@@ -23,7 +23,7 @@
         </div>
     </div>
 </section>
-<section class="advantages">
+<section class="advantages short">
     <div class="row advantages__row">
         <div class="advantages__contentWrapper col-lg-7">
             <div class="advantages__contentInner container">
@@ -44,7 +44,7 @@
         </div>
     </div>
 </section>
-<section class="features">
+<section class="features short">
     <div class="container">
         <h3 class="mb-40 fade-down appear"><?php printf( _e('Company’s personal values', 'trade'))?></h3>
         <div class="row features__itemRow">

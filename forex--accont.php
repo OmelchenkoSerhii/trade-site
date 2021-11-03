@@ -2,7 +2,7 @@
     /* Template Name: Forex Account */ 
 ?>
 <?php get_header()?>
-<section class="hero hero__header--cover"
+<section class="hero hero__header--cover short"
     style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Без\ имени-1\ 2.png);">
     <div class="container">
         <div class="col-md-6 hero__contentWrapper">
@@ -26,8 +26,8 @@
         </div>
     </div>
 </section>
-<section class="account--slider fade-up appear">
-    <div class="container slider">
+<section class="account--slider short">
+    <div class="container slider fade-up appear">
         <div class="slider__wrapper">
             <div class="slider__itemWrapper">
                 <div class="slider__itemInner">
@@ -189,7 +189,7 @@
     </div>
     </div>
 </section>
-<section class="text-block">
+<section class="text-block short">
     <div class="container fade-up appear">
     <?php printf( _e('
     <p>
