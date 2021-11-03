@@ -49,10 +49,11 @@ $('.slider__wrapper').slick({
 
 //appearence animation on scroll
 $('.appear').each(function() {
-  let el = $(this);
+  let el = $(this).closest('section');
   let inview = el.waypoint(function(direction) {
-      el.addClass('visible');
+      el.find('.appear').addClass('visible');
   }, {
       offset: '95%'
   });
 });
+
