@@ -6,7 +6,7 @@
 
 <?php get_header(); ?>
 <section class="hero short"
-    style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero--back--index.png);">
+    style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero0.png);">
     <div class="container">
         <div class="col-md-6 hero__contentWrapper">
             <h1 class="fade-up appear ">
