@@ -53,7 +53,6 @@ $('.appear').each(function() {
   let inview = el.waypoint(function(direction) {
       el.find('.appear').addClass('visible');
   }, {
-      offset: '90%'
+      offset: '95%'
   });
 });
-
