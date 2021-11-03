@@ -5,11 +5,11 @@
 ?>
 
 <?php get_header(); ?>
-<section class="hero"
+<section class="hero short"
     style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero--back--index.png);">
     <div class="container">
         <div class="col-md-6 hero__contentWrapper">
-            <h1 class="fade-up appear">
+            <h1 class="fade-up appear ">
                 <?php printf( _e('We can do everything', 'trade'))?>
             </h1>
             <p class="fw-600 mb-30 fade-up appear delay-1">
@@ -33,7 +33,7 @@
 <?php echo get_template_part('template-parts/blocks/advantages') ?>
 <?php echo get_template_part('template-parts/blocks/cta') ?>
 
-<section class="features">
+<section class="features long">
     <div class="container">
         <h3 class="mb-40 fade-up appear"><?php printf( _e('Start your trading journey now', 'trade'))?> </h3>
         <div class="row features__itemRow">
@@ -67,13 +67,13 @@
         </div>
     </div>
 </section>
-<section class="advantages advantages__reverse">
+<section class="advantages advantages__reverse long">
     <div class="row flex-row-reverse advantages__row ">
         <div class="advantages__contentWrapper col-lg-7">
             <div class="advantages__contentInner container">
                 <h3 class="mb-40 fade-left appear"><?php printf( _e('Trading on the Forex market with us is:', 'trade'))?> </h3>
                 <div class="row advantages__itemRow">
-                    <div class="col-md-4 col-sm-4 col-4 advantages__item fade-left appear delay-1">
+                    <div class="col-md-4 col-sm-4 col-4 advantages__item fade-left appear  delay-1">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Advantages-2)/chart 2.png"
                             alt="">
                         <p>
@@ -118,7 +118,7 @@
         </div>
     </div>
 </section>
-<section class="cta cta__reverse">
+<section class="cta cta__reverse long">
     <div class="container">
         <div class="row cta__row ">
         <div class="col-lg-5 col-md-7 cta__contentWrapper">
@@ -149,7 +149,7 @@
         </div>
     </div>
 </section>
-<section class="partners">
+<section class="partners long">
     <div class="container">
         <div class="row">
             <div class="col-md-3 partners__heading fade-right appear">
@@ -216,7 +216,7 @@
     </div>
     </div>
 </section>
-<section class="advantages application">
+<section class="advantages application long">
     <div class="row advantages__row flex-row-reverse">
         <div class="advantages__contentWrapper col-lg-7">
             <div class="advantages__contentInner container">

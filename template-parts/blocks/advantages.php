@@ -1,4 +1,4 @@
-<section class="advantages">
+<section class="advantages short">
         <div class="row advantages__row">
             <div class="advantages__contentWrapper col-md-7">
                 <div class="advantages__contentInner container">

@@ -2,7 +2,7 @@
     /* Template Name: About Company */ 
 ?>
 <?php get_header(); ?>
-<section class="hero hero__header--cover"
+<section class="hero hero__header--cover short"
     style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero1.png);">
     <div class="container">
         <div class="col-md-6 hero__contentWrapper">
@@ -23,7 +23,7 @@
         </div>
     </div>
 </section>
-<section class="card">
+<section class="card long">
     <div class="container">
         <div class="row card__row">
             <div class="col-md-6 card__item fade-right appear">
@@ -67,7 +67,7 @@
     </div>
 </section>
 <?php echo get_template_part('template-parts/blocks/advantages') ?>
-<section class="about">
+<section class="about long">
     <div class="container">
         <h3>
             <?php printf( _e('Important facts and figures about CompanyName', 'trade'))?>
