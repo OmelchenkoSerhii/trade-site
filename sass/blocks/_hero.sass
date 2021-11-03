@@ -10,8 +10,6 @@
     +min-screen(993px)
         p 
             max-width: 454px
-    +min-screen(1441px)
-        height: 800px
     +max-screen($breakpoint-lg)
         padding-top: 81px 
         margin-top: -81px
@@ -27,6 +25,10 @@
         line-height: 1.18
         +max-screen($breakpoint-lg)
             margin-bottom: 7px
+        +min-screen($breakpoint-xxl)
+            font-size: 86px !important
+    p
+        font-size: 24px
     h2
         max-width: 434px
         margin-bottom: 33px
