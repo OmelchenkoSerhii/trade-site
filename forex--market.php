@@ -2,7 +2,7 @@
     /* Template Name:  Forex Market */ 
 ?>
 <?php get_header()?>
-<section class="hero hero__header--cover"
+<section class="hero hero__header--cover short"
     style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about--xonditions.png);">
     <div class="container">
         <div class="col-md-6 hero__contentWrapper">
@@ -22,7 +22,7 @@
         </div>
     </div>
 </section>
-<section class="advantages">
+<section class="advantages short">
     <div class="row advantages__row">
         <div class="advantages__contentWrapper col-lg-7">
             <div class="advantages__contentInner container">

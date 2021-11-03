@@ -2,7 +2,7 @@
     /* Template Name: Contact */ 
 ?>
 <?php get_header(); ?>
-<section class=" contact">
+<section class="contact short">
             <div class="container">
                 <h3 class="mb-40 fade-up appear"><?php printf( _e('Start your trading journey now', 'trade'))?></h3>
                 <div class="row contact__itemRow">

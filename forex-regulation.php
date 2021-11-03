@@ -2,7 +2,7 @@
     /* Template Name:  Forex Regulation */ 
 ?>
 <?php get_header();?>
-<section class="hero hero__header--cover"
+<section class="hero hero__header--cover short"
     style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ hero-7.png');">
     <div class="container">
         <div class="col-md-6 hero__contentWrapper">
@@ -24,7 +24,7 @@
         </div>
     </div>
 </section>
-<section class="about">
+<section class="about short">
     <div class="container">
         <div class="row">
             <div class="col-md-6 about__card__itemWrapper">
