@@ -3,7 +3,7 @@
 ?>
 <?php get_header(); ?>
 <section class="hero hero__header--cover long"
-    style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero5.png);">
+    style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero5-min.png);">
     <div class="container">
 
         <div class="col-md-6 hero__contentWrapper">

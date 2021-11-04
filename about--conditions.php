@@ -2,7 +2,7 @@
     /* Template Name: About Conditions */ 
 ?>
 <?php get_header(); ?>
-<section class="hero hero__header--cover short" style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero5.png);">
+<section class="hero hero__header--cover short" style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero5-min.png);">
 <div class="container">
             <div class="col-md-6 hero__contentWrapper">
                 <h2 class="fade-up appear">
