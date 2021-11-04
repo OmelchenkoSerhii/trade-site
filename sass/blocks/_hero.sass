@@ -1,12 +1,12 @@
 .hero
     padding-top: 0
-    height: 100vh
+    min-height: 100vh
     background-repeat: no-repeat
     background-size: 100% 100%
     background-position: top
     min-height: 100%
-    margin-top: -165px
-    padding-top: 165px
+    margin-top: -177px
+    padding-top: 177px
     +min-screen(993px)
         p 
             max-width: 454px
@@ -19,7 +19,7 @@
             padding-top: 94px 
             margin-top: -94px
             min-height: 432px
-        height: auto 
+        min-height: auto 
         background-size: cover
     h1
         line-height: 1.18
@@ -88,9 +88,9 @@
                 justify-content: flex-start
 .admin-bar
     .hero
-        height: calc( 100vh - 32px )
+        min-height: calc( 100vh - 32px )
         +max-screen($breakpoint-lg)
-            height: auto
+            min-height: auto
 .home 
     .hero 
         +max-screen($breakpoint-lg)
