@@ -2,7 +2,7 @@
     /* Template Name: About Security */ 
 ?>
 <?php get_header(); ?>
-<section class="hero hero__header--cover bottom"
+<section class="hero hero__header--cover bottom long"
     style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Без\ имени-1\ 2.png);">
     <div class="container">
         <div class="col-md-6 hero__contentWrapper">
@@ -26,7 +26,7 @@
         </div>
     </div>
 </section>
-<section class="about security">
+<section class="about security short">
     <div class="container">
         <div class="row">
             <div class="col-md-6 about__card__itemWrapper fade-right appear ">
