@@ -3,7 +3,7 @@
 ?>
 <?php get_header(); ?>
 <section class="hero hero__header--cover bottom short"
-    style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Без\ имени-1\ 1.png);">
+    style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about--values-min.png);">
     <div class="container">
         <div class="col-md-6 hero__contentWrapper">
             <h2 class="fade-up appear">

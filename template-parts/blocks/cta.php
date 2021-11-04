@@ -1,7 +1,7 @@
 <section class="cta short">
         <div class="row cta__row">
             <div class="col-7 cta__imageWrapper cta__imageWrapper__main">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/cta--back.png" alt="" class="cta__image desktop">
+                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/cta--back-min.png" alt="" class="cta__image desktop">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/mobile_cta_background.png" alt="" class="cta__image mobile">
             </div>
             <div class="col-5 cta__contentWrapper">
