@@ -1,18 +1,17 @@
 <section class="cta short">
+    <div class="container">
         <div class="row cta__row">
-            <div class="col-7 cta__imageWrapper cta__imageWrapper__main">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/cta--back-min.png" alt="" class="cta__image desktop">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/mobile_cta_background.png" alt="" class="cta__image mobile">
+            <div class="col-5 offset-lg-1 ">
+                <div class="fade-up appear cta__titleWrapper">
+                        <?php if(is_front_page()){
+                            printf( _e('Join the global Forex broker', 'trade'));
+                        }
+                        else{
+                            printf( _e('Start trading the markets cryptocurrencies and Forex with us right now!', 'trade'));
+                        } ?>
+                    </div>
             </div>
             <div class="col-5 cta__contentWrapper">
-                <h3 class="fade-up appear">
-                    <?php if(is_front_page()){
-                        printf( _e('Join the global Forex broker', 'trade'));
-                    }
-                    else{
-                        printf( _e('Start trading the markets cryptocurrencies and Forex with us right now!', 'trade'));
-                    } ?>
-                </h3>
                 <div class="buttons--row row fade-up appear delay-1">
                     <div class="col-sm-auto button--wrapper">
                         <a href="#" class="button button-primary ">
@@ -27,4 +26,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>

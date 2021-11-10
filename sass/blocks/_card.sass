@@ -4,6 +4,9 @@
     .row 
         margin-left: -20px
         margin-right: -20px
+    &__image
+        max-width: 655px
+        margin-left: -130px
     &__item
         margin-bottom: 40px
         padding-left: 20px 
@@ -33,7 +36,6 @@
             img 
                 height: 250px 
         &Image
-            filter: brightness(.5)
             object-fit: cover
             width: 100%
     +max-screen($breakpoint-lg)
@@ -74,3 +76,14 @@
             &Inner
                 img 
                     height: 160px 
+.page-template-about--company
+    .card__item
+        min-height: 0
+        background: #111217
+        border-radius: 10px
+    .card__itemContent
+        background: #111217
+.card__itemInner
+    background: #111217
+    border-radius: 10px
+

@@ -2,25 +2,29 @@
     /* Template Name: About Services */ 
 ?>
 <?php get_header(); ?>
-<section class="hero hero__header--cover long"
-    style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero2-min.png);">
+<section class="hero hero__header--cover long">
     <div class="container">
-        <div class="col-md-6 hero__contentWrapper">
-            <h2 class="fade-up appear">
-                <?php printf( _e('Our services', 'trade'))?>
-            </h2>
-            <p class="fw-600 mb-30 fade-up appear delay-1"><?php printf( _e('We do our best to meet the needs of our clients. We are interested in successful cooperation and do our
-                best to recognize the individual needs of each client and work with them in the best way. We strive to
-                do everything so that there are no problems on your way. And if suddenly they appeared, so that the
-                elimination would occur as quickly and efficiently as possible. We work for results.', 'trade'))?>
+        <div class="row hero__row">
+            <div class="col-md-6 hero__contentWrapper">
+                <h2 class="fade-up appear">
+                    <?php printf( _e('Our services', 'trade'))?>
+                </h2>
+                <p class="fw-600 mb-30 fade-up appear delay-1"><?php printf( _e('We do our best to meet the needs of our clients. We are interested in successful cooperation and do our
+                    best to recognize the individual needs of each client and work with them in the best way. We strive to
+                    do everything so that there are no problems on your way. And if suddenly they appeared, so that the
+                    elimination would occur as quickly and efficiently as possible. We work for results.', 'trade'))?>
 
-            </p>
-            <div class="buttons--row row fade-up appear delay-2">
-                <div class="col-sm-auto button--wrapper">
-                    <a href="#" class="button button-primary ">
-                        <?php printf( _e('Start trading', 'trade'))?>
-                    </a>
+                </p>
+                <div class="buttons--row row fade-up appear delay-2">
+                    <div class="col-sm-auto button--wrapper">
+                        <a href="#" class="button button-primary ">
+                            <?php printf( _e('Start trading', 'trade'))?>
+                        </a>
+                    </div>
                 </div>
+            </div>
+            <div class="col-lg-6 hero__image__wrapper" >
+                    <img class="hero__image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/services/as-hero.png" alt="">
             </div>
         </div>
     </div>

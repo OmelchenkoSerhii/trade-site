@@ -5,21 +5,26 @@
 <section class="hero hero__header--cover short"
     style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero-7-min.png');">
     <div class="container">
-        <div class="col-md-6 hero__contentWrapper">
-            <h2 class="fade-up appear ">
-               <?php printf( _e(' Legal regulation and transparency', 'trade'))?>
-            </h2>
-            <p class="fw-600 mb-30 fade-up appear delay-1 ">
-<?php printf( _e('                HONESTY, RELIABILITY, MODERNITY, DEVELOPMENT
-                In this section you can find information about our privacy policy, a list of our agreements on the
-                conclusion of client accounts, a risk notice in PDF format.', 'trade'))?>
-            </p>
-            <div class="buttons--row row fade-up appear delay-2 ">
-                <div class="col-sm-auto button--wrapper">
-                    <a href="#" class="button button-primary ">
-                        <?php printf( _e('Start Trading', 'trade'))?>
-                    </a>
+        <div class="row hero__row">
+            <div class="col-md-6 hero__contentWrapper">
+                <h2 class="fade-up appear ">
+                <?php printf( _e(' Legal regulation and transparency', 'trade'))?>
+                </h2>
+                <p class="fw-600 mb-30 fade-up appear delay-1 ">
+                    <?php printf( _e(' HONESTY, RELIABILITY, MODERNITY, DEVELOPMENT
+                    In this section you can find information about our privacy policy, a list of our agreements on the
+                    conclusion of client accounts, a risk notice in PDF format.', 'trade'))?>
+                </p>
+                <div class="buttons--row row fade-up appear delay-2 ">
+                    <div class="col-sm-auto button--wrapper">
+                        <a href="#" class="button button-primary ">
+                            <?php printf( _e('Start Trading', 'trade'))?>
+                        </a>
+                    </div>
                 </div>
+            </div>
+            <div class="col-lg-6 hero__image__wrapper" >
+                <img class="hero__image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/forex-reg/forex-reg-hero.png" alt="">
             </div>
         </div>
     </div>

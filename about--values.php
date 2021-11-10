@@ -2,33 +2,40 @@
     /* Template Name: About Values */ 
 ?>
 <?php get_header(); ?>
-<section class="hero hero__header--cover bottom short"
-    style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about--values-min.png);">
+<section class="hero hero__header--cover bottom short">
     <div class="container">
-        <div class="col-md-6 hero__contentWrapper">
-            <h2 class="fade-up appear">
-                <?php printf( _e('Company values', 'trade'))?>
-            </h2>
-            <p class="fw-600 mb-30 fade-up appear delay-1">
-<?php printf( _e('                CompanyName was first launched in 2010 and was created to provide the best trading conditions and
-                trading tools for forex and cryptocurrency traders.', 'trade'))?>
-            </p>
-            <div class="buttons--row row fade-up appear delay-2">
-                <div class="col-sm-auto button--wrapper">
-                    <a href="#" class="button button-primary ">
-                        <?php printf( _e('Start trading', 'trade'))?>
-                    </a>
+        <div class="row">
+            <div class="col-md-6 hero__contentWrapper">
+                <h2 class="fade-up appear">
+                    <?php printf( _e('Company values', 'trade'))?>
+                </h2>
+                <p class="fw-600 mb-30 fade-up appear delay-1">
+                    <?php printf( _e('CompanyName was first launched in 2010 and was created to provide the best trading conditions and
+                    trading tools for forex and cryptocurrency traders.', 'trade'))?>
+                </p>
+                <div class="buttons--row row fade-up appear delay-2">
+                    <div class="col-sm-auto button--wrapper">
+                        <a href="#" class="button button-primary ">
+                            <?php printf( _e('Start trading', 'trade'))?>
+                        </a>
+                    </div>
                 </div>
+            </div>
+            <div class="col-lg-6 hero__image__wrapper">
+                <img class="hero__image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/values/values-hero.png" alt="">
             </div>
         </div>
     </div>
 </section>
 <section class="advantages short">
-    <div class="row advantages__row">
+    <div class="row advantages__row ">
+        <div class="advantages__imageWrapper col-lg-5">
+            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/values/Component 4.png" alt="" class="advantages__image fade-in appear">
+        </div>
         <div class="advantages__contentWrapper col-lg-7">
             <div class="advantages__contentInner container">
                 <h3 class="mb-40 fade-left appear"><?php printf( _e('Organization mission', 'trade'))?></h3>
-                <div class="advantages__content fade-left appear delay-1"><p class=""><?php printf( _e('                    Our mission is to effectively evaluate the time of our traders in the fast growing, flexible
+                <div class="advantages__content fade-left appear delay-1"><p class=""><?php printf( _e('Our mission is to effectively evaluate the time of our traders in the fast growing, flexible
                     financial markets and use this time with the help of knowledge to the maximum benefit. Invest
                     wisely. Our passion is to get the most out of our investment and improve our results every time.', 'trade'))?>
 
@@ -37,10 +44,6 @@
                     growing company and a global trademark, which it is to this day.', 'trade'))?></p>
                 </div>
             </div>
-        </div>
-        <div class="advantages__imageWrapper col-lg-5">
-            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Business_with_ESA_pillars 1.png"
-                alt="" class="advantages__image fade-in appear">
         </div>
     </div>
 </section>

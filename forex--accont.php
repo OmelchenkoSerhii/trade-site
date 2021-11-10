@@ -5,23 +5,27 @@
 <section class="hero hero__header--cover short"
     style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/forex--account.png);">
     <div class="container">
-        <div class="col-md-6 hero__contentWrapper">
-            <h2 class="fade-up appear">
-                <?php printf( _e('CompanyName account types', 'trade'))?>
-            </h2>
-            <p class="fw-600 mb-30 fade-up appear delay-1"><?php printf( _e(' Each CompanyName account has its own purpose, which comes from the needs of the client, each is suitable
-                for a different type of trading, and each opens up many opportunities in the Forex and cryptocurrency
-                markets. It does not matter whether you are an experienced trader or not, a large or small investor,
-                everyone can open an account, because the list of real accounts that we offer is the road to the world
-                of financial independence.', 'trade'))?>
-               
-            </p>
-            <div class="buttons--row row fade-up appear delay-2">
-                <div class="col-sm-auto button--wrapper">
-                    <a href="#" class="button button-primary ">
-                        <?php printf( _e('Sign Up', 'trade'))?>
-                    </a>
+        <div class="row hero__row">
+            <div class="col-md-6 hero__contentWrapper">
+                <h2 class="fade-up appear">
+                    <?php printf( _e('CompanyName account types', 'trade'))?>
+                </h2>
+                <p class="fw-600 mb-30 fade-up appear delay-1"><?php printf( _e(' Each CompanyName account has its own purpose, which comes from the needs of the client, each is suitable
+                    for a different type of trading, and each opens up many opportunities in the Forex and cryptocurrency
+                    markets. It does not matter whether you are an experienced trader or not, a large or small investor,
+                    everyone can open an account, because the list of real accounts that we offer is the road to the world
+                    of financial independence.', 'trade'))?>
+                </p>
+                <div class="buttons--row row fade-up appear delay-2">
+                    <div class="col-sm-auto button--wrapper">
+                        <a href="#" class="button button-primary ">
+                            <?php printf( _e('Sign Up', 'trade'))?>
+                        </a>
+                    </div>
                 </div>
+            </div>
+            <div class="col-lg-6 hero__image__wrapper">
+                <img class="hero__image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider/slider-acc.png" alt="">
             </div>
         </div>
     </div>

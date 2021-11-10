@@ -1,8 +1,9 @@
 <section class="advantages short">
+    <div class="container">
         <div class="row advantages__row">
-            <div class="advantages__contentWrapper col-md-7">
-                <div class="advantages__contentInner container">
-                    <h3 class="mb-40 fade-down appear"><?php printf( _e('Why do professional traders trust us?', 'trade'))?></h3>
+            <div class="advantages__contentWrapper col-md-6">
+                <div class="advantages__contentInner ">
+                    <h2 class="mb-40 fade-down appear"><?php printf( _e('Why do professional traders trust us?', 'trade'))?></h2>
                     <div class="row advantages__itemRow">
                         <div class="col-md-4 col-sm-4 col-4 advantages__item fade-right appear delay-1">
                             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/advantages/withdraw 1.png" alt="">
@@ -44,8 +45,9 @@
                     </div>
                 </div>
             </div>
-            <div class="advantages__imageWrapper col-md-5 fade-in appear delay-2">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/advantages--image.png" alt="" class="advantages__image">
+            <div class="col-md-6 fade-in appear delay-2">
+                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/front-page/fp-adv.png" alt="" class="advantages__image">
             </div>
         </div>
-    </section>
+    </div>
+</section>

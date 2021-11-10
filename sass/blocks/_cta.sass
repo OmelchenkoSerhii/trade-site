@@ -1,5 +1,5 @@
 .cta
-    background: linear-gradient(#0d263d, #0a1521)
+    padding-top: 125px
     &:not(.cta__reverse)
         +max-screen($breakpoint-lg)
             height: 300px 
@@ -7,6 +7,10 @@
             padding-top: 0
             padding-bottom: 0
     &__row
+        background: linear-gradient(90deg, #004E92 0%, #000428 100%)
+        border-radius: 30px
+        padding-top: 124px
+        padding-bottom: 124px
     &__contentWrapper
         display: flex
         min-height: 100%
@@ -20,9 +24,6 @@
         padding-right: 40px
         .buttons--row
             justify-content: flex-end
-        h3
-            max-width: 514px
-            text-align: end
     &__image
         height: 100%
         object-fit: cover
@@ -174,3 +175,21 @@
     +min-screen(769px)
         .mobile 
             display: none
+.page-template-front-page   
+    .cta__titleWrapper
+        font-weight: 600
+        font-size: 64px
+        line-height: 78px
+        color: #FFFFFF
+.cta__reverse
+    padding-top: 0
+    .cta__row
+        background: none
+        padding-top: 0
+        padding-bottom: 85px
+.cta__titleWrapper
+    font-style: normal
+    font-weight: 600
+    font-size: 48px
+    line-height: 59px
+    color: #FFFFFF

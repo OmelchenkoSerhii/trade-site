@@ -5,37 +5,78 @@
 ?>
 
 <?php get_header(); ?>
-<section class="hero short"
-    style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero0.png);">
+<section class="hero short">
     <div class="container">
-        <div class="col-md-6 hero__contentWrapper">
-            <h1 class="fade-up appear ">
-                <?php printf( _e('We can do everything', 'trade'))?>
-            </h1>
-            <p class="fw-600 mb-30 fade-up appear delay-1">
-                <?php printf( _e('Trade Forex, Cryptocurrency, Shares, Futures, Raw Materials', 'trade'))?>
-            </p>
-            <div class="buttons--row row fade-up appear delay-2">
-                <div class="col-sm-auto button--wrapper">
-                    <a href="#" class="button button-primary ">
-                        <?php printf( _e(' Sign Up', 'trade'))?>
-                    </a>
+        <div class="row hero__row">
+            <div class="col-md-6 hero__contentWrapper">
+                <h1 class="fade-up appear ">
+                    <?php printf( _e('We can do everything', 'trade'))?>
+                </h1>
+                <p class="fw-600 mb-30 fade-up appear delay-1">
+                    <?php printf( _e('Trade Forex, Cryptocurrency, Shares, Futures, Raw Materials', 'trade'))?>
+                </p>
+                <div class="buttons--row row fade-up appear delay-2">
+                    <div class="col-sm-auto button--wrapper">
+                        <a href="#" class="button button-primary ">
+                            <?php printf( _e(' Sign Up', 'trade'))?>
+                        </a>
+                    </div>
+                    <div class="col-sm-auto button--wrapper">
+                        <a href="#" class="button button-secondary ">
+                            <?php printf( _e('Go to personal account', 'trade'))?>
+                        </a>
+                    </div>
                 </div>
-                <div class="col-sm-auto button--wrapper">
-                    <a href="#" class="button button-secondary ">
-                        <?php printf( _e('Go to personal account', 'trade'))?>
-                    </a>
-                </div>
+            </div>
+            <div class="col-lg-6 hero__image__wrapper">
+                <img class="hero__image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/front-page/front-page--hero.png" alt="">
             </div>
         </div>
     </div>
 </section>
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright" style="font-size: 0 !important;"><a href="https://ru.tradingview.com" rel="noopener" target="_blank"><span class="blue-text">Финансовые рынки</span></a> от TradingView</div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500"
+    },
+    {
+      "proName": "FOREXCOM:NSXUSD",
+      "title": "US 100"
+    },
+    {
+      "proName": "FX_IDC:EURUSD",
+      "title": "EUR/USD"
+    },
+    {
+      "proName": "BITSTAMP:BTCUSD",
+      "title": "BTC/USD"
+    },
+    {
+      "proName": "BITSTAMP:ETHUSD",
+      "title": "ETH/USD"
+    }
+  ],
+  "showSymbolLogo": true,
+  "colorTheme": "dark",
+  "isTransparent": false,
+  "displayMode": "adaptive",
+  "locale": "ru"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
 <?php echo get_template_part('template-parts/blocks/advantages') ?>
 <?php echo get_template_part('template-parts/blocks/cta') ?>
 
 <section class="features long">
     <div class="container">
-        <h3 class="mb-40 fade-up appear"><?php printf( _e('Start your trading journey now', 'trade'))?> </h3>
+        <h2 class="mb-40 fade-up appear"><?php printf( _e('Start your trading journey now', 'trade'))?> </h2>
         <div class="row features__itemRow">
             <div class="col-md-3 col-sm-4 col-6 features__item fade-up appear delay-1">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features/video-tutorial.png"
@@ -68,53 +109,55 @@
     </div>
 </section>
 <section class="advantages advantages__reverse long">
-    <div class="row flex-row-reverse advantages__row ">
-        <div class="advantages__contentWrapper col-lg-7">
-            <div class="advantages__contentInner container">
-                <h3 class="mb-40 fade-left appear"><?php printf( _e('Trading on the Forex market with us is:', 'trade'))?> </h3>
-                <div class="row advantages__itemRow">
-                    <div class="col-md-4 col-sm-4 col-4 advantages__item fade-left appear  delay-1">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Advantages-2)/chart 2.png"
-                            alt="">
-                        <p>
-                            <?php printf( _e('Innovative trading tools', 'trade'))?>
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-4 advantages__item fade-left appear delay-1">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Advantages-2)/shield 1.png"
-                            alt="">
-                        <p>
-                            <?php printf( _e('Maximum protection and safety risks', 'trade'))?>
-                        </p>
-                    </div>
-                    <div class="col-md-4  col-sm-4 col-4 advantages__item fade-left appear delay-1">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Advantages-2)/spread 1.png"
-                            alt="">
-                        <p>
-                            <?php printf( _e('Tight spreads from 0 pips', 'trade'))?>
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-4 advantages__item fade-left appear delay-2">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Advantages-2)/physics 1.png"
-                            alt="">
-                        <p>
-                            <?php printf( _e('Up to 1: 100 leverage', 'trade'))?>
-                        </p>
-                    </div>
-                    <div class="col-md-4 col-sm-4  col-4 advantages__item fade-left appear delay-2">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Advantages-2)/execution 1.png"
-                            alt="">
-                        <p>
-                            <?php printf( _e('Trade execution', 'trade'))?>
-                        </p>
-                    </div>
+<div class="container">
+        <div class="row flex-row-reverse advantages__row ">
+            <div class="advantages__contentWrapper col-lg-7">
+                <div class="advantages__contentInner container">
+                    <h2 class="mb-40 fade-left appear"><?php printf( _e('Trading on the Forex market with us is:', 'trade'))?> </h2>
+                    <div class="row advantages__itemRow">
+                        <div class="col-md-4 col-sm-4 col-4 advantages__item fade-left appear  delay-1">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Advantages-2/chart 2.png"
+                                alt="">
+                            <p>
+                                <?php printf( _e('Innovative trading tools', 'trade'))?>
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-4 advantages__item fade-left appear delay-1">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Advantages-2/shield 1.png"
+                                alt="">
+                            <p>
+                                <?php printf( _e('Maximum protection and safety risks', 'trade'))?>
+                            </p>
+                        </div>
+                        <div class="col-md-4  col-sm-4 col-4 advantages__item fade-left appear delay-1">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Advantages-2/spread 1.png"
+                                alt="">
+                            <p>
+                                <?php printf( _e('Tight spreads from 0 pips', 'trade'))?>
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-4 advantages__item fade-left appear delay-2">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Advantages-2/physics 1.png"
+                                alt="">
+                            <p>
+                                <?php printf( _e('Up to 1: 100 leverage', 'trade'))?>
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-sm-4  col-4 advantages__item fade-left appear delay-2">
+                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Advantages-2/execution 1.png"
+                                alt="">
+                            <p>
+                                <?php printf( _e('Trade execution', 'trade'))?>
+                            </p>
+                        </div>
 
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="advantages__imageWrapper col-lg-5">
-            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/advantages--reverse.png"
-                alt="" class="advantages__image fade-in appear ">
+            <div class="advantages__imageWrapper col-lg-auto">
+                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/front-page/Component 1.png"
+                    alt="" class="advantages__image fade-in appear ">
+            </div>
         </div>
     </div>
 </section>
@@ -141,7 +184,7 @@
             </div>
 
             <div class="col-lg-7 col-md-5 cta__imageWrapper">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/telephone.png" alt=""  class="cta__image fade-left appear">
+                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/front-page/fp-cta-r.png" alt=""  class="cta__image fade-left appear">
             </div>
 
 
@@ -159,49 +202,49 @@
             <div class="col-md-9 partners__logos">
                 <div class="row fade-left appear delay-1">
                     <div class="col-xl-auto col-md-2  partners__itemWrapper">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/vusa.png" alt=""
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/partners/visa.png" alt=""
                             class="partners__item">
                     </div>
                     <div class="col-xl-auto col-md-2   partners__itemWrapper">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/master.png"
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/partners/master.png"
                             alt="" class="partners__item">
                     </div>
                     <div class="col-xl-auto col-md-2  partners__itemWrapper">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/bit.png" alt=""
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/partners/bit.png" alt=""
                             class="partners__item">
                     </div>
                     <div class="col-xl-auto col-md-2    partners__itemWrapper">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/bitcash.png"
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/partners/bitcash.png"
                             alt="" class="partners__item">
                     </div>
                     <div class="col-xl-auto col-md-2  partners__itemWrapper">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/bitgold.png"
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/partners/bitgold.png"
                             alt="" class="partners__item">
                     </div>
                     <div class="col-xl-auto col-md-2  partners__itemWrapper">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/litr.png" alt=""
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/partners/litr.png" alt=""
                             class="partners__item">
                     </div>
                 </div>
                 <div class="row fade-left appear delay-2">
                     <div class="col-xl-auto col-md-2   partners__itemWrapper">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/skrill.png"
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/partners/skrill.png"
                             alt="" class="partners__item">
                     </div>
                     <div class="col-xl-auto col-md-2   partners__itemWrapper">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/dash.png" alt=""
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/partners/dash.png" alt=""
                             class="partners__item">
                     </div>
                     <div class="col-xl-auto col-md-2   partners__itemWrapper">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/nettler.png"
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/partners/nettler.png"
                             alt="" class="partners__item">
                     </div>
                     <div class="col-xl-auto col-md-2   partners__itemWrapper">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/monero.png"
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/partners/monero.png"
                             alt="" class="partners__item">
                     </div>
                     <div class="col-xl-auto col-md-2  partners__itemWrapper">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ripple.png"
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/partners/ripple.png"
                             alt="" class="partners__item">
                     </div>
                     <div class="col-xl-auto col-md-2   partners__itemWrapper">
@@ -391,7 +434,7 @@
             </div>
         </div>
         <div class="advantages__imageWrapper col-lg-5">
-            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/application.png" alt=""
+            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/front-page/adv-app.png" alt=""
                 class="advantages__image  fade-in appear">
         </div>
     </div>

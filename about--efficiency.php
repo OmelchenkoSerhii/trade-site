@@ -3,15 +3,14 @@
 ?>
 <?php get_header(); ?>
 <section class="hero hero__header--cover long"
-    style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero5-min.png);">
+    style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/efficiency/metatrader.png);">
     <div class="container">
-
         <div class="col-md-6 hero__contentWrapper">
             <h2 class="fade-up appear">
                 <?php printf( _e('Efficiency', 'trade'))?>
             </h2>
             <p class="fw-600 mb-30 fade-up appear delay-1">
-<?php printf( _e('                It is important for us to maintain our authority in the Forex and cryptocurrency markets, which is why
+            <?php printf( _e('It is important for us to maintain our authority in the Forex and cryptocurrency markets, which is why
                 we regularly share our performance results in numbers and statistics. Our goal is not only to maintain
                 high standards, but also to increase the level and experience in trading for our clients and employees,
                 as well as to ensure complete transparency and reliability. The statistics below reveal the kind of
@@ -37,20 +36,29 @@
                 <p><?php printf( _e('In line with CompanyNames commitment to transparency, these statistics have been verified against
                     3000 international standards.', 'trade'))?></p>
             </div>
-            <div class="col-md-6 efficiency__item fade-right appear delay-1">
-                <div class="efficiency__numbers">
-                    <h2>86%</h2>
-                    <h4><?php printf( _e('Processed orders', 'trade'))?></h4>
-                </div>
-
-                <p><?php printf( _e('More than 86% of orders processed within 5 minutes', 'trade'))?></p>
             </div>
-            <div class="col-md-6 efficiency__item fade-left appear delay-1">
-                <div class="efficiency__numbers">
-                    <h2>90%</h2>
-                    <h4><?php printf( _e('Positive reviews', 'trade'))?></h4>
+            <div class="row">
+            <div class="col-lg-6 card__image__wrapper">
+                <img class="card__image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about-company/mobil-gtc.png" alt="">
+            </div>
+                <div class="col-lg-6">
+                    <div class="efficiency__item fade-right appear delay-1">
+                        <div class="efficiency__numbers">
+                            <h2>86%</h2>
+                            <h4><?php printf( _e('Processed orders', 'trade'))?></h4>
+                        </div>
+
+                        <p><?php printf( _e('More than 86% of orders processed within 5 minutes', 'trade'))?></p>
+                    </div>
+
+                <div class="efficiency__item fade-left appear delay-1">
+
+                    <div class="efficiency__numbers">
+                        <h2>90%</h2>
+                        <h4><?php printf( _e('Positive reviews', 'trade'))?></h4>
+                    </div>
+                    <p><?php printf( _e('More than 90% positive feedback from our clients', 'trade'))?></p>
                 </div>
-                <p><?php printf( _e('More than 90% positive feedback from our clients', 'trade'))?></p>
             </div>
         </div>
     </div>

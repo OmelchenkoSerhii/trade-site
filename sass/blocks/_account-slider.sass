@@ -5,8 +5,9 @@
             margin-right: 22.5px
             margin-left: 22.5px
         &Inner
-            background: #0B151F
+            background: #111217
             padding: 25px
+            border-radius: 10px
             h3
                 text-align: center
             h5
@@ -169,22 +170,27 @@
     position: absolute
     cursor: pointer
     &.slick-next 
-        background-image: url('../assets/images/next_desktop.svg')
+        background-image: url('../assets/images/slider/next_desktop.svg')
         right: 25px
     &.slick-prev 
-        background-image: url('../assets/images/prev_desktop.svg')
+        background-image: url('../assets/images/slider/prev_desktop.svg')
         left: 25px
     +max-screen($breakpoint-lg)
         width: 28px 
         height: 28px 
         &.slick-next 
-            background-image: url('../assets/images/next.svg')
+            background-image: url('../assets/images/slider/next.svg')
             right: 2px 
         &.slick-prev 
             left: 2px 
-            background-image: url('../assets/images/prev.svg')
+            background-image: url('../assets/images/slider/prev.svg')
     +max-screen($breakpoint-sm)
         &.slick-next 
             right: 20px
         &.slick-prev 
             left: 20px 
+.page-template-forex--accont
+    .slider__itemWrapper
+        .button
+            border-top-left-radius: 0
+            border-top-right-radius: 0

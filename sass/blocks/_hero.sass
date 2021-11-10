@@ -1,6 +1,6 @@
 .hero
     padding-top: 0
-    min-height: 100vh
+    min-height: calc(100vh - 46px)
     background-repeat: no-repeat
     background-size: 100% 100%
     background-position: top
@@ -27,9 +27,8 @@
         +min-screen($breakpoint-xxl)
             font-size: 86px !important
     p
-        font-size: 24px
+        font-size: 18px
     h2
-        max-width: 434px
         margin-bottom: 33px
         +max-screen($breakpoint-lg)
             margin-bottom: 20px 
@@ -61,6 +60,9 @@
         background-position: bottom
     &__contentWrapper 
         padding-left: 0
+        display: flex
+        flex-direction: column
+        justify-content: center
         +max-screen($breakpoint-lg)
             width: 100% 
             max-width: 100%
@@ -85,6 +87,8 @@
             margin-top: 30px
             .button--wrapper 
                 justify-content: flex-start
+    &__image
+        max-width: 100%
 .admin-bar
     .hero
         min-height: calc( 100vh - 32px )
@@ -99,3 +103,18 @@
 .page-template-forex-regulation
     .hero 
         padding-bottom: 20px 
+.page-template-about--values
+    .hero__image
+        max-width: none
+.page-template-about--services,.page-template-about--security,.page-template-forex--market,.page-template-forex-regulation,.page-template-forex--accont
+    .hero__image
+        max-width: none
+        margin-top: -80px
+        +max-screen($breakpoint-xxl)
+            max-width: 100%
+            margin-top: 0
+    .hero__image__wrapper
+        +max-screen($breakpoint-xxl)
+            display: flex
+            align-items: center
+            justify-content: center

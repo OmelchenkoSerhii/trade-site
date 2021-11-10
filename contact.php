@@ -4,7 +4,7 @@
 <?php get_header(); ?>
 <section class="contact short">
             <div class="container">
-                <h3 class="mb-40 fade-up appear"><?php printf( _e('Start your trading journey now', 'trade'))?></h3>
+                <h2 class="mb-40 fade-up appear"><?php printf( _e('Contact Us', 'trade'))?></h2>
                 <div class="row contact__itemRow">
                     <div class="col-lg-4 col-sm-4  contact__item fade-up appear delay-1">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/contact/1.png" alt="">

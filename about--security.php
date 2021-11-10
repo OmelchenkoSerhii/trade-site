@@ -2,26 +2,30 @@
     /* Template Name: About Security */ 
 ?>
 <?php get_header(); ?>
-<section class="hero hero__header--cover bottom long"
-    style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/security-background.png);">
+<section class="hero hero__header--cover bottom long">
     <div class="container">
-        <div class="col-md-6 hero__contentWrapper">
-            <h2 class="fade-up appear">
-                <?php printf( _e('Investment and security', 'trade'))?>
-            </h2>
-            <p class="fw-600 mb-30 fade-up appear delay-1">
-<?php printf( _e('                We constantly consider the needs of our customers.
-                25,000 clients, 23 countries. These are not just numbers, they are the guarantor of the quality and
-                reliability of our work. We follow all the rules and care about the safety of our customers. Protection
-                of investments and deposits is our main task. We create a secure trading environment and monitor the
-                reliability of our words and actions. Caring and protecting are our goals.', 'trade'))?>
-            </p>
-            <div class="buttons--row row fade-up appear delay-2">
-                <div class="col-sm-auto button--wrapper">
-                    <a href="#" class="button button-primary ">
-                        <?php printf( _e('Start trading', 'trade'))?>
-                    </a>
+        <div class="row hero__row">
+            <div class="col-md-6 hero__contentWrapper">
+                <h2 class="fade-up appear">
+                    <?php printf( _e('Investment and security', 'trade'))?>
+                </h2>
+                <p class="fw-600 mb-30 fade-up appear delay-1">
+                <?php printf( _e(' We constantly consider the needs of our customers.
+                    25,000 clients, 23 countries. These are not just numbers, they are the guarantor of the quality and
+                    reliability of our work. We follow all the rules and care about the safety of our customers. Protection
+                    of investments and deposits is our main task. We create a secure trading environment and monitor the
+                    reliability of our words and actions. Caring and protecting are our goals.', 'trade'))?>
+                </p>
+                <div class="buttons--row row fade-up appear delay-2">
+                    <div class="col-sm-auto button--wrapper">
+                        <a href="#" class="button button-primary ">
+                            <?php printf( _e('Start trading', 'trade'))?>
+                        </a>
+                    </div>
                 </div>
+            </div>
+            <div class="col-lg-6 hero__image__wrapper" >
+                <img class="hero__image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/security/Component 6.png" alt="">
             </div>
         </div>
     </div>
