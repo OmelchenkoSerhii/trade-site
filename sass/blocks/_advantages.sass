@@ -11,6 +11,8 @@
         margin-left: auto 
     &__contentInner
         padding-right: 95px
+        +max-screen($breakpoint-lg)
+            padding-right: 15px
         h3
             max-width: 445px
             line-height: 1.6
@@ -22,8 +24,6 @@
                 padding-left: 20px 
                 padding-right: 20px 
         +max-screen($breakpoint-lg)
-            max-width: 53.5% 
-            flex: 0 0 53.5%
             padding-bottom: 22px
             padding-top: 36px 
             img 
@@ -51,10 +51,9 @@
                 width: 40px 
                 height: 40px 
     &__imageWrapper
+        display: flex
+        align-items: center
         img 
-            height: 100%
-            object-fit: cover 
-            object-position: center
         +max-screen($breakpoint-lg)
             max-width: 46.5%
             flex: 0 0 46.5%
@@ -223,17 +222,6 @@
                 img 
                     min-height: 410px
                     object-position: center right
-.about__advantages__item
-    +max-screen($breakpoint-sm)
-        max-width: none
-.advantages__imageWrapper
-    +max-screen($breakpoint-sm)
-        max-width: none
-        flex: unset
-.advantages__contentWrapper
-    +max-screen($breakpoint-sm)
-        max-width: none
-        flex: unset
 .advantages__reverse .advantages__contentWrapper
     +max-screen($breakpoint-sm)
         padding-left: 10px
@@ -255,7 +243,6 @@
         padding-top: 40px
 .advantages__image,.application .advantages__imageWrapper img
     +max-screen($breakpoint-sm)
-        max-height: 300px
         min-height: 300px
 .advantages__item img
     +max-screen($breakpoint-sm)
@@ -337,6 +324,7 @@
     .about__advantages__item
         padding-left: 20px
         padding-right: 20px
-.advantages__contentWrapper
-    display: flex
-    align-items: center
+.advantages__imageWrapper
+    +max-screen($breakpoint-sm)
+        flex: 100%
+        max-width: 100%

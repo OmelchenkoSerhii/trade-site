@@ -78,27 +78,27 @@
     <div class="container">
         <h2 class="mb-40 fade-up appear"><?php printf( _e('Start your trading journey now', 'trade'))?> </h2>
         <div class="row features__itemRow">
-            <div class="col-md-3 col-sm-4 col-6 features__item fade-up appear delay-1">
+            <div class="col-md-3 col-sm-3 col-6 features__item fade-up appear delay-1">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features/video-tutorial.png"
                     alt="">
                 <p>
                     <?php printf( _e(' Clear, accessible tutorials and many articles', 'trade'))?>
                 </p>
             </div>
-            <div class="col-md-3 col-sm-4 col-6 features__item fade-up appear  delay-2">
+            <div class="col-md-3 col-sm-3 col-6 features__item fade-up appear  delay-2">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features/customer-service.png"
                     alt="">
                 <p>
                     <?php printf( _e('Individual support in 16 languages', 'trade'))?>
                 </p>
             </div>
-            <div class="col-md-3 col-sm-4 col-6 features__item fade-up appear delay-3">
+            <div class="col-md-3 col-sm-3 col-6 features__item fade-up appear delay-3">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features/tie.png" alt="">
                 <p>
                     <?php printf( _e(' Your personal manager who will help you with training and trading', 'trade'))?>
                 </p>
             </div>
-            <div class="col-md-3  col-sm-4 col-6 features__item fade-up appear delay-4">
+            <div class="col-md-3  col-sm-3 col-6 features__item fade-up appear delay-4">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features/coin.png"
                     alt="">
                 <p>

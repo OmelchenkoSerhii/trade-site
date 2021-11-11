@@ -1,7 +1,7 @@
 <section class="advantages short">
     <div class="container">
         <div class="row advantages__row">
-            <div class="advantages__contentWrapper col-md-6">
+            <div class="advantages__contentWrapper col-sm-6">
                 <div class="advantages__contentInner ">
                     <h2 class="mb-40 fade-down appear"><?php printf( _e('Why do professional traders trust us?', 'trade'))?></h2>
                     <div class="row advantages__itemRow">
@@ -45,7 +45,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 fade-in appear delay-2">
+            <div class="col-sm-6 fade-in appear delay-2 advantages__imageWrapper">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/front-page/fp-adv.png" alt="" class="advantages__image">
             </div>
         </div>

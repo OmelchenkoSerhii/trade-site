@@ -1,16 +1,13 @@
 .cta
     padding-top: 125px
-    &:not(.cta__reverse)
-        +max-screen($breakpoint-lg)
-            height: 300px 
-        .cta__contentWrapper
-            padding-top: 0
-            padding-bottom: 0
     &__row
         background: linear-gradient(90deg, #004E92 0%, #000428 100%)
         border-radius: 30px
         padding-top: 124px
         padding-bottom: 124px
+        +max-screen($breakpoint-sm)
+            padding-top: 55px
+            padding-bottom: 40px
     &__contentWrapper
         display: flex
         min-height: 100%
@@ -30,16 +27,6 @@
         object-position: left center
         &Wrapper
             padding: 0
-    +max-screen(1200px)
-        &:not(.cta__reverse)
-            .cta__contentWrapper
-                margin-left: -100px
-                flex: 0 0 calc( 41.66667% + 100px )
-                max-width: calc( 41.66667% + 100px )
-                h3  
-                    margin-left: auto 
-            .cta__image 
-                height: 300px
     +max-screen($breakpoint-lg)
         &__row
             min-height: 300px 
@@ -56,7 +43,7 @@
             h3
                 margin-right: 27.5px
             .buttons--row 
-                justify-content: flex-end
+                justify-content: center
                 margin-right: 27.5px
                 .button--wrapper
                     padding: 0
@@ -139,12 +126,6 @@
 .cta__imageWrapper__main
     +max-screen($breakpoint-sm)
         margin-left: -30px
-.cta__contentWrapper
-    +max-screen($breakpoint-sm)
-        text-align: end
-        margin-left: 30px
-        h3
-            text-align: end
 .cta__contentWrapper .button--wrapper
     justify-content: flex-end
 .cta__contentWrapper .button--wrapper
@@ -181,6 +162,9 @@
         font-size: 64px
         line-height: 78px
         color: #FFFFFF
+        +max-screen($breakpoint-lg)
+            font-size: 36px
+            line-height: 1
 .cta__reverse
     padding-top: 0
     .cta__row
@@ -193,3 +177,21 @@
     font-size: 48px
     line-height: 59px
     color: #FFFFFF
+    +max-screen($breakpoint-lg)
+        font-size: 36px
+        line-height: 1
+        margin-bottom: 20px
+.cta__contentWrapper
+    +max-screen($breakpoint-sm)
+        max-width: none
+        align-items: center
+        .buttons--row 
+            margin-right: 0
+            .button--wrapper
+                justify-content: center
+.buttons--row
+    +max-screen($breakpoint-lg)
+        margin-right: 0
+.cta__titleWrapper
+    +max-screen($breakpoint-sm)
+        text-align: center

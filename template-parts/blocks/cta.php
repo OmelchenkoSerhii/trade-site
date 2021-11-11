@@ -1,7 +1,7 @@
 <section class="cta short">
     <div class="container">
         <div class="row cta__row">
-            <div class="col-5 offset-lg-1 ">
+            <div class="col-sm-5 offset-lg-1 ">
                 <div class="fade-up appear cta__titleWrapper">
                         <?php if(is_front_page()){
                             printf( _e('Join the global Forex broker', 'trade'));
@@ -11,7 +11,7 @@
                         } ?>
                     </div>
             </div>
-            <div class="col-5 cta__contentWrapper">
+            <div class="col-sm-5 cta__contentWrapper">
                 <div class="buttons--row row fade-up appear delay-1">
                     <div class="col-sm-auto button--wrapper">
                         <a href="#" class="button button-primary ">

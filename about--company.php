@@ -30,10 +30,10 @@
 <section class="card short">
     <div class="container">
         <div class="row card__row">
-            <div class="col-lg-6 card__image__wrapper">
+            <div class="col-sm-6 card__image__wrapper">
                 <img class="card__image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about-company/mobil-gtc.png" alt="">
             </div>
-            <div class="col-lg-6">
+            <div class="col-sm-6">
                 <div class="card__item fade-right appear">
                     <div class="card__itemInner">
                         <div class="card__itemContent">
