@@ -29,10 +29,15 @@
                 </div>
             </div>
             <div class="col-lg-6 hero__image__wrapper">
-                <img class="hero__image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/front-page/front-page--hero.png" alt="">
+                <div class="video__wrapper">
+                    <img class="hero__image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/front-page/phone.png" alt="">
+                    <video class="hero__video" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/front-page/IMG_0008.mp4" autoplay muted  loop preload="auto"></video>
+                    <img class="hero__image__add" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/front-page/bit.png" alt="">
+                </div>
             </div>
         </div>
     </div>
+    
 </section>
 <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
