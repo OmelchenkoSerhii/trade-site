@@ -268,7 +268,7 @@
     <div class="row advantages__row flex-row-reverse">
         <div class="advantages__contentWrapper col-lg-7">
             <div class="advantages__contentInner container">
-                <h3 class="mb-40 fade-left appear"><?php printf( _e('Download the application from AppStore or Google Play', 'trade'))?></h3>
+                <h2 class="mb-40 fade-left appear"><?php printf( _e('Download the application from AppStore or Google Play', 'trade'))?></h2>
                 <div class="row">
                     <a class="col-6 fade-left appear delay-1 " href="#">
                         <svg width="262" height="80" viewBox="0 0 262 80" fill="none"
