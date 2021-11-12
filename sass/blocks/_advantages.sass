@@ -129,7 +129,30 @@
                         margin-bottom: 14px 
                 &Wrapper 
                     padding-bottom: 49px 
+    .page-template-about--values &,
+    .page-template-forex--market & 
+        max-width: 1440px 
+        margin-left: auto 
+        margin-right: auto
+        .advantages
+            &__row 
+                align-items: center 
+            &__imageWrapper
+                img 
+                    min-height: 500px
+                    object-fit: cover
+                    object-position: right center
+                    width: 653px
+            &__contentWrapper
+                margin-left: 0
+                margin-right: auto
+            &__contentInner
+                padding-left: 15px
 .advantages__reverse
+    h3 
+        font-size: 48px
+        margin-bottom: 42px
+        max-width: 700px
     .advantages
         &__contentWrapper
             padding: 0
@@ -292,7 +315,7 @@
     .page-template-about--company
         .advantages__reverse 
             h3 
-                max-width: 490px
+                max-width: 700px
 .page-template-front-page             
     .advantages__contentWrapper
         display: flex
@@ -323,6 +346,15 @@
     .about__advantages__item
         padding-left: 20px
         padding-right: 20px
+        p 
+            &:last-child
+                margin-bottom: 0
+    .advantages__itemRow 
+        margin-left: -20px 
+        margin-right: -20px
+        +max-screen($breakpoint-sm)
+            margin-left: -7.5px 
+            margin-right: -7.5px
 .advantages__imageWrapper
     +max-screen($breakpoint-sm)
         flex: 100%

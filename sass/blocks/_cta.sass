@@ -3,10 +3,19 @@
     &__row
         background: linear-gradient(90deg, #004E92 0%, #000428 100%)
         border-radius: 30px
-        padding-top: 124px
-        padding-bottom: 124px
-        padding-left: 97px
+        padding-top: 30px
+        padding-bottom: 30px
+        padding-left: 89.5px
+        min-height: 400px 
+        display: flex
+        align-items: center
         padding-right: 60px
+        +max-screen(1100px)
+            flex-wrap: nowrap
+            padding-left: 40px 
+            padding-right: 40px 
+            .buttons--row
+                flex-wrap: nowrap
         +max-screen($breakpoint-sm)
             padding-top: 55px
             padding-bottom: 40px
@@ -19,7 +28,8 @@
         justify-content: center
         padding: 0
         max-width: 506px 
-        margin-right: auto 
+        margin-right: 0 
+        margin-left: auto 
         .buttons--row
             justify-content: flex-end
     &__image

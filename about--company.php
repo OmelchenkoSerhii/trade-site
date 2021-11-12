@@ -112,16 +112,6 @@
             </div>
 
             <div class="col-md-6 about__card__itemWrapper fade-left appear">
-            <div class="about__card__item">
-                    <div class="about__card__itemContent">
-                        <h4>
-                            <?php printf( _e('We want to help traders develop and implement their skills and strategies through innovative solutions', 'trade'))?>
-                        </h4>
-                        <p>
-                            <?php printf( _e('Unique trading tools developed by Mr. Thalassinos - Company Trading Signals and Company Pivot Points Strategy - integrate popular indicators into a user-friendly interface.', 'trade'))?>
-                        </p>
-                    </div>
-                </div>
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
@@ -134,6 +124,17 @@
                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about-company/3-phones.png"
                         alt="" class="about__card__itemImage">
                 </div>
+                <div class="about__card__item">
+                    <div class="about__card__itemContent">
+                        <h4>
+                            <?php printf( _e('We want to help traders develop and implement their skills and strategies through innovative solutions', 'trade'))?>
+                        </h4>
+                        <p>
+                            <?php printf( _e('Unique trading tools developed by Mr. Thalassinos - Company Trading Signals and Company Pivot Points Strategy - integrate popular indicators into a user-friendly interface.', 'trade'))?>
+                        </p>
+                    </div>
+                </div>
+                
                 
             </div>
         </div>
@@ -188,7 +189,7 @@
                 <div class="row advantages__itemRow">
                     <div class="col-md-4 col-sm-12  advantages__item about__advantages__item fade-left appear delay-1 ">
                         <div class="advanrages__itemInner">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ADVANTAGES3/1.png"
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about-company/chart_2.svg"
                             alt="">
                             <div class="advantages__itemContent">
                             <h6><?php printf( _e('Company values and vision', 'trade'))?></h6>
@@ -199,7 +200,7 @@
                     </div>
                     <div class="col-md-4 col-sm-12  advantages__item about__advantages__item fade-left appear delay-2">
                     <div class="advanrages__itemInner">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ADVANTAGES3/2.png"
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about-company/shield_1.svg"
                             alt="">
                             <div class="advantages__itemContent">
                         <h6><?php printf( _e('Championship', 'trade'))?></h6>
@@ -211,7 +212,7 @@
                     </div>
                     <div class="col-md-4  col-sm-12 advantages__item about__advantages__item fade-left appear delay-3">
                     <div class="advanrages__itemInner">
-                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/ADVANTAGES3/3.png"
+                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about-company/spread_1.svg"
                             alt="">
                            
                             <div class="advantages__itemContent">

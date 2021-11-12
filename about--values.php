@@ -29,10 +29,10 @@
 </section>
 <section class="advantages short">
     <div class="row advantages__row ">
-        <div class="advantages__imageWrapper col-lg-5">
+        <div class="advantages__imageWrapper col-lg-6">
             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/values/Component 4.png" alt="" class="advantages__image fade-in appear">
         </div>
-        <div class="advantages__contentWrapper col-lg-7">
+        <div class="advantages__contentWrapper col-lg-6">
             <div class="advantages__contentInner container">
                 <h3 class="mb-40 fade-left appear"><?php printf( _e('Organization mission', 'trade'))?></h3>
                 <div class="advantages__content fade-left appear delay-1"><p class=""><?php printf( _e('Our mission is to effectively evaluate the time of our traders in the fast growing, flexible
