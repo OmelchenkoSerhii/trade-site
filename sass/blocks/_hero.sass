@@ -21,7 +21,8 @@
         height: auto 
         background-size: cover
     h1
-        line-height: 117px
+        +min-screen($breakpoint-lg)
+            line-height: 117px
         +max-screen($breakpoint-lg)
             margin-bottom: 7px
         +min-screen($breakpoint-xxl)
