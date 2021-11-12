@@ -439,8 +439,8 @@
             </div>
         </div>
         <div class="advantages__imageWrapper col-lg-5">
-            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/front-page/adv-app.png" alt=""
-                class="advantages__image  fade-in appear">
+            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Group.png" alt="" class="advantages__image advantages__image__mobile">
+            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/front-page/adv-app.png" alt="" class="advantages__image advantages__image__desktop fade-in appear">
         </div>
     </div>
     </div>
