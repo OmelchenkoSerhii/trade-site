@@ -107,7 +107,7 @@
     .hero__image
         max-width: none
 .hero__image
-    max-width: none
+    max-width: 100%
     margin-top: -80px
     +max-screen($breakpoint-xxl)
         max-width: 100%
@@ -160,22 +160,23 @@
         height: 269px
         margin-left: auto
         margin-right: auto
-.hero__image__wrapper
-    &::before
-        content: ""
-        width: 600px
-        height: 600px
-        background: $gradient-primary
-        border-radius: 50%
-        position: absolute
-        z-index: -1
-        top: -75px
-        left: 120px
-        +max-screen(575px)
-            width: 288px
-            height: 288px
-            top: -28px
-            left: -8px
+.page-template-front-page 
+    .hero__image__wrapper
+        &::before
+            content: ""
+            width: 600px
+            height: 600px
+            background: $gradient-primary
+            border-radius: 50%
+            position: absolute
+            z-index: -1
+            top: -75px
+            left: 120px
+            +max-screen(575px)
+                width: 288px
+                height: 288px
+                top: -28px
+                left: -8px
 
 .hero__image__add
     position: absolute
