@@ -5,7 +5,7 @@
 <section class="hero hero__header--cover short">
     <div class="container">
         <div class="row hero__row">
-            <div class="col-md-6 hero__contentWrapper">
+            <div class="col-sm-6 hero__contentWrapper">
                 <h2 class="fade-up appear">
                     <?php printf( _e('Forex authority in the cryptocurrency market', 'trade'))?>
                 </h2>
@@ -21,7 +21,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 hero__image__wrapper">
+            <div class="col-sm-6 hero__image__wrapper">
                 <img class="hero__image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about-company/ac-hero.png" alt="">
             </div>
         </div>
@@ -78,7 +78,7 @@
             <?php printf( _e('Important facts and figures about CompanyName', 'trade'))?>
         </h2>
         <div class="row">
-            <div class="col-md-6 about__card__itemWrapper fade-right appear">
+            <div class="col-sm-6 about__card__itemWrapper fade-right appear small">
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
@@ -111,7 +111,7 @@
                 </div>
             </div>
 
-            <div class="col-md-6 about__card__itemWrapper fade-left appear">
+            <div class="col-sm-6 about__card__itemWrapper fade-left appear">
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
@@ -172,7 +172,7 @@
                     knowledge that is required for trading', 'trade'))?>
                 </p>
             </div>
-            <div class="col-md-8  col-sm-4  features__item fade-up appear delay-2">
+            <div class="col-md-8  col-sm-8  features__item fade-up appear delay-2">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features2/5.png" alt="">
                 <p><?php printf( _e('We have different investment programs such as Invest and PAMM that are suitable for traders with
                     different levels of immersion and experience in the trading process, and the Company Partners
@@ -187,7 +187,7 @@
         <div class=" container">
                 <h3 class="mb-40 fade-left appear "><?php printf( _e('Why CompanyName is trusted by experienced traders?', 'trade'))?></h3>
                 <div class="row advantages__itemRow">
-                    <div class="col-md-4 col-sm-12  advantages__item about__advantages__item fade-left appear delay-1 ">
+                    <div class=" col-sm-4  advantages__item about__advantages__item fade-left appear delay-1 ">
                         <div class="advanrages__itemInner">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about-company/chart_2.svg"
                             alt="">
@@ -198,7 +198,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-12  advantages__item about__advantages__item fade-left appear delay-2">
+                    <div class=" col-sm-4  advantages__item about__advantages__item fade-left appear delay-2">
                     <div class="advanrages__itemInner">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about-company/shield_1.svg"
                             alt="">
@@ -210,7 +210,7 @@
                         </div>
                         </div>
                     </div>
-                    <div class="col-md-4  col-sm-12 advantages__item about__advantages__item fade-left appear delay-3">
+                    <div class="col-sm-4 advantages__item about__advantages__item fade-left appear delay-3">
                     <div class="advanrages__itemInner">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about-company/spread_1.svg"
                             alt="">

@@ -11,11 +11,9 @@
         align-items: center
         padding-right: 60px
         +max-screen(1100px)
-            flex-wrap: nowrap
             padding-left: 40px 
             padding-right: 40px 
             .buttons--row
-                flex-wrap: nowrap
         +max-screen($breakpoint-sm)
             padding-top: 55px
             padding-bottom: 40px
@@ -32,6 +30,7 @@
         margin-left: auto 
         .buttons--row
             justify-content: flex-end
+            
     &__image
         height: 100%
         object-fit: cover
@@ -203,7 +202,7 @@
 .buttons--row
     +max-screen($breakpoint-lg)
         margin-right: 0
-.cta__titleWrapper
+.cta__titleWrappFer
     +max-screen($breakpoint-sm)
         text-align: center
 .cta__reverse
@@ -214,3 +213,6 @@
         .button--wrapper
             +max-screen($breakpoint-sm)
                 justify-content: start
+.cta__titleWrapper
+    +max-screen($breakpoint-sm)
+        text-align: center

@@ -6,12 +6,12 @@
     style="background-image: url('<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/hero-7-min.png');">
     <div class="container">
         <div class="row hero__row">
-            <div class="col-md-6 hero__contentWrapper">
+            <div class="col-sm-6 hero__contentWrapper">
                 <h2 class="fade-up appear ">
                 <?php printf( _e(' Legal regulation and transparency', 'trade'))?>
                 </h2>
                 <p class="fw-600 mb-30 fade-up appear delay-1 ">
-                    <?php printf( _e(' HONESTY, RELIABILITY, MODERNITY, DEVELOPMENT
+                <?php printf( _e(' HONESTY, RELIABILITY, MODERNITY, DEVELOPMENT
                     In this section you can find information about our privacy policy, a list of our agreements on the
                     conclusion of client accounts, a risk notice in PDF format.', 'trade'))?>
                 </p>
@@ -23,7 +23,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 hero__image__wrapper" >
+            <div class="col-sm-6 hero__image__wrapper" >
                 <img class="hero__image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/forex-reg/forex-reg-hero.png" alt="">
             </div>
         </div>
@@ -32,7 +32,7 @@
 <section class="about short">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 about__card__itemWrapper">
+            <div class="col-sm-6 about__card__itemWrapper">
                 <div class="about__card__item  ">
                     <div class="about__card__itemContent fade-right appear">
                         <h4>
@@ -56,7 +56,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 about__card__itemWrapper regulation">
+            <div class="col-sm-6 about__card__itemWrapper regulation">
                 <div class="about__card__item fade-left appear delay-1">
                     <div class="about__card__itemContent">
                         <h4>

@@ -5,7 +5,7 @@
 <section class="hero hero__header--cover short" >
     <div class="container">
         <div class="row hero__row">
-            <div class="col-md-6 hero__contentWrapper">
+            <div class="col-sm-6 hero__contentWrapper">
                 <h2 class="fade-up appear">
                     <?php printf( _e('Favorable trading conditions for traders', 'trade'))?>
                 </h2>
@@ -17,7 +17,7 @@
                     </div>
                 </div>
             </div>
-            <div class="hero__image__wrapper col-lg-6">
+            <div class="hero__image__wrapper col-sm-6">
                 <img class="hero__image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about-conditions/cond-hero 2.png" alt="">
             </div>
         </div>
@@ -26,7 +26,7 @@
     <section class="card short">
         <div class="container">
             <div class="row card__row">
-                <div class="col-md-6 card__item fade-right appear">
+                <div class="col-sm-6 card__item fade-right appear">
                     <div class="card__itemInner">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about-conditions/1.png" alt="" class="card__itemImage">
                         <div class="card__itemContent">
@@ -39,7 +39,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 card__item fade-left appear delay-1">
+                <div class="col-sm-6 card__item fade-left appear delay-1">
                     <div class="card__itemInner">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about-conditions/2.png" alt="" class="card__itemImage">
                         <div class="card__itemContent">
@@ -55,7 +55,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 card__item fade-right appear delay-2">
+                <div class="col-sm-6 card__item fade-right appear delay-2">
                     <div class="card__itemInner">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about-conditions/3.png" alt="" class="card__itemImage">
                         <div class="card__itemContent">
@@ -68,7 +68,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 card__item fade-left appear delay-3">
+                <div class="col-sm-6 card__item fade-left appear delay-3">
                     <div class="card__itemInner">
                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about-conditions/4.png" alt="" class="card__itemImage">
                         <div class="card__itemContent">

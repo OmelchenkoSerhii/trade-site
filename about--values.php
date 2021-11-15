@@ -5,7 +5,7 @@
 <section class="hero hero__header--cover bottom short">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 hero__contentWrapper">
+            <div class="col-sm-6 hero__contentWrapper">
                 <h2 class="fade-up appear">
                     <?php printf( _e('Company values', 'trade'))?>
                 </h2>
@@ -21,7 +21,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 hero__image__wrapper">
+            <div class="col-sm-6 hero__image__wrapper">
                 <img class="hero__image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/values/values-hero.png" alt="">
             </div>
         </div>
@@ -29,10 +29,10 @@
 </section>
 <section class="advantages short">
     <div class="row advantages__row ">
-        <div class="advantages__imageWrapper col-lg-6">
+        <div class="advantages__imageWrapper col-sm-6">
             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/values/Component 4.png" alt="" class="advantages__image fade-in appear">
         </div>
-        <div class="advantages__contentWrapper col-lg-6">
+        <div class="advantages__contentWrapper col-sm-6">
             <div class="advantages__contentInner container">
                 <h3 class="mb-40 fade-left appear"><?php printf( _e('Organization mission', 'trade'))?></h3>
                 <div class="advantages__content fade-left appear delay-1"><p class=""><?php printf( _e('Our mission is to effectively evaluate the time of our traders in the fast growing, flexible
@@ -51,7 +51,7 @@
     <div class="container">
         <h3 class="mb-40 fade-down appear"><?php printf( _e('Company’s personal values', 'trade'))?></h3>
         <div class="row features__itemRow">
-            <div class="col-md-3 col-sm-4 features__item fade-up appear delay-1">
+            <div class="col-md-3 col-sm-3 features__item fade-up appear delay-1">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features-3/1.png" alt="">
                 <h6> <?php printf( _e('Reliability', 'trade'))?></h6>
                 <p><?php printf( _e('                 We value trust and we know that the best traders trust us. To do this, we do our best to maintain
@@ -59,7 +59,7 @@
    
                 </p>
             </div>
-            <div class="col-md-3 col-sm-4  features__item fade-up appear delay-2">
+            <div class="col-md-3 col-sm-3  features__item fade-up appear delay-2">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features-3/2.png" alt="">
                 <h6><?php printf( _e('Fidelity', 'trade'))?>
                     
@@ -70,7 +70,7 @@
 
                 </p>
             </div>
-            <div class="col-md-3  col-sm-4  features__item fade-up appear delay-3">
+            <div class="col-md-3  col-sm-3  features__item fade-up appear delay-3">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features-3/3.png" alt="">
                 <h6><?php printf( _e('Respect', 'trade'))?>
                     
@@ -80,7 +80,7 @@
 
                 </p>
             </div>
-            <div class="col-md-3  col-sm-4  features__item fade-up appear delay-4">
+            <div class="col-md-3  col-sm-3  features__item fade-up appear delay-4">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/features-3/4.png" alt="">
                 <h6><?php printf( _e('Development', 'trade'))?>
                     

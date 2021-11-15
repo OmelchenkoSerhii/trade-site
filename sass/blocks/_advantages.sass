@@ -337,6 +337,10 @@
     .advantages__reverse
         .advantages__imageWrapper
             margin-left: -110px
+            +max-screen($breakpoint-lg)
+                margin-left: 0
+            +max-screen($breakpoint-sm)
+                flex: 50%
 .page-template-about--company
     .advanrages__itemInner
         background: #111217
@@ -357,10 +361,9 @@
             margin-right: -7.5px
 .advantages__imageWrapper
     +max-screen($breakpoint-sm)
-        flex: 100%
         max-width: 100%
 .advantages__image__desktop
-    +max-screen($breakpoint-sm)
+    +max-screen(767px)
         display: none
 .advantages__image__mobile
     +min-screen($breakpoint-sm)
@@ -368,3 +371,7 @@
     max-width: 100%
     height: 100%
     object-fit: contain
+.page-template-front-page
+    .application
+        .advantages__imageWrapper
+            flex: 41.5%

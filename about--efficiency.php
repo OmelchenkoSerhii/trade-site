@@ -29,19 +29,19 @@
 <section class="efficiency short ">
     <div class="container">
         <div class="row">
-            <div class="col-md-4 efficiency__title fade-right appear">
+            <div class="col-sm-4 efficiency__title fade-right appear">
                 <p class="fw-600"><?php printf( _e('Quality of work with clients', 'trade'))?></p>
             </div>
-            <div class="col-md-8 efficiency__text fade-left appear ">
+            <div class="col-sm-8 efficiency__text fade-left appear ">
                 <p><?php printf( _e('In line with CompanyNames commitment to transparency, these statistics have been verified against
                     3000 international standards.', 'trade'))?></p>
             </div>
             </div>
             <div class="row">
-            <div class="col-lg-6 card__image__wrapper">
+            <div class="col-sm-6 card__image__wrapper">
                 <img class="card__image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about-company/mobil-gtc.png" alt="">
             </div>
-                <div class="col-lg-6">
+                <div class="col-sm-6">
                     <div class="efficiency__item fade-right appear delay-1">
                         <div class="efficiency__numbers">
                             <h2>86%</h2>
@@ -66,7 +66,7 @@
 <section class="about efficiency short ">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 about__card__itemWrapper fade-up appear delay-2">
+            <div class="col-sm-6 about__card__itemWrapper fade-up appear delay-2">
                 <div class="about__card__item  ">
                     <div class="about__card__itemContent">
                         <h4>
@@ -78,7 +78,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 about__card__itemWrapper fade-up appear delay-2">
+            <div class="col-sm-6 about__card__itemWrapper fade-up appear delay-2">
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>

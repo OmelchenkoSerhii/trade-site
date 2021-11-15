@@ -6,7 +6,7 @@
     style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about-min.png);">
     <div class="container">
         <div class="row hero__row">
-            <div class="col-md-6 hero__contentWrapper">
+            <div class="col-sm-6 hero__contentWrapper">
                 <h2 class="fade-up appear">
                     <?php printf( _e('Market forecast from specialists', 'trade'))?>
                 </h2>
@@ -21,7 +21,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 hero__image__wrapper" >
+            <div class="col-sm-6 hero__image__wrapper" >
                 <img class="hero__image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/forex-market/forex-market-hero.png" alt="">
             </div>
         </div>
@@ -29,10 +29,10 @@
 </section>
 <section class="advantages short">
     <div class="row advantages__row">
-    <div class="advantages__imageWrapper col-lg-6">
+    <div class="advantages__imageWrapper col-sm-6">
             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/values/Component 4.png" alt="" class="advantages__image fade-in appear">
         </div>
-        <div class="advantages__contentWrapper col-lg-6">
+        <div class="advantages__contentWrapper col-sm-6">
             <div class="advantages__contentInner container">
                 <h3 class="mb-40 fade-right appear"><?php printf( _e('Smart investment management', 'trade'))?></h3>
                 <p class="advantages__content fade-right appear delay-1">

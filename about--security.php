@@ -5,7 +5,7 @@
 <section class="hero hero__header--cover bottom long">
     <div class="container">
         <div class="row hero__row">
-            <div class="col-md-6 hero__contentWrapper">
+            <div class="col-sm-6 hero__contentWrapper">
                 <h2 class="fade-up appear">
                     <?php printf( _e('Investment and security', 'trade'))?>
                 </h2>
@@ -24,7 +24,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 hero__image__wrapper" >
+            <div class="col-sm-6 hero__image__wrapper" >
                 <img class="hero__image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/security/Component 6.png" alt="">
             </div>
         </div>
@@ -33,7 +33,7 @@
 <section class="about security short">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 about__card__itemWrapper fade-right appear ">
+            <div class="col-sm-6 about__card__itemWrapper fade-right appear ">
                 <div class="about__card__item  ">
                     <div class="about__card__itemContent">
                         <h4>
@@ -45,7 +45,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 about__card__itemWrapper fade-left appear delay-1 ">
+            <div class="col-sm-6 about__card__itemWrapper fade-left appear delay-1 ">
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
@@ -57,7 +57,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 about__card__itemWrapper fade-right appear delay-2">
+            <div class="col-sm-6 about__card__itemWrapper fade-right appear delay-2">
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>
@@ -69,7 +69,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 about__card__itemWrapper fade-left appear delay-3">
+            <div class="col-sm-6 about__card__itemWrapper fade-left appear delay-3">
                 <div class="about__card__item">
                     <div class="about__card__itemContent">
                         <h4>

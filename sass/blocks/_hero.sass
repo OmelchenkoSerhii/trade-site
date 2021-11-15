@@ -68,6 +68,8 @@
         display: flex
         flex-direction: column
         justify-content: center
+        .buttons--row
+            justify-content: flex-start
         +max-screen($breakpoint-lg)
             width: 100% 
             max-width: 100%
@@ -111,6 +113,10 @@
 .page-template-about--values
     .hero__image
         max-width: none
+        +max-screen($breakpoint-lg)
+            max-width: 130%
+        +max-screen($breakpoint-sm)
+            max-width: 100%
 .hero__image
     max-width: 100%
     margin-top: -80px
@@ -139,6 +145,14 @@
             width: 100%
             height: 100%
             width: calc(100% - 32px)
+        +max-screen($breakpoint-lg)
+            position: absolute
+            z-index: 2
+            left: 7px
+            top: 0
+            width: 100%
+            height: 100%
+            width: calc(100% - 18px)
         +max-screen(600px)
             left: 6px
             width: calc(100% - 14px)
@@ -162,11 +176,17 @@
     position: relative
     +min-screen(1620px)
         width: 279px
+    +max-screen($breakpoint-lg)
+        width: 156px
+        height: 598px
+        margin-left: 25%
+        position: relative
     +max-screen(600px)
         width: 125px
         height: 269px
         margin-left: auto
         margin-right: auto
+    
 .page-template-front-page 
     .hero__image__wrapper
         &::before
@@ -179,19 +199,29 @@
             z-index: -1
             top: -75px
             left: 120px
+            +max-screen($breakpoint-lg)
+                width: 358px
+                height: 350px
+                top: 88px
+                left: 20px
             +max-screen(575px)
                 width: 288px
                 height: 288px
                 top: -28px
                 left: -8px
-
 .hero__image__add
     position: absolute
     left: -262px
     top: 200px
     width: 350px
+    +max-screen($breakpoint-lg)
+        position: absolute
+        left: -152px
+        top: 279px
+        width: 200px
     +max-screen(600px)
         max-width: 130px
         max-height: 130px
         left: -92px
         top: 130px
+

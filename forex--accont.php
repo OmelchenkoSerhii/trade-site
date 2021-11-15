@@ -6,7 +6,7 @@
     style="background-image: url(<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/forex--account.png);">
     <div class="container">
         <div class="row hero__row">
-            <div class="col-md-6 hero__contentWrapper">
+            <div class="col-sm-6 hero__contentWrapper">
                 <h2 class="fade-up appear">
                     <?php printf( _e('CompanyName account types', 'trade'))?>
                 </h2>
@@ -24,7 +24,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 hero__image__wrapper">
+            <div class="col-sm-6 hero__image__wrapper">
                 <img class="hero__image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/slider/slider-acc.png" alt="">
             </div>
         </div>

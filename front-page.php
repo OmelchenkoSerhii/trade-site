@@ -8,7 +8,7 @@
 <section class="hero short">
     <div class="container">
         <div class="row hero__row">
-            <div class="col-md-6 hero__contentWrapper">
+            <div class="col-sm-6 hero__contentWrapper">
                 <h1 class="fade-up appear ">
                     <?php printf( _e('We can do everything', 'trade'))?>
                 </h1>
@@ -28,7 +28,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 hero__image__wrapper">
+            <div class="col-sm-6 hero__image__wrapper">
                 <div class="video__wrapper">
                     <img class="hero__image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/front-page/phone.png" alt="">
                     <video class="hero__video" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/front-page/IMG_0008.mp4" autoplay muted  loop preload="auto"></video>
@@ -116,7 +116,7 @@
 <section class="advantages advantages__reverse long">
 <div class="container">
         <div class="row flex-row-reverse advantages__row ">
-            <div class="advantages__contentWrapper col-lg-7">
+            <div class="advantages__contentWrapper col-sm-6">
                 <div class="advantages__contentInner container">
                     <h2 class="mb-40 fade-left appear"><?php printf( _e('Trading on the Forex market with us is:', 'trade'))?> </h2>
                     <div class="row advantages__itemRow">
@@ -159,7 +159,7 @@
                     </div>
                 </div>
             </div>
-            <div class="advantages__imageWrapper col-lg-auto">
+            <div class="advantages__imageWrapper col-sm-6">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/front-page/Component 1.png"
                     alt="" class="advantages__image fade-in appear ">
             </div>
@@ -169,7 +169,7 @@
 <section class="cta cta__reverse long">
     <div class="container">
         <div class="row cta__row ">
-        <div class="col-lg-5 col-md-7 cta__contentWrapper">
+        <div class="col-sm-5 col-md-7 cta__contentWrapper">
                 <h3 class="fade-right appear ">
                     <?php printf( _e('Start trading the markets cryptocurrencies and Forex
                         with us right now!', 'trade'))?>
@@ -188,7 +188,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-7 col-md-5 cta__imageWrapper">
+            <div class="col-sm-7 col-md-5 cta__imageWrapper">
                 <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/front-page/fp-cta-r.png" alt=""  class="cta__image fade-left appear">
             </div>
 
@@ -266,7 +266,7 @@
 </section>
 <section class="advantages application long">
     <div class="row advantages__row flex-row-reverse">
-        <div class="advantages__contentWrapper col-lg-7">
+        <div class="advantages__contentWrapper col-sm-7">
             <div class="advantages__contentInner container">
                 <h2 class="mb-40 fade-left appear"><?php printf( _e('Download the application from AppStore or Google Play', 'trade'))?></h2>
                 <div class="row">
@@ -438,7 +438,7 @@
                 </div>
             </div>
         </div>
-        <div class="advantages__imageWrapper col-lg-5">
+        <div class="advantages__imageWrapper col-sm-5">
             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Group.png" alt="" class="advantages__image advantages__image__mobile">
             <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/front-page/adv-app.png" alt="" class="advantages__image advantages__image__desktop fade-in appear">
         </div>

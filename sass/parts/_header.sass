@@ -258,8 +258,7 @@
         &.sub
             & > a:before
                 border-left: 2px solid #000 
-                border-bottom: 2px solid #000 
-
+                border-bottom: 2px solid #000
                 
 .menu-toggle-active
     path
@@ -307,7 +306,10 @@
         transform: rotate(315deg)
         +min-screen(1440px)
             width: 8px 
-            height: 8px 
+            height: 8px
+        +max-screen($breakpoint-md)
+            border-left: 2px solid #000 
+            border-bottom: 2px solid #000 
     &:hover .sub-menu
         width: 80px 
         margin-left: -25px
@@ -337,7 +339,12 @@
 .wpml-ls-slot-2
     &.wpml-ls-current-language
         +max-screen($breakpoint-md)
-            visibility: hidden
+            color: #000
+            margin-left: auto
+            margin-right: auto
+            a
+                span
+                    color: #000
 .menu-active
     .wpml-ls-current-language
         position: relative
@@ -404,3 +411,6 @@
     .wpml-ls-native
         +min-screen($breakpoint-xxl)
             font-size: 14px
+.wpml-ls-current-language:hover .sub-menu
+    +max-screen($breakpoint-md)
+        margin-left: 0
