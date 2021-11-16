@@ -53,6 +53,7 @@
     .logo__wrapper
         max-width: 100px
         padding-left: 0
+        z-index: 1000000000
         svg
             z-index: 1000
             width: 50px
@@ -119,7 +120,7 @@
             .sub-menu
                 display: block
                 background: #fff
-                width: 150px
+                min-width: 150px
                 top: 30px
                 transition: 3s
                 position: absolute
@@ -247,7 +248,7 @@
             text-decoration: underline
         +min-screen($breakpoint-xxl)
             font-size: 14px
-#menu-header-main,#menu-header-ar,#menu-header-main-german,#menu-header-main-polish,#menu-header-main-portuguese-portugal,#menu-header-main-spanish
+#menu-header-main,#menu-header-ar,#menu-header-main-german,#menu-header-main-polish,#menu-header-main-portuguese-portugal,#menu-header-main-spanish,#menu-header-main-russian
     +max-screen($breakpoint-lg)
         flex-direction: column
         align-items: center
@@ -352,7 +353,7 @@
             .sub-menu
                 display: block
                 background: #fff
-                width: 150px
+                min-width: 150px
                 top: 30px
                 transition: 3s
                 position: unset

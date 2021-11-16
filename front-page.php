@@ -160,7 +160,7 @@
                 </div>
             </div>
             <div class="advantages__imageWrapper col-sm-6">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/front-page/Component 1.png"
+                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/Advantages-2/Platforms-Overview-MobileApp-Compress1 1.png"
                     alt="" class="advantages__image fade-in appear ">
             </div>
         </div>
@@ -189,7 +189,7 @@
             </div>
 
             <div class="col-sm-7 col-md-5 cta__imageWrapper">
-                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/front-page/fp-cta-r.png" alt=""  class="cta__image fade-left appear">
+                <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/front-page/fp-cta-r1 1.png" alt=""  class="cta__image fade-left appear">
             </div>
 
 

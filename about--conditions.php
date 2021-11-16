@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="hero__image__wrapper col-sm-6">
-                <img class="hero__image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about-conditions/cond-hero 2.png" alt="">
+                <img class="hero__image" src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/about-conditions/About-Cond-Hero.png" alt="">
             </div>
         </div>
     </div>

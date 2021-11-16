@@ -118,3 +118,9 @@
     .features__item
         &:nth-child(4)
             border-right: none
+.features__item
+    +max-screen($breakpoint-sm)
+        border-top: 1px solid #fff !important
+        border-right: none
+        &:first-child
+            border-top: none !important

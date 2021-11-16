@@ -10,11 +10,11 @@ $(document).ready(function() {
       $('.header__menuWrapper').animate({
         left: 0,
       }, 300 ,function(){
-        $('body').addClass('opened-menu');
+        $('body').addClass('opened-menu menu-active');
       });
     });
     $('.mobile_menu_close').click(function(){
-      $('body').removeClass('opened-menu');
+      $('body').removeClass('opened-menu menu-active');
       $('.header__menuWrapper').animate({
         left: '-100%',
       }, 300 ,function(){
