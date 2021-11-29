@@ -1,11 +1,16 @@
 <?php 
 
 /* Template Name: Home Page */ 
-
+    $icon = get_field('background_hero');
 ?>
 
 <?php get_header(); ?>
 <section class="hero short">
+    <div class="background_hero">
+        <?php if( !empty( $icon ) ): ?>
+            <?php echo file_get_contents(esc_url(wp_get_original_image_path($icon['id']))); ?>
+        <?php endif; ?>
+    </div>
     <div class="container">
         <div class="row hero__row">
             <div class="col-sm-6 hero__contentWrapper">

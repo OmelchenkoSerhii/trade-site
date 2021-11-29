@@ -67,37 +67,28 @@ function excerpt($limit,$post_id=-1) {
 }
 
 
-//ACF options page
-add_action('acf/init', 'my_acf_op_init');
-function my_acf_op_init() {
-
-    // Check function exists.
-    if( function_exists('acf_add_options_page') ) {
-
-        // Add parent.
-        $parent = acf_add_options_page(array(
-            'page_title'  => __('Theme Options'),
-            'menu_title'  => __('Theme Options'),
-            'redirect'    => false,
-        ));
-
-        // Add sub page.
-        $headerOptions = acf_add_options_page(array(
-            'page_title'  => __('Header Options'),
-            'menu_title'  => __('Header'),
-            'parent_slug' => $parent['menu_slug'],
-        ));
-        $footerOptions = acf_add_options_page(array(
-            'page_title'  => __('Footer Options'),
-            'menu_title'  => __('Footer'),
-            'parent_slug' => $parent['menu_slug'],
-        ));
-        $scripts = acf_add_options_page(array(
-            'page_title'  => __('Scripts'),
-            'menu_title'  => __('Scripts'),
-            'parent_slug' => $parent['menu_slug'],
-        ));
-    }
+if( function_exists('acf_add_options_page') ) {
+	
+	acf_add_options_page(array(
+		'page_title' 	=> 'Theme General Settings',
+		'menu_title'	=> 'Theme Settings',
+		'menu_slug' 	=> 'theme-general-settings',
+		'capability'	=> 'edit_posts',
+		'redirect'		=> false
+	));
+	
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Theme Header Settings',
+		'menu_title'	=> 'Header',
+		'parent_slug'	=> 'theme-general-settings',
+	));
+	
+	acf_add_options_sub_page(array(
+		'page_title' 	=> 'Theme Footer Settings',
+		'menu_title'	=> 'Footer',
+		'parent_slug'	=> 'theme-general-settings',
+	));
+	
 }
 
 function the_acf_loop(){

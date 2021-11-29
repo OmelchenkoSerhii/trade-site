@@ -1,11 +1,12 @@
 .hero
     padding-top: 0
-    height: calc(100vh - 46px)
+    height: calc(100vh - 140px)
     background-repeat: no-repeat
     background-size: 100% 100%
     background-position: top
     margin-top: -177px
     padding-top: 177px
+    position: relative
     +min-screen(1440px)
         display: flex
         align-items: center
@@ -104,7 +105,7 @@
         max-width: 100%
 .admin-bar
     .hero
-        min-height: calc( 100vh - 78px )
+        min-height: calc( 100vh - 140px )
 .home 
     .hero 
         +max-screen($breakpoint-lg)
@@ -257,3 +258,7 @@
         left: -92px
         top: 130px
 
+.background_hero
+    svg
+        position: absolute
+        top: 390px

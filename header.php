@@ -7,6 +7,26 @@
 	<?php wp_head(); ?>
 </head>
 <body dir="ltr" style="background: #000;" id="body" <?php echo body_class(); ?>>
+<section class="social__icon">
+    <div class="container">
+        <?php if( have_rows('social__icon','option') ):?>
+            <ul class="row social__icon__row">
+                <?php while( have_rows('social__icon','option') ) : the_row();
+                    $link = get_sub_field('link');
+                    $icon = get_sub_field('icon'); 
+                ?>
+                        <li class="col-lg-auto">
+                            <a href="<?php echo esc_url( $link ); ?>">
+                                <?php if( !empty( $icon ) ): ?>
+                                    <?php echo file_get_contents(esc_url(wp_get_original_image_path($icon['id']))); ?>
+                                <?php endif; ?>
+                            </a>
+                        </li>
+                <?php endwhile;?>
+            </ul>
+        <?php endif;?>
+    </div>
+</section>
 <header class="header" id="header">
         <div class="container">
               <div class="header__row row">
